@@ -1,0 +1,14 @@
+{
+  "name": "londontail",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-tailwindcss": "^2.2.40",
+    "jshint": "^2.11.0"
+  }
+}
