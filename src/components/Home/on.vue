@@ -1,5 +1,6 @@
 <template>
-  <div class="work-card">
+   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
     <h4 class="text-2xl text-blue-500">
       <span style="font-size: 1em; color: Dodgerblue;">
         <i class="far fa-calendar-alt"></i>
@@ -42,4 +43,5 @@
     </p>
     <g-link class="tory" to="/visit">Places to visit</g-link>
   </div>
+   </div>
 </template>

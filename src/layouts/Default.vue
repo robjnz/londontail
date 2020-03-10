@@ -94,6 +94,12 @@ color: #1A8c97;
             color        : #00ff7f;
             font-size    : medium;
 }
+#work-card {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0.1);
+}
+#background{
+    background: #242943;
+}
 .film{
 color     : #ff00ff;
 text-align: left;
