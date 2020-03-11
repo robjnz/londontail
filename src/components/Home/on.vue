@@ -7,41 +7,53 @@
       </span>
       Whats on in East London
     </h4>
-    <p>
+    <p class="text-lg">
+        <!--Docklands Museum-->
+      <span class="text-red-600">Docklands Museum </span>
+
+      <span style="font-size: 1em; color: white;">
+        <i class="fas fa-hand-point-right"></i>
+      </span>
+      18 March
+      <span class="text-pink-300"> Common Salt </span>
+      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2vxQka1" target="_blank"> More Info</g-link>
+
+      <br />
       <!--Jack the Ripper-->
-      <span style="color: #ef4836;">Jack The Ripper Museum </span>
+      <span class="text-red-600">Jack The Ripper Museum </span>
 
       <span style="font-size: 1em; color: white;">
         <i class="fas fa-hand-point-right"></i>
       </span>
       Open 9.30am - 6.30pm Daily
-      <span style="color: #e000e0;"> Museum & Walks </span>
-      <g-link class="tory" to="http://bit.ly/2vxQka1" target="_blank"> More Info</g-link>
+      <span class="text-pink-300"> Museum & Walks </span>
+      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2vxQka1" target="_blank"> More Info</g-link>
 
       <br />
       <!--Valence House-->
-      <span style="color: #ef4836;">Valence House Dagenham </span>
+      <span class="text-red-600">Valence House Dagenham </span>
 
       <span style="font-size: 1em; color: white;">
         <i class="fas fa-hand-point-right"></i>
       </span>
-      Fri 27th March 2020
-      <span style="color: #e000e0;"> Murder Mystery Evening </span>
-      <g-link class="tory" to="http://bit.ly/2TdCCSA" target="_blank"> More Info</g-link>
+      Fri 27th March 
+      <span class="text-pink-300"> Murder Mystery Evening </span>
+      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2TdCCSA" target="_blank"> More Info</g-link>
       <br />
       <!--Valentines Mansion-->
-      <span style="color: #ef4836;">Valentines Mansion Ilford </span>
+      <span class="text-red-600">Valentines Mansion Ilford </span>
 
       <span style="font-size: 1em; color: white;">
         <i class="fas fa-hand-point-right"></i>
       </span>
-      Fri 13 March to Fri 3 April 2020
-      <span style="color: #e000e0;"> The Valentines Anomaly </span>
-      <g-link class="tory" to="http://bit.ly/2TtpXtv" target="_blank"> More Info</g-link>
+      Fri 13 March to Fri 3 April 
+      <span class="text-pink-300"> The Valentines Anomaly </span>
+      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2TtpXtv" target="_blank"> More Info</g-link>
 
       <br />
+    
+    <g-link class="text-blue-500 hover:text-white" to="/visit">Places to visit</g-link>
     </p>
-    <g-link class="tory" to="/visit">Places to visit</g-link>
   </div>
    </div>
 </template>
