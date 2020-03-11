@@ -26,7 +26,7 @@
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        18 March 2020
+        Wed 18 March 2020
       </p>
       <g-link
         class  = "text-red-700 hover:text-white"

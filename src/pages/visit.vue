@@ -16,9 +16,14 @@
         <docklands /><!--Docklands Museum-->
       </div>
       <div class="grid sm:flex">
-        <bexley /><!--bexleyWoods-->
-        <chingford /><!--Chingford Sky Trail-->
-        <docklands /><!--Docklands Museum-->
+        <eastbury /><!--Eastbury Manor House-->
+        <elizabeth /><!--Elizabeth's Hunting Lodge-->
+        <eltham /><!--Eltham Palace-->
+      </div>
+      <div class="grid sm:flex">
+        <epping /><!--Epping Forest-->
+        <fairlop /><!--Fairlop Waters Park-->
+        <eltham /><!--Eltham Palace-->
       </div>
     </div>
     <br />

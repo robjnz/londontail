@@ -14,9 +14,31 @@
       <span style="font-size: 1em; color: white;">
         <i class="fas fa-hand-point-right"></i>
       </span>
-      18 March
+      Wed 18 March
       <span class="text-pink-300"> Common Salt </span>
       <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2vxQka1" target="_blank"> More Info</g-link>
+
+      <br />
+      <!--Eastbury Manor House-->
+      <span class="text-red-600">Eastbury Manor House </span>
+
+      <span style="font-size: 1em; color: white;">
+        <i class="fas fa-hand-point-right"></i>
+      </span>
+      Sun 22 March 
+      <span class="text-pink-300"> Mother's Day Afternoon Tea </span>
+      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2THTIYR" target="_blank"> More Info</g-link>
+
+      <br />
+       <!--Eltham Palace-->
+      <span class="text-red-600">Eltham Palace </span>
+
+      <span style="font-size: 1em; color: white;">
+        <i class="fas fa-hand-point-right"></i>
+      </span>
+      Sat 4 - Sun 19 April
+      <span class="text-pink-300"> Easter Adventure</span>
+      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2Q322jK" target="_blank"> More Info</g-link>
 
       <br />
       <!--Jack the Ripper-->
@@ -51,6 +73,10 @@
       <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2TtpXtv" target="_blank"> More Info</g-link>
 
       <br />
+
+       
+
+       
     
     <g-link class="text-blue-500 hover:text-white" to="/visit">Places to visit</g-link>
     </p>

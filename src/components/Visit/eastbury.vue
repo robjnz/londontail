@@ -1,10 +1,41 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Eastbury Manor House">
-    <g-link href="https://kutt.it/eastbury-manor" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1516812522/Eastbury_xxxgfz.jpg"
-        fluid-grow
-        alt = "Eastbury Manor House"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Eastbury Manor House</H2>
+      <g-link href="http://bit.ly/2OBHS0Q" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/eastbury.jpg"
+          fluid-grow
+          alt = "Eastbury Manor House"
+      /></g-link>
+      <p class="text-blue-200">
+        Eastbury Square<br />
+        Barking Essex
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/2vcJPci"
+          target = "_blank"
+        >
+          IG11 9SN
+        </g-link>
+      </p>
+
+      <h5 class="text-2xl text-pink-300">Mother's Day Afternoon Tea</h5>
+      <p class="text-pink-300">
+        <span>
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sun 22 March
+      </p>
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2OBHS0Q"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>

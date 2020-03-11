@@ -1,14 +1,34 @@
 <template>
-  <b-card
-    bg-variant   = "dark"
-    text-variant = "white"
-    title        = "Elizabeth's Hunting Lodge"
-  >
-    <g-link href="https://kutt.it/elizabeths-hunting" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1521647004/Queen_Elizabeth_s_Hunting_Lodge_qjqzxx.jpg"
-        fluid-grow
-        alt = "Elizabeth's Hunting Lodge"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Elizabeth's Hunting Lodge</H2>
+      <g-link href="http://bit.ly/2Sgs9D9" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/elizabeth.jpg"
+          fluid-grow
+          alt = "Elizabeth's Hunting Lodge"
+      /></g-link>
+      <p class="text-blue-200">
+         Hunting Lodge 6 Rangers Road<br /> Chingford London 
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/33bTP2g"
+          target = "_blank"
+        >
+         E4 7QH
+        </g-link>
+      </p>
+
+     <br /><br /><br />
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2Sgs9D9"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>

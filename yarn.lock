@@ -4093,17 +4093,17 @@ graphql@^14.4.2:
   dependencies:
     iterall "^1.2.2"
 
-gridsome-plugin-tailwindcss@^2.2.40:
-  version "2.2.40"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-tailwindcss/-/gridsome-plugin-tailwindcss-2.2.40.tgz#2ff8f61600a7081284677e6c247521c8c8c7b6db"
-  integrity sha512-+aPe7J5JYEJGcTU6MhMENf977tdl5P+profqW2jAgEr9t5Hnhu6u16UCaY5I1P6PSN3Fy45CoG8UCOdHr3PrvA==
+gridsome-plugin-tailwindcss@^2.2.41:
+  version "2.2.41"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-tailwindcss/-/gridsome-plugin-tailwindcss-2.2.41.tgz#b9c9f1f10aea97ee00652ef030020d016df0b545"
+  integrity sha512-uaIOIkgPsAGFz1882g8iplUHtd4oGOoytlJXTK9Brfyv6EKR6TIYRRk/stP+sn3vmwyrTER2/3BzdmRb5xqRww==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.0.6"
     postcss-import "^12.0.1"
     postcss-preset-env "^6.7.0"
     tailwindcss "^1.2.0"
 
-gridsome@^0.7.0:
+gridsome@^0.7.13:
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.13.tgz#7b711b34f9abbdb645948048773ce80381d78b6e"
   integrity sha512-EQMJfoLZpRRWR7gNB9ahkSTIn/QjanvyRJOS853NhhWhfHCgvQOO+DYu7EHvXF0afny43WOSiXOk0WYnolYGUg==
