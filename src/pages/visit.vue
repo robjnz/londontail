@@ -40,6 +40,21 @@
         <lee /><!--Lee Valley-->
         <mayesbrook /><!--Mayesbrook Park-->
       </div>
+      <div class="grid sm:flex">
+        <mudchute /><!--mudchute-->
+        <newham /><!--Newham City Farm-->
+        <queen /><!--Queen Elizabeth Olympic Park-->
+      </div>
+      <div class="grid sm:flex">
+        <ragged /><!--Ragged School Museum-->
+        <rainham /><!--Rainham Hall-->
+        <ranger /><!--Ranger’s House-->
+      </div>
+       <div class="grid sm:flex">
+        <ragged /><!--Ragged School Museum-->
+        <rainham /><!--Rainham Hall-->
+        <ranger /><!--Ranger’s House-->
+      </div>
     </div>
     <br />
   </Layout>
