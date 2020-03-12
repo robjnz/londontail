@@ -7,7 +7,9 @@
         class = "w-12 h-12 m-1"
         src   = "@/images/logo_transparent.png"
       ></g-image>
-      <span class="font-semibold text-2xl tracking-tight"> London East</span>
+      <span class="font-semibold text-2xl tracking-tight"
+        ><g-link class="hover:text-red-500" to="/">London East</g-link>
+      </span>
     </div>
     <div class="block lg:hidden">
       <button
@@ -34,7 +36,7 @@
         </g-link>
 
         <g-link
-          href  = "/visit"
+          to    = "/visit"
           class = "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
         >
           Places to Visit

@@ -23,7 +23,17 @@
       <div class="grid sm:flex">
         <epping /><!--Epping Forest-->
         <fairlop /><!--Fairlop Waters Park-->
-        <eltham /><!--Eltham Palace-->
+        <geffrye /><!--Geffrye Museum-->
+      </div>
+      <div class="grid sm:flex">
+        <hackney /><!--Hackney City Farm-->
+        <hall /><!--Hall Place & Gardens-->
+        <havering /><!--Havering Country Park-->
+      </div>
+       <div class="grid sm:flex">
+        <hackney /><!--Hackney City Farm-->
+        <hall /><!--Hall Place & Gardens-->
+        <havering /><!--Havering Country Park-->
       </div>
     </div>
     <br />
