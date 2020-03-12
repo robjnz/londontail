@@ -1,29 +1,39 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="" align="center">
-    <h3 class="tory">Jack The Ripper Museum</h3>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200">Jack The Ripper Museum</H2>
+      <g-link href="http://bit.ly/2vxQka1" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/jack.jpg"
+          fluid-grow
+          alt = "Jack The Ripper Museum"
+      /></g-link>
+      <p class="text-blue-200">
+       12 Cable Street<br />Whitechapel London
 
-    <g-link href="http://bit.ly/2S9h1be" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1513623135/valman_oxte6t.jpg"
-        fluid-grow
-        alt = "Jack The Ripper Museum"
-    /></g-link>
 
-    <h6>
-      12 Cable Street<br />
-      London
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/38trqp8"
+          target = "_blank"
+        >
+           E1 8JG
+        </g-link>
+      </p>
 
-      <g-link class="labour" to="http://bit.ly/38trqp8" target="_blank">
-        E1 8JG
+     <br /><br /><br />
+
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2vxQka1"
+        target = "_blank"
+      >
+        More Info
       </g-link>
-    </h6>
-    <h3 class="football"></h3>
-    <p class="football">
-      Open 9.30am - 6.30pm Daily
-    </p>
-    <g-link class="labour" to="http://bit.ly/2vxQka1" target="_blank">
-      More Info
-    </g-link>
-  </b-card>
+    </div>
+  </div>
 </template>
+
+
 

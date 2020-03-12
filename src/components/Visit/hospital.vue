@@ -1,10 +1,37 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Hospital Chapel Ilford">
-    <g-link href="https://kutt.it/ilford-chapel" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1513623127/The_Hospital_Chapel_of_St_Mary_St_Thomas_kirkus.jpg"
-        fluid-grow
-        alt = "Hospital Chapel Ilford"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200">Hospital Chapel Ilford</H2>
+      <g-link href="http://bit.ly/2NY3WOT" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/hospital.jpg"
+          fluid-grow
+          alt = "Hospital Chapel Ilford"
+      /></g-link>
+      <p class="text-blue-200">
+        48 Ilford Hill<br />
+       Ilford Essex
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/3cSzFP7"
+          target = "_blank"
+        >
+           IG1 2AT
+        </g-link>
+      </p>
+
+     <br /><br /><br />
+
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2NY3WOT"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>
+

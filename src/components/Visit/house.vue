@@ -1,12 +1,37 @@
 <template>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200">House Mill</H2>
+      <g-link href="http://bit.ly/2vkeNzo" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/house.jpg"
+          fluid-grow
+          alt = "House Mill"
+      /></g-link>
+      <p class="text-blue-200">
+       Three Mill Lane<br /> Bromley By Bow London 
 
-  <b-card bg-variant="dark" text-variant="white" title="House Mill">
-    <g-link href="https://kutt.it/housemill" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1523459481/House_Mill_ygjttm.jpg"
-        fluid-grow
-        alt = "House Mill"
-    /></g-link>
-  </b-card>
- 
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/3cMVZK1"
+          target = "_blank"
+        >
+           E3 3DU
+        </g-link>
+      </p>
+
+     <br /><br /><br />
+
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2vkeNzo"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>
+
+

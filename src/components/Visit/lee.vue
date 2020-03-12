@@ -1,10 +1,40 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Lee Valley">
-    <g-link href="https://kutt.it/leevalley" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1523432592/leevalley_co8fet.jpg"
-        fluid-grow
-        alt = "Lee Valley"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200">Lee Valley</H2>
+      <g-link href="http://bit.ly/2AiFQuA" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/lee.jpg"
+          fluid-grow
+          alt = "Lee Valley"
+      /></g-link>
+      <p class="text-blue-200">
+       Lea Bridge Road<br /> Leyton London 
+
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/2vjyLdy"
+          target = "_blank"
+        >
+           E10 7QL
+        </g-link>
+      </p>
+
+     <br /><br /><br />
+
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2AiFQuA"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>
+
+
+
+

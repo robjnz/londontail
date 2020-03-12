@@ -31,9 +31,14 @@
         <havering /><!--Havering Country Park-->
       </div>
        <div class="grid sm:flex">
-        <hackney /><!--Hackney City Farm-->
-        <hall /><!--Hall Place & Gardens-->
-        <havering /><!--Havering Country Park-->
+        <horniman/><!--Horniman Museam & Park-->
+        <hospital /><!--Hospital Chapel Ilford-->
+        <house /><!--House Mill-->
+      </div>
+       <div class="grid sm:flex">
+        <jack /><!--Jack The Ripper Museum-->
+        <lee /><!--Lee Valley-->
+        <mayesbrook /><!--Mayesbrook Park-->
       </div>
     </div>
     <br />
