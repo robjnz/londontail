@@ -51,9 +51,14 @@
         <ranger /><!--Ranger’s House-->
       </div>
        <div class="grid sm:flex">
-        <ragged /><!--Ragged School Museum-->
-        <rainham /><!--Rainham Hall-->
-        <ranger /><!--Ranger’s House-->
+        <red /><!--Red house-->
+        <greenwich /><!--Royal Museums Greenwich-->
+        <severndroog /><!--Severndroog Castle-->
+      </div>
+      <div class="grid sm:flex">
+        <red /><!--Red house-->
+        <greenwich /><!--Royal Museums Greenwich-->
+        <severndroog /><!--Severndroog Castle-->
       </div>
     </div>
     <br />

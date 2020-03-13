@@ -1,125 +1,85 @@
 <template>
-  <Layout>
-    <div id="background" class="container m-auto">
-      <h1 class="ml-8 mt-16 text-4xl text-red-600">
-        <span class="text-pink-300">
-          <i class="fas fa-landmark"></i>
-        </span>
-        Places to Visit
-      </h1>
-      <date class="ml-8" />
-      <br />
+  <nav class="flex items-center justify-between flex-wrap bg-blue-800 p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <!--<svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+    -->
+      <g-image
+        class = ""
+        src   = "@/images/logowhite_transparent.png" width = "70"
+      ></g-image>
+      <span class="font-semibold text-2xl tracking-tight"
+        ><g-link class="hover:text-red-500" to="/">London East</g-link>
+      </span>
+    </div>
+    <div class="block lg:hidden">
+      <button @click='isOpen = !isOpen'
+        class = "flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+      >
+        <svg
+          class   = "fill-current h-3 w-3"
+          viewBox = "0 0 20 20"
+          xmlns   = "http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+      
+        <button @click="isOpen = !isOpen" type="button" class="block text-teal-200 hover:text-white focus:text-white focus:outline-none">
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+            <path v-if="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+          </svg>
+        </button>
+    </div>
 
-      <div class="grid sm:flex">
-        <bexley /><!--bexleyWoods-->
-        <chingford /><!--Chingford Sky Trail-->
-        <docklands /><!--Docklands Museum-->
+    <div :class="isOpen ? 'block' : 'hidden'  " class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div class="text-lg lg:flex-grow">
+        <g-link
+          to    = "/"
+          class = "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+        >
+          Home
+        </g-link>
+
+        <g-link
+          to    = "/visit"
+          class = "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+        >
+          Places to Visit
+        </g-link>
+        <a
+          href  = "#responsive-header"
+          class = "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+        >
+          Blog
+        </a>
       </div>
-      <div class="grid sm:flex">
-        <bexley /><!--bexleyWoods-->
-        <chingford /><!--Chingford Sky Trail-->
-        <docklands /><!--Docklands Museum-->
+
+      <div>
+        <!--  <g-link to="/" class="m-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Home</g-link>
+
+            <g-link to="/visit" class="m-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Places to Visit</g-link>
+
+            <g-link to="/test" class="m-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Sport</g-link>
+
+      <a href="#" class="m-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+    -->
       </div>
     </div>
-    <br />
-  </Layout>
+  </nav>
 </template>
-
 <script>
-import antioch from "@/components/Visit/antioch";
-import bexley from "@/components/Visit/bexley";
-import chingford from "@/components/Visit/chingford";
-import danson from "@/components/Visit/danson";
-import docklands from "@/components/Visit/docklands";
-import eastbury from "@/components/Visit/eastbury";
-import elizabeth from "@/components/Visit/elizabeth";
-import eltham from "@/components/Visit/eltham";
-import epping from "@/components/Visit/epping";
-import fairlop from "@/components/Visit/fairlop";
-import greenwich from "@/components/Visit/greenwich";
-import geffrye from "@/components/Visit/geffrye";
-import hackney from "@/components/Visit/hackney";
-import hall from "@/components/Visit/hall";
-import havering from "@/components/Visit/havering";
-import horniman from "@/components/Visit/horniman";
-import hospital from "@/components/Visit/hospital";
-import house from "@/components/Visit/house";
-import jack from "@/components/Visit/jack";
-import lee from "@/components/Visit/lee";
-import mayesbrook from "@/components/Visit/mayesbrook";
-import mudchute from "@/components/Visit/mudchute";
-import newham from "@/components/Visit/newham";
-import queen from "@/components/Visit/queen";
-import ragged from "@/components/Visit/ragged";
-import rainham from "@/components/Visit/rainham";
-import ranger from "@/components/Visit/ranger";
-import red from "@/components/Visit/red";
-import severndroog from "@/components/Visit/severndroog";
-import sutton from "@/components/Visit/sutton";
-import thames from "@/components/Visit/thames";
-import tower from "@/components/Visit/tower";
-import trinity from "@/components/Visit/trinity";
-import upminster from "@/components/Visit/upminster";
-import valence from "@/components/Visit/valence";
-import valentines from "@/components/Visit/valentines";
-import victoria from "@/components/Visit/victoria";
-import viktor from "@/components/Visit/viktor";
-import wanstead from "@/components/Visit/wanstead";
-import william from "@/components/Visit/william";
-import date from "@/components/Home/date";
 
 export default {
-  metaInfo: {
-    title: "Visit",
-    meta : [
-      {
-        name   : "description",
-        content: "Places of historical interest, to visit in east London ."
-      }
-    ]
-  },
-  components: {
-    antioch,
-    bexley,
-    chingford,
-    danson,
-    docklands,
-    eastbury,
-    elizabeth,
-    eltham,
-    epping,
-    fairlop,
-    greenwich,
-    geffrye,
-    hackney,
-    hall,
-    havering,
-    horniman,
-    hospital,
-    house,
-    jack,
-    lee,
-    mayesbrook,
-    mudchute,
-    newham,
-    queen,
-    ragged,
-    rainham,
-    ranger,
-    red,
-    severndroog,
-    sutton,
-    thames,
-    tower,
-    trinity,
-    upminster,
-    valence,
-    valentines,
-    victoria,
-    viktor,
-    wanstead,
-    william,
-    date
+  data () {
+    return{
+      isOpen: false,
+    }
   }
-};
+  }
+
+
+
 </script>
+<style scoped></style>

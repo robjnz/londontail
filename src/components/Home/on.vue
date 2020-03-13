@@ -59,6 +59,8 @@
       <br />
     </ul>
 <!--end-->
+<twentyone />
+<br />
 <!-- 22 March-->
       <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
         <i class="far fa-calendar-alt"></i>
@@ -120,31 +122,29 @@
     </ul>
 <!--end-->
        
-      <!--start-->
-    <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span> Sat 4 April </h3><!-- Fri 13 March to Fri 3 Apri-->
-    <ul class="text-lg">
-
-        <!--Eltham Palace -->
-      <li class="text-red-600">Eltham Palace
-
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-      
-      <span class="text-pink-300"> Easter Adventure <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span> Sat 4 - Sun 19 April</span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2Q322jK" target="_blank"> More Info</g-link>
-</li>
-      <br />
-    </ul>
-<!--end-->
      
-
+     
+<four />
     <g-link class="text-blue-500 text-2xl hover:text-white" to="/visit">Places to visit</g-link>
     
   </div>
    </div>
 </template>
+
+<script>
+import four from "@/components/Home/events/april/four";
+import twentyone from "@/components/Home/events/march/twentyone";
+
+
+
+
+export default {
+  
+  components: {
+   four,
+   twentyone,
+
+  }
+};
+</script>
+
