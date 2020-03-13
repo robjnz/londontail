@@ -8,7 +8,7 @@
     <!--start-->
     <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
         <i class="far fa-calendar-alt"></i>
-      </span> Fri 13 March  </h3><!-- Fri 13 March to Fri 3 Apri-->
+      </span> Sat 14 March  </h3><!-- Fri 13 March to Fri 3 Apri-->
     <ul class="text-lg">
  <!--olimpic park -->
       <li class="text-red-600">Olympic Park
@@ -109,7 +109,7 @@
     <ul class="text-lg">
 
         <!--Valence House Dagenhaord -->
-      <li class="text-red-600">Valence House Dagenham
+      <li class="text-red-600">Valence House Museum
 
       <span style="font-size: 1em; color: white;">
         <i class="fas fa-hand-point-right"></i>
@@ -123,8 +123,12 @@
 <!--end-->
        
      
-     
+  <!--april-->   
+  <!--
 <four />
+<br />
+<twentythree />
+-->
     <g-link class="text-blue-500 text-2xl hover:text-white" to="/visit">Places to visit</g-link>
     
   </div>
@@ -133,6 +137,7 @@
 
 <script>
 import four from "@/components/Home/events/april/four";
+import twentythree from "@/components/Home/events/april/twentythree";
 import twentyone from "@/components/Home/events/march/twentyone";
 
 
@@ -143,6 +148,7 @@ export default {
   components: {
    four,
    twentyone,
+   twentythree,
 
   }
 };

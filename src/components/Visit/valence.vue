@@ -1,28 +1,40 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="" align="center">
-    <h3 class="tory">Valence House Museum<br /></h3>
-    <g-link href="http://bit.ly/2RtEkMK" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1516808274/Valence_kgjaez.jpg"
-        fluid-grow
-        alt = "Valence House Museum"
-    /></g-link>
-    <h6>
-      Becontree Avenue<br />
-      Dagenham Essex
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Valence House Museum</H2>
+      <g-link href="http://bit.ly/2EmkhgG" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/valence.jpg"
+          fluid-grow
+          alt = "Valence House Museum"
+      /></g-link>
+      <p class="text-blue-200">
+        Becontree Avenue<br />
+        Dagenham Essex
 
-      <g-link class="labour" to="http://bit.ly/3akXLQj" target="_blank">
-        RM8 3HT
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/3akXLQj"
+          target = "_blank"
+        >
+          RM8 3HT
+        </g-link>
+      </p>
+       <h5 class="text-2xl text-pink-300">Murder Mystery Evening</h5>
+      <p class="text-pink-300">
+        <span>
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 27 March
+      </p>
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2EmkhgG"
+        target = "_blank"
+      >
+        More Info
       </g-link>
-    </h6>
-    <h3 class="football">
-      Murder Mystery Evening
-    </h3>
-    <p class="football">
-      Fri 27th March 2020
-    </p>
-    <g-link class="labour" to="http://bit.ly/2RtEkMK" target="_blank">
-      More Info
-    </g-link>
-  </b-card>
+    </div>
+  </div>
 </template>

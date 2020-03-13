@@ -1,10 +1,37 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Wansted Park">
-    <g-link href="https://kutt.it/wansted-park" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1517230661/Temple__Wanstead_ax5r0t.jpg"
-        fluid-grow
-        alt = "Wansted Park"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Wansted Park</H2>
+      <g-link href="http://bit.ly/2Jda6JW" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/wanstead.jpg"
+          fluid-grow
+          alt = "Wansted Park"
+      /></g-link>
+      <p class="text-blue-200">
+        Warren Road <br />Wanstead London 
+
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/38Qiz0S"
+          target = "_blank"
+        >
+         E11 2LU
+        </g-link>
+      </p>
+     <br /><br /><br />
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2Jda6JW"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>
+
+
+

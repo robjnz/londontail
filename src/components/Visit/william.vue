@@ -1,4 +1,42 @@
 <template>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> William Morris Gallery</H2>
+      <g-link href="http://bit.ly/2IHVzGL" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/william.jpg"
+          fluid-grow
+          alt = "William Morris Gallery"
+      /></g-link>
+      <p class="text-blue-200">
+        Forest Road<br />
+Walthamstow London
+
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/2TMbUAL"
+          target = "_blank"
+        >
+         E17 4PP 
+        </g-link>
+      </p>
+     <br /><br /><br />
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2IHVzGL"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
+</template>
+
+
+
+
   <b-card
     bg-variant   = "dark"
     text-variant = "white"

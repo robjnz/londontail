@@ -7,7 +7,7 @@
         </span>
         Places to Visit
       </h1>
-      <date class="ml-8" />
+      <!--<date class="ml-8" />-->
       <br />
 
       <div class="grid sm:flex">
@@ -59,6 +59,21 @@
         <antioch /><!--St. Margaret of Antioch-->
         <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
+      </div>
+      <div class="grid sm:flex">
+        <tower /><!--Tower Of London-->
+        <trinity /><!--Trinity Buoy Wharf-->
+        <upminster /><!--Upminster Windmill-->
+      </div>
+       <div class="grid sm:flex">
+        <valence /><!--Valence House Museum-->
+        <valentines /><!--Valentines Mansion-->
+        <victoria /><!--Victoria Park-->
+      </div>
+       <div class="grid sm:flex">
+        <viktor /><!--Viktor Wyne Museum-->
+        <wanstead /><!--Wansted Park-->
+        <william /><!--William Morris Gallery-->
       </div>
     </div>
     <br />

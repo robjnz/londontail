@@ -1,31 +1,40 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="" align="center">
-    <h3 class="tory">Valentines Mansion <br />& Park<br /></h3>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Valentines Mansion</H2>
+      <g-link href="http://bit.ly/38ReARM" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/valentines.jpg"
+          fluid-grow
+          alt = "Valentines Mansion"
+      /></g-link>
+      <p class="text-blue-200">
+        Emerson Road<br />
+        Ilford Essex
 
-    <g-link href="http://bit.ly/2S9h1be" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1513623135/valman_oxte6t.jpg"
-        fluid-grow
-        alt = "Valentines Mansion & Park Ilford"
-    /></g-link>
-
-    <h6>
-      Emerson Road<br />
-      Ilford Essex
-
-      <g-link class="labour" to="http://bit.ly/32JR9IP" target="_blank">
-        IG1 4XA
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/32JR9IP"
+          target = "_blank"
+        >
+          IG1 4XA
+        </g-link>
+      </p>
+      <h5 class="text-2xl text-pink-300">The Valentines Anomaly</h5>
+      <p class="text-pink-300">
+        <span>
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 13 March to Fri 3 April
+      </p>
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/38ReARM"
+        target = "_blank"
+      >
+        More Info
       </g-link>
-    </h6>
-
-    <h3 class="football">
-      The Valentines Anomaly
-    </h3>
-    <p class="football">
-      Fri 13 March to Fri 3 April 2020
-    </p>
-    <g-link class="labour" to="http://bit.ly/2S9h1be" target="_blank">
-      More Info
-    </g-link>
-  </b-card>
+    </div>
+  </div>
 </template>

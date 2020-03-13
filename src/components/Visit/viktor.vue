@@ -1,10 +1,35 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Viktor Wyne Museum">
-    <g-link href="https://kutt.it/viktor-hackney" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1519142785/victor_x9wwlg.jpg"
-        fluid-grow
-        alt = "Viktor Wyne Museum"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Viktor Wyne Museum</H2>
+      <g-link href="http://bit.ly/2CHwY42" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/viktor.jpg"
+          fluid-grow
+          alt = "Viktor Wyne Museum"
+      /></g-link>
+      <p class="text-blue-200">
+        11 Mare Street<br />Hackney London 
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/3aWJKJ9"
+          target = "_blank"
+        >
+          E8 4RP 
+        </g-link>
+      </p>
+     <br /><br /><br />
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2CHwY42"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>
+
+
