@@ -12,15 +12,6 @@
       <br />
       <night />
 
-      <div class="grid sm:flex">
-        <football />
-
-        <series />
-      </div>
-      <div class="grid sm:flex">
-        <film />
-        <film />
-      </div>
     </div>
     <br />
   </Layout>

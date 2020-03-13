@@ -1,10 +1,41 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Sutton House">
-    <g-link href="https://kutt.it/sutton-house" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1544949554/sutton_house_v9gjpk.jpg"
-        fluid-grow
-        alt = "Sutton House"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Sutton House </H2>
+      <g-link href="http://bit.ly/2QB1TXc" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/sutton.jpg"
+          fluid-grow
+          alt = "Sutton House"
+      /></g-link>
+      <p class="text-blue-200">
+        2- 4 Homerton High Street<br /> Hackney London 
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/39NqFJf"
+          target = "_blank"
+        >
+          E9 6JQ
+        </g-link>
+      </p>
+      <h5 class="text-2xl text-pink-300">Mother's Day</h5>
+      <p class="text-pink-300">
+        <span>
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 21 & Sun 22 March
+      </p>
+
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2QB1TXc"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>
+

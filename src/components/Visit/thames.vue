@@ -1,10 +1,34 @@
 <template>
-  <b-card bg-variant="dark" text-variant="white" title="Thames Barrier">
-    <g-link href="https://kutt.it/thames-barrier" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1522942608/thames_hpxd4i.jpg"
-        fluid-grow
-        alt = "Thames Barrier"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> Thames Barrier </H2>
+      <g-link href="http://bit.ly/2C8YJkN" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/thames.jpg"
+          fluid-grow
+          alt = "Thames Barrier"
+      /></g-link>
+      <p class="text-blue-200">
+        1 Unity Way<br />
+        Woolwich London
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/2TZ5lts"
+          target = "_blank"
+        >
+          SE18 5NJ
+        </g-link>
+      </p>
+      <br /><br /><br />
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2C8YJkN"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>

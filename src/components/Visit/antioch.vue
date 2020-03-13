@@ -1,14 +1,35 @@
 <template>
-  <b-card
-    bg-variant   = "dark"
-    text-variant = "white"
-    title        = "St. Margaret of Antioch"
-  >
-    <g-link href="" target="_blank"
-      ><b-img
-        src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1516812153/St-Margaret_o8s4gb.jpg"
-        fluid-grow
-        alt = "St. Margaret of Antioch"
-    /></g-link>
-  </b-card>
+  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+    <div class="p-6">
+      <H2 class="text-2xl text-blue-200"> St. Margaret of Antioch </H2>
+      <g-link href="http://bit.ly/2W9FpxW" target="_blank"
+        ><g-image
+          class = "w-auto h-auto"
+          src   = "@/images/visit/antioch.jpg"
+          fluid-grow
+          alt = "St. Margaret of Antioch"
+      /></g-link>
+      <p class="text-blue-200">
+        North Street<br />
+        Barking Essex
+
+        <g-link
+          class  = "text-red-700 hover:text-white"
+          to     = "http://bit.ly/39Q9NBk"
+          target = "_blank"
+        >
+          IG11 8AS
+        </g-link>
+      </p>
+      <br /><br /><br />
+
+      <g-link
+        class  = "text-red-700 hover:text-white"
+        to     = "http://bit.ly/2W9FpxW"
+        target = "_blank"
+      >
+        More Info
+      </g-link>
+    </div>
+  </div>
 </template>

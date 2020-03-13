@@ -56,9 +56,9 @@
         <severndroog /><!--Severndroog Castle-->
       </div>
       <div class="grid sm:flex">
-        <red /><!--Red house-->
-        <greenwich /><!--Royal Museums Greenwich-->
-        <severndroog /><!--Severndroog Castle-->
+        <antioch /><!--St. Margaret of Antioch-->
+        <sutton /><!--Sutton House-->
+        <thames /><!--Thames Barrier-->
       </div>
     </div>
     <br />
@@ -114,7 +114,7 @@ export default {
     meta : [
       {
         name   : "description",
-        content: "Places of historical interest, to visit in east London ."
+        content: "Visit Places Of Historical And Local Interest In East London for Day Out."
       }
     ]
   },
