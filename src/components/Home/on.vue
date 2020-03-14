@@ -1,156 +1,184 @@
 <template>
-   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+  <div class="m-4 mt-1 p-4 w-auto rounded-lg">
     <div class="p-6">
-    <h4 class="text-2xl text-blue-500">
-      What's on in East London
-    </h4>
-    <br />
-    <!--start-->
-    <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span> Sat 14 March  </h3><!-- Fri 13 March to Fri 3 Apri-->
-    <ul class="text-lg">
- <!--olimpic park -->
-      <li class="text-red-600">Olympic Park
+      <h2 class="text-3xl text-blue-500">
+        <span>
+          <i class="fas fa-landmark"></i>
+        </span>
+        Places to Visit
+      </h2>
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 14 March
+      </h3>
+      <!-- Fri 13 March to Fri 3 Apri-->
+      <div class="grid sm:flex">
+        <queen /><!--olympic park-->
+        <valentines /><!--valentines-->
+      </div>
+      <!--wed 18 march-->
 
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-      
-      <span class="text-pink-300"> Driverless Pod Trial <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span> Mon 9 – Fri 20 March</span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/39MXgyP" target="_blank"> More Info</g-link>
-</li>
-      
-    
-<!--end-->
-        <!--Valentines Mansion Ilford -->
-      <li class="text-red-600">Valentines Mansion Ilford 
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Wed 18 March
+      </h3>
 
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-      
-      <span class="text-pink-300"> The Valentines Anomaly <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span> Fri 13 March to Fri 3 April</span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2TtpXtv" target="_blank"> More Info</g-link>
-</li>
-      <br />
-    </ul>
-<!--end-->
-<!--start-->
-    <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span> Wed 18 March </h3><!--wed 18 march-->
-    <ul class="text-lg">
+      <div class="grid sm:flex"><docklands /><!--Docklands Museum --></div>
 
-        <!--Docklands Museum-->
-      <li class="text-red-600">Docklands Museum 
+      <!--sat 21 march-->
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 21 March
+      </h3>
 
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-      
-      <span class="text-pink-300"> Common Salt </span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2vxQka1" target="_blank"> More Info</g-link>
-</li>
-      <br />
-    </ul>
-<!--end-->
-<twentyone />
-<br />
-<!-- 22 March-->
-      <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span> Sun 22 March </h3><!--sun 22 march-->
+      <div class="grid sm:flex">
+        <severndroog /><!--Severndroog Castle-->
+        <sutton /><!--sutton house-->
+      </div>
 
+      <!-- 22 March-->
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sun 22 March
+      </h3>
+      <div class="grid sm:flex">
+        <eastbury /><!--Eastbury Manor House-->
+        <hall /><!--Hall Place & Gardens-->
+        <rainham /><!--rainham hall-->
+      </div>
 
-      <ul class="text-lg">
-      <!--Eastbury Manor House-->
-      <li class="text-red-600">Eastbury Manor House 
+      <!--27 march -->
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 27 March
+      </h3>
+      <div class="grid sm:flex"><valence /><!--Valence House Museum--></div>
 
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-       
-      <span class="text-pink-300"> Mother's Day Afternoon Tea </span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2THTIYR" target="_blank"> More Info</g-link>
-      </li>
-       <li class="text-red-600">Hall Place & Gardens 
+      <!--april-->
+      <!--4 april-->
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 4 April
+      </h3>
+      <div class="grid sm:flex">
+        <eltham /><!-- Eltham Palace-->
+        <red /><!-- red house-->
+      </div>
 
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-       
-      <span class="text-pink-300"> Mother's Day Afternoon Tea </span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/3aOT29M" target="_blank"> More Info</g-link>
-      </li>
+      <!--23 april-->
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        thurs 23 April
+      </h3>
+      <div class="grid sm:flex"><trinity /><!-- Trinity Buoy Wharf--></div>
 
-      <!--Rainham-->
-       <li class="text-red-600">Rainham Hall 
-
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-       
-      <span class="text-pink-300"> Mother's Day Afternoon Tea </span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2IGItJV" target="_blank"> More Info</g-link>
-      </li>
-      <!--end rainham-->
-      <br />
-      </ul>
-
-       <!--start-->
-    <h3 class="text-lg text-pink-300"><span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span> Fri 27 March </h3><!-- Fri 13 March-->
-    <ul class="text-lg">
-
-        <!--Valence House Dagenhaord -->
-      <li class="text-red-600">Valence House Museum
-
-      <span style="font-size: 1em; color: white;">
-        <i class="fas fa-hand-point-right"></i>
-      </span>
-      
-      <span class="text-pink-300"> Murder Mystery Evening </span>
-      <g-link class="text-blue-500 hover:text-white" to="http://bit.ly/2TdCCSA" target="_blank"> More Info</g-link>
-</li>
-      <br />
-    </ul>
-<!--end-->
-       
-     
-  <!--april-->   
-  <!--
-<four />
-<br />
-<twentythree />
--->
-    <g-link class="text-blue-500 text-2xl hover:text-white" to="/visit">Places to visit</g-link>
-    
+      <g-link class="text-blue-500 text-2xl hover:text-white" to="/visit"
+        >Places to visit</g-link
+      >
+    </div>
   </div>
-   </div>
 </template>
 
 <script>
-import four from "@/components/Home/events/april/four";
-import twentythree from "@/components/Home/events/april/twentythree";
-import twentyone from "@/components/Home/events/march/twentyone";
-
-
-
+import antioch from "@/components/Visit/antioch";
+import bexley from "@/components/Visit/bexley";
+import chingford from "@/components/Visit/chingford";
+import danson from "@/components/Visit/danson";
+import docklands from "@/components/Visit/docklands";
+import eastbury from "@/components/Visit/eastbury";
+import elizabeth from "@/components/Visit/elizabeth";
+import eltham from "@/components/Visit/eltham";
+import epping from "@/components/Visit/epping";
+import fairlop from "@/components/Visit/fairlop";
+import greenwich from "@/components/Visit/greenwich";
+import geffrye from "@/components/Visit/geffrye";
+import hackney from "@/components/Visit/hackney";
+import hall from "@/components/Visit/hall";
+import havering from "@/components/Visit/havering";
+import horniman from "@/components/Visit/horniman";
+import hospital from "@/components/Visit/hospital";
+import house from "@/components/Visit/house";
+import jack from "@/components/Visit/jack";
+import lee from "@/components/Visit/lee";
+import mayesbrook from "@/components/Visit/mayesbrook";
+import mudchute from "@/components/Visit/mudchute";
+import newham from "@/components/Visit/newham";
+import queen from "@/components/Visit/queen";
+import ragged from "@/components/Visit/ragged";
+import rainham from "@/components/Visit/rainham";
+import ranger from "@/components/Visit/ranger";
+import red from "@/components/Visit/red";
+import severndroog from "@/components/Visit/severndroog";
+import sutton from "@/components/Visit/sutton";
+import thames from "@/components/Visit/thames";
+import tower from "@/components/Visit/tower";
+import trinity from "@/components/Visit/trinity";
+import upminster from "@/components/Visit/upminster";
+import valence from "@/components/Visit/valence";
+import valentines from "@/components/Visit/valentines";
+import victoria from "@/components/Visit/victoria";
+import viktor from "@/components/Visit/viktor";
+import wanstead from "@/components/Visit/wanstead";
+import william from "@/components/Visit/william";
+import date from "@/components/Home/date";
 
 export default {
-  
   components: {
-   four,
-   twentyone,
-   twentythree,
-
+    antioch,
+    bexley,
+    chingford,
+    danson,
+    docklands,
+    eastbury,
+    elizabeth,
+    eltham,
+    epping,
+    fairlop,
+    greenwich,
+    geffrye,
+    hackney,
+    hall,
+    havering,
+    horniman,
+    hospital,
+    house,
+    jack,
+    lee,
+    mayesbrook,
+    mudchute,
+    newham,
+    queen,
+    ragged,
+    rainham,
+    ranger,
+    red,
+    severndroog,
+    sutton,
+    thames,
+    tower,
+    trinity,
+    upminster,
+    valence,
+    valentines,
+    victoria,
+    viktor,
+    wanstead,
+    william,
+    date
   }
 };
 </script>
-

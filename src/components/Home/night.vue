@@ -1,15 +1,15 @@
 <template>
-  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+  <div class="m-4 p-4 w-auto rounded-lg">
     <div class="p-6">
-      <h4 class="text-2xl text-blue-500">
+      <h2 class="text-3xl text-blue-500">
         <span>
           <i class="fas fa-glass-cheers"></i>
         </span>
         Nightclubs
-      </h4>
-      <br />
+      </h2>
+      
      <!--march-->
-        <h3 class="text-lg text-pink-300">
+        <h3 class="text-xl text-pink-300">
       <span style="font-size: 1em;">
         <i class="far fa-calendar-alt"></i>
       </span>
@@ -20,7 +20,7 @@
       </div>
       <br />
 <!--27 march-->
-       <h3 class="text-lg text-pink-300">
+       <h3 class="text-xl text-pink-300">
       <span style="font-size: 1em;">
         <i class="far fa-calendar-alt"></i>
       </span>
@@ -32,7 +32,7 @@
       <!--27 march -->
       <br />
       <!--april-->
-       <h3 class="text-lg text-pink-300">
+       <h3 class="text-xl text-pink-300">
       <span style="font-size: 1em;">
         <i class="far fa-calendar-alt"></i>
       </span>

@@ -1,10 +1,8 @@
 <template>
   <Layout>
     <div id="background" class="container m-auto">
-      <h1 class="ml-8 mt-16 text-4xl text-red-600">What's on in East London</h1>
+      <h1 class="ml-12 mt-16 text-4xl text-red-600">What's on in East London</h1>
       <!--<date class="ml-8"/>-->
-      <br />
-
       <on />
       <br />
 
