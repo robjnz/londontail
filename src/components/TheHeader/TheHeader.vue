@@ -35,12 +35,12 @@
         >
           Places to Visit
         </g-link>
-        <a
-          href  = "#responsive-header"
+        <g-link
+          to    = "/nightclubs"
           class = "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
-        >
+        >Nightclubs
           
-        </a>
+        </g-link>
       </div>
 
       <div>

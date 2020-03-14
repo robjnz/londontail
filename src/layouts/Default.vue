@@ -111,7 +111,6 @@ text-align: left;
 
 <script>
 import TheHeader from '@/components/TheHeader/TheHeader'
-import Icons from '@/components/TheFooter/Icons'
 import TheFooter from '@/components/TheFooter/TheFooter'
 
 
@@ -126,7 +125,6 @@ export default {
       ],
   components: {
     TheHeader,
-    Icons,
     TheFooter,
   }
 }

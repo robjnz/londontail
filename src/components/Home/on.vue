@@ -2,7 +2,7 @@
    <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
     <h4 class="text-2xl text-blue-500">
-      Whats on in East London
+      What's on in East London
     </h4>
     <br />
     <!--start-->

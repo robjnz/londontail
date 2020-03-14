@@ -1,78 +1,70 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H4 class="text-2xl text-blue-500">
-        <span style="font-size: 1em; color: Dodgerblue;">
+      <h4 class="text-2xl text-blue-500">
+        <span>
           <i class="fas fa-glass-cheers"></i>
         </span>
-        Nightclubs</H4
+        Nightclubs
+      </h4>
+      <br />
+     <!--march-->
+        <h3 class="text-lg text-pink-300">
+      <span style="font-size: 1em;">
+        <i class="far fa-calendar-alt"></i>
+      </span>
+      Fri 20 March
+    </h3>
+    <div class="grid sm:flex">
+        <atik /><!--atik-->
+      </div>
+      <br />
+<!--27 march-->
+       <h3 class="text-lg text-pink-300">
+      <span style="font-size: 1em;">
+        <i class="far fa-calendar-alt"></i>
+      </span>
+      Fri 27 March
+    </h3>
+    <div class="grid sm:flex">
+        <xoyo /><!--xoyo-->
+      </div>
+      <!--27 march -->
+      <br />
+      <!--april-->
+       <h3 class="text-lg text-pink-300">
+      <span style="font-size: 1em;">
+        <i class="far fa-calendar-alt"></i>
+      </span>
+      Fri 3 April
+    </h3>
+    <div class="grid sm:flex">
+        <faces /><!--faces-->
+      </div>
+      
+
+      <g-link class="text-blue-500 text-2xl hover:text-white" to="/nightclubs"
+        >Nightclubs</g-link
       >
-      <p>
-        <!--ATIK Romford-->
-        <span style="color: #ef4836;">ATIK Romford </span>
-
-        <span style="font-size: 1em; color: white;">
-          <i class="fas fa-hand-point-right"></i>
-        </span>
-        Fri 6 March 2020 @ 10 pm - 4 am
-        <span style="color: #e000e0;">
-          Schpunk
-        </span>
-        <g-link class="tory" to="http://bit.ly/2V7L97A" target="_blank">
-          More Info</g-link
-        >
-
-        <br />
-        <!--Bar300 Walthamstow-->
-        <span style="color: #ef4836;">Bar300 Walthamstow </span>
-
-        <span style="font-size: 1em; color: white;">
-          <i class="fas fa-hand-point-right"></i>
-        </span>
-
-        <span style="color: #e000e0;"> </span>
-        <g-link to="http://bit.ly/2tAKwYs" target="_blank"> More Info</g-link>
-
-        <br />
-        <!--Jhankaar Club-->
-        <span style="color: #ef4836;">Jhankaar Club Stratford </span>
-
-        <span style="font-size: 1em; color: white;">
-          <i class="fas fa-hand-point-right"></i>
-        </span>
-        Open every night @ 10 pm - 4.30 am
-        <span style="color: #e000e0;"> </span>
-        <g-link to="http://bit.ly/2EsnHfH" target="_blank"> More Info</g-link>
-
-        <br />
-        <!--kings Bull Barking-->
-        <span style="color: #ef4836;">kings Bull Barking </span>
-
-        <span style="font-size: 1em; color: white;">
-          <i class="fas fa-hand-point-right"></i>
-        </span>
-        Sat 23 May 2020 @ 10 pm - 4.30 am
-        <span style="color: #e000e0;">
-          Rugbys 7s
-        </span>
-        <g-link to="http://bit.ly/2Ns7jis" target="_blank"> More Info</g-link>
-
-        <br />
-        <!--XOYO Shoreditch-->
-        <span style="color: #ef4836;">XOYO Shoreditch </span>
-
-        <span style="font-size: 1em; color: white;">
-          <i class="fas fa-hand-point-right"></i>
-        </span>
-        Fri 6 March 21.30 pm - 4 am
-        <span style="color: #e000e0;">
-          Dusky
-        </span>
-        <g-link to="http://bit.ly/2U4qK37" target="_blank"> More Info</g-link>
-
-        <br />
-      </p>
-      <g-link class="tory" to="/Ent/night">Nightclubs</g-link>
     </div>
   </div>
 </template>
+
+<script>
+import atik from "@/components/Nightclubs/atik";
+import faces from "@/components/Nightclubs/faces";
+import xoyo from "@/components/Nightclubs/xoyo";
+
+
+
+
+export default {
+  components: {
+    atik,
+    faces,
+    xoyo,
+   
+    
+  }
+};
+</script>
