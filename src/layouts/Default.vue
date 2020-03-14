@@ -104,6 +104,17 @@ color: #1A8c97;
 color     : #ff00ff;
 text-align: left;
 }
+.morecontent span {
+	display: none;
+}
+.comment {
+	width : 250px;
+	margin: 10px;
+ 
+}
+a{
+   color: white;
+ }
 
 
 </style>

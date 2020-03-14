@@ -35,10 +35,18 @@
         >
           Places to Visit
         </g-link>
+        
+        <g-link
+          to    = "/theatres"
+          class = "block mt-4 mr-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+        > Threatres
+          
+        </g-link>
+
         <g-link
           to    = "/nightclubs"
-          class = "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
-        >Nightclubs
+          class = "block mt-4 mr-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+        > Nightclubs
           
         </g-link>
       </div>

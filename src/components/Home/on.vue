@@ -82,7 +82,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        thurs 23 April
+        Thurs 23 April
       </h3>
       <div class="grid sm:flex"><trinity /><!-- Trinity Buoy Wharf--></div>
 
