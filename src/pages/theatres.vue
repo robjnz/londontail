@@ -12,7 +12,7 @@
 
       <div class="grid sm:flex">
         <barking /><!--Broadway Theatre Barking-->
-        <barking /><!--Bar300 wa-->
+        <ilford /><!--ilford-->
         <barking /><!--Faces -->
       </div>
      
@@ -23,6 +23,8 @@
 
 <script>
 import barking from "@/components/Theatres/barking";
+import ilford from "@/components/Theatres/ilford";
+
 
 import bar from "@/components/Nightclubs/bar";
 import faces from "@/components/Nightclubs/faces";
@@ -45,7 +47,7 @@ export default {
   },
   components: {
     barking,
-    
+    ilford,
     bar,
     faces,
     jhankaar,

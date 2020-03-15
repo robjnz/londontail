@@ -1,7 +1,7 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H2 class="text-2xl text-blue-200"> Broadway Theatre Barking</H2>
+      <H2 class="text-2xl text-blue-200"> Ilford</H2>
       <g-link href="http://bit.ly/2WkdIT0" target="_blank"
         ><g-image
           class = "w-auto h-auto"
@@ -31,11 +31,11 @@
 
 <article class="text-blue-200">
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, provident eum. Sunt natus ratione eaque corrupti labore quis aut, perferendis nesciunt voluptatem porro quibusdam, accusamus ipsa maxime explicabo? Natus, assumenda!....
-  <input id="read-more-toggle-1" class="read-more-toggle" type="checkbox">
+  <input id="read-more-ilford-1" class="read-more-ilford" type="checkbox">
   <div class="read-more-content">
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat aspernatur voluptate sequi neque autem ea at dolor vitae aperiam error reiciendis quia quas, architecto dicta fugit dolores ab rerum....
   </div>
-  <label class="read-more-toggle-label text-red-700 hover:text-white" for="read-more-toggle-1">Read </label>
+  <label class="read-more-ilford-label text-red-700 hover:text-white" for="read-more-ilford-1">Read </label>
 </article>
      
 
@@ -58,10 +58,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-toggle {
+.read-more-ilford {
   display: none;
 }
-.read-more-toggle-label {
+.read-more-ilford-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -72,17 +72,17 @@
   background : #242943;
   
 }
-.read-more-toggle-label:after {
+.read-more-ilford-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-toggle:checked + .read-more-content {
+.read-more-ilford:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-toggle:checked + .read-more-content + .read-more-toggle-label:after {
+.read-more-ilford:checked + .read-more-content + .read-more-ilford-label:after {
   content: "Less";
 }
 </style>
