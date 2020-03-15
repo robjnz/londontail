@@ -43,7 +43,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Visit Places Of Historical And Local Interest In East London for Day Out."
+          "Whats on guide for Local Nightclubs In East London."
       }
     ]
   },

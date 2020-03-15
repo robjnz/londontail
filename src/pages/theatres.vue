@@ -2,7 +2,7 @@
   <Layout>
     <div id="background" class="container m-auto">
       <h1 class="ml-8 mt-16 text-4xl text-red-600">
-          <span class="text-pink-300">
+        <span class="text-pink-300">
           <i class="fas fa-theater-masks"></i>
         </span>
         Theatres
@@ -12,10 +12,9 @@
 
       <div class="grid sm:flex">
         <barking /><!--Broadway Theatre Barking-->
-        <ilford /><!--ilford-->
-        <barking /><!--Faces -->
+        <greenwich /><!--Greenwich Theatre-->
+        <hackney /><!--Faces -->
       </div>
-     
     </div>
     <br />
   </Layout>
@@ -23,8 +22,11 @@
 
 <script>
 import barking from "@/components/Theatres/barking";
-import ilford from "@/components/Theatres/ilford";
+import greenwich from "@/components/Theatres/greenwich";
+import hackney from "@/components/Theatres/hackney";
 
+import ilford from "@/components/Theatres/ilford";
+import romford from "@/components/Theatres/romford";
 
 import bar from "@/components/Nightclubs/bar";
 import faces from "@/components/Nightclubs/faces";
@@ -40,14 +42,16 @@ export default {
     meta : [
       {
         name   : "description",
-        content: 
-          "Whats on at Local Theatres In East London for Day Out."
+        content: "Whats on guide for Local Theatres In East London."
       }
     ]
   },
   components: {
     barking,
+    greenwich,
+    hackney,
     ilford,
+    romford,
     bar,
     faces,
     jhankaar,
@@ -58,6 +62,4 @@ export default {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

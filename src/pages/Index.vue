@@ -1,15 +1,19 @@
 <template>
   <Layout>
     <div id="background" class="container m-auto">
-      <h1 class="ml-12 mt-16 text-4xl text-red-600">What's on in East London</h1>
+      <h1 class="ml-12 mt-16 text-4xl text-red-600">
+        Things to do in east London today
+      </h1>
       <!--<date class="ml-8"/>-->
-      <on />
-      <br />
+     
+        <on />
+      
 
-      <theatre />
-      <br />
+      
+        <theatre />
+      
+
       <night />
-
     </div>
     <br />
   </Layout>
@@ -32,7 +36,7 @@ export default {
       {
         name   : "description",
         content: 
-          "What’s on today in east London the local cinemas, theatres, nightclubs & football matches, free online movies, tv series, picard, places to visit for days out in east London, places to eat, job search resources and much more!"
+          "Things to do in east London today the local cinemas, theatres, nightclubs & football matches, free online movies, tv series, picard, places to visit for days out in east London, places to eat, job search resources and much more!"
       }
     ],
     script: [

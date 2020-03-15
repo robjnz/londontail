@@ -1,5 +1,5 @@
 <template>
-  <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
+  <div class="m-4 p-4 w-full">
     <div class="p-6">
       
       

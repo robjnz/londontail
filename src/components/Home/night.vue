@@ -44,7 +44,7 @@
       
 
       <g-link class="text-blue-500 text-2xl hover:text-white" to="/nightclubs"
-        >Nightclubs</g-link
+        >More Nightclubs</g-link
       >
     </div>
   </div>

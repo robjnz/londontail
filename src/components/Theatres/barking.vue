@@ -1,13 +1,12 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H2 class="text-2xl text-blue-200"> Broadway Theatre Barking</H2>
+      <H2 class="text-2xl text-blue-200"> Barking Theatre</H2>
       <g-link href="http://bit.ly/2WkdIT0" target="_blank"
         ><g-image
-          class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1582957572/poppins_spyysw.jpg"
-          fluid-grow
-          alt = "Docklands Museum"
+       class = "w-auto h-auto"
+       src   = "@/images/theatres/march/poppins.jpg"
+       alt   = "barking theatre poster"
       /></g-link>
        
       <p class="text-blue-200"> 
@@ -30,12 +29,13 @@
     
 
 <article class="text-blue-200">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, provident eum. Sunt natus ratione eaque corrupti labore quis aut, perferendis nesciunt voluptatem porro quibusdam, accusamus ipsa maxime explicabo? Natus, assumenda!....
-  <input id="read-more-toggle-1" class="read-more-toggle" type="checkbox">
+   Mary Poppins, a mystical nanny returns <br />to London....
+  <input id="read-more-barking-1" class="read-more-barking" type="checkbox">
   <div class="read-more-content">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat aspernatur voluptate sequi neque autem ea at dolor vitae aperiam error reiciendis quia quas, architecto dicta fugit dolores ab rerum....
+         To save the day in this musical dance <br />show suitable for all.
+
   </div>
-  <label class="read-more-toggle-label text-red-700 hover:text-white" for="read-more-toggle-1">Read </label>
+  <label class="read-more-barking-label text-red-700 hover:text-white" for="read-more-barking-1">Read </label>
 </article>
      
 
@@ -51,17 +51,18 @@
   </div>
 </template>
 
-
 <style>
+
+
 .read-more-content {
   max-height: 0;
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-toggle {
+.read-more-barking {
   display: none;
 }
-.read-more-toggle-label {
+.read-more-barking-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -69,27 +70,18 @@
   padding    : 5px;
   margin     : .5em;
   font-size  : 16px;
-  background : #242943;
-  
 }
-.read-more-toggle-label:after {
+.read-more-barking-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-toggle:checked + .read-more-content {
+.read-more-barking:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-toggle:checked + .read-more-content + .read-more-toggle-label:after {
+.read-more-barking:checked + .read-more-content + .read-more-barking-label:after {
   content: "Less";
 }
 </style>
-
-<script>
-
-</script>
-
-
-

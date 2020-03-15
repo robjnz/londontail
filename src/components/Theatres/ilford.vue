@@ -4,8 +4,8 @@
       <H2 class="text-2xl text-blue-200"> Ilford</H2>
       <g-link href="http://bit.ly/2WkdIT0" target="_blank"
         ><g-image
-          class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1582957572/poppins_spyysw.jpg"
+          
+          src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1582957572/poppins_spyysw.jpg"
           fluid-grow
           alt = "Docklands Museum"
       /></g-link>
@@ -30,10 +30,11 @@
     
 
 <article class="text-blue-200">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, provident eum. Sunt natus ratione eaque corrupti labore quis aut, perferendis nesciunt voluptatem porro quibusdam, accusamus ipsa maxime explicabo? Natus, assumenda!....
+   Mary Poppins, a mystical nanny returns to London....
   <input id="read-more-ilford-1" class="read-more-ilford" type="checkbox">
   <div class="read-more-content">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat aspernatur voluptate sequi neque autem ea at dolor vitae aperiam error reiciendis quia quas, architecto dicta fugit dolores ab rerum....
+         To save the day in this musical dance show suitable for all.
+
   </div>
   <label class="read-more-ilford-label text-red-700 hover:text-white" for="read-more-ilford-1">Read </label>
 </article>
@@ -51,8 +52,9 @@
   </div>
 </template>
 
-
 <style>
+
+
 .read-more-content {
   max-height: 0;
   overflow  : hidden;
@@ -69,8 +71,6 @@
   padding    : 5px;
   margin     : .5em;
   font-size  : 16px;
-  background : #242943;
-  
 }
 .read-more-ilford-label:after {
   content: "More";
@@ -86,10 +86,3 @@
   content: "Less";
 }
 </style>
-
-<script>
-
-</script>
-
-
-
