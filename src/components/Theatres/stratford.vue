@@ -1,47 +1,45 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H2 class="text-2xl text-blue-200"> Greenwich Theatre</H2>
-      <g-link href="http://bit.ly/2v7lp3D" target="_blank"
+      <H2 class="text-2xl text-blue-200"> Theatre Royal Stratford East</H2>
+      <g-link href="http://bit.ly/2JjU3Kr" target="_blank"
         ><g-image
-          class = "w-auto h-auto"
-          src   = "@/images/theatres/march/paper.jpg"
-          alt   = "Greenwich Theatre Poster"
+          src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1584372648/nt_dl2ghn.jpg"
+          alt = "Theatre Royal Stratford East Poster"
       /></g-link>
 
       <p class="text-blue-200">
-        Crooms Hill<br />Greenwich London 
+        Gerry Raffles Square <br />Stratford London
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "http://bit.ly/3aBsF7d"
+          to     = "http://bit.ly/38WkDo6"
           target = "_blank"
         >
-         SE10 8ES
+          E15 1BN
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Paper Moon</h5>
+      <h5 class="text-2xl text-pink-300">Nt-Connections-2020</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 22 March 1pm & 3 pm
+        Tues 24 - Fri 27 March 7 pm
       </p>
 
       <article class="text-blue-200">
-        The moonlight is beautiful, shining <br /> across the......
+        The National Theatre Connections festival<br /> is a celebration.....
+        
         <input
-          id    = "read-more-greenwich-1"
-          class = "read-more-greenwich"
+          id    = "read-more-stratford-1"
+          class = "read-more-stratford"
           type  = "checkbox"
         />
         <div class="read-more-content ">
-           bedroom floor as Poppy Diddle dozes off. <br />But is all as calm as it seems?<br /><br />
-          Suddenly, Poppy wakes up to discover <br />that the MoonMoo<br /><br /> has got stuck
-          on the Moon! <br />Poppy’s mission is clear!
+           of young people theatre-making
         </div>
         <label
-          class = "read-more-greenwich-label text-red-700 hover:text-white"
-          for   = "read-more-greenwich-1"
+          class = "read-more-stratford-label text-red-700 hover:text-white"
+          for   = "read-more-stratford-1"
           >Read
         </label>
       </article>
@@ -49,7 +47,7 @@
       <br />
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2v7lp3D"
+        to     = "http://bit.ly/2JjU3Kr"
         target = "_blank"
       >
         More Info
@@ -64,10 +62,10 @@
   overflow  : hidden;
   transition: max-height 0.5s ease;
 }
-.read-more-greenwich {
+.read-more-stratford {
   display: none;
 }
-.read-more-greenwich-label {
+.read-more-stratford-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -76,17 +74,17 @@
   margin     : 0.5em;
   font-size  : 16px;
 }
-.read-more-greenwich-label:after {
+.read-more-stratford-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-greenwich:checked + .read-more-content {
+.read-more-stratford:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-greenwich:checked + .read-more-content + .read-more-greenwich-label:after {
+.read-more-stratford:checked + .read-more-content + .read-more-stratford-label:after {
   content: "Less";
 }
 </style>

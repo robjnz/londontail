@@ -23,9 +23,13 @@
       </div>
       
       <div class="grid sm:flex">
-        <hoxton /><!--Hoxton Hall-->
-        <ilford /><!--Kenneth More Theatre-->
-        <hornchurch /><!--Queen's Theatre Hornchurch -->
+        <stratford /><!--Theatre Royal Stratford East-->
+        <two /><!--The O2 arena-->
+        <wilton /><!--Wilton's Music Hall -->
+      </div>
+      <div class="grid sm:flex">
+        <yard/><!--The Yard -->
+        
       </div>
      
     </div>
@@ -40,6 +44,10 @@ import hackney from "@/components/Theatres/hackney";
 import hoxton from "@/components/Theatres/hoxton";
 import ilford from "@/components/Theatres/ilford";
 import hornchurch from "@/components/Theatres/hornchurch";
+import stratford from "@/components/Theatres/stratford";
+import two from "@/components/Theatres/two";
+import wilton from "@/components/Theatres/wilton";
+import yard from "@/components/Theatres/yard";
 
 
 
@@ -62,8 +70,10 @@ export default {
     hornchurch,
     hoxton,
     ilford,
-    
-    
+    stratford,
+    two,
+    wilton,
+    yard,
     date,
   }
 };

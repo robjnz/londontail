@@ -55,17 +55,17 @@
         <rainham /><!--rainham hall-->
       </div>
 
-      <!--27 march -->
+      <!--27 march
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Fri 27 March
       </h3>
-      <div class="grid sm:flex"><valence /><!--Valence House Museum--></div>
+      <div class="grid sm:flex"><valence -Valence House Museum--</div>
 
-      <!--april-->
-      <!--4 april-->
+      april
+      4 april--
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -73,19 +73,19 @@
         Sat 4 April
       </h3>
       <div class="grid sm:flex">
-        <eltham /><!-- Eltham Palace-->
-        <red /><!-- red house-->
+        <eltham />- Eltham Palace--
+        <red /> red house--
       </div>
 
-      <!--23 april-->
+      23 april
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Thurs 23 April
       </h3>
-      <div class="grid sm:flex"><trinity /><!-- Trinity Buoy Wharf--></div>
-
+      <div class="grid sm:flex"><trinity / Trinity Buoy Wharf--</div>
+-->
       <g-link class="text-blue-500 text-2xl hover:text-white" to="/visit"
         >Places to visit</g-link
       >
