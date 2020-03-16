@@ -1,49 +1,54 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H2 class="text-2xl text-blue-200"> Ilford</H2>
-      <g-link href="http://bit.ly/2WkdIT0" target="_blank"
+      <H2 class="text-2xl text-blue-200"> Kenneth More Theatre</H2>
+      <g-link href="http://bit.ly/39VrEaj" target="_blank"
         ><g-image
-          
-          src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1582957572/poppins_spyysw.jpg"
-          fluid-grow
-          alt = "Docklands Museum"
+          src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1584347598/bugsy_vcrkb9.png"
+          alt = "Kenneth More Theatre poster"
       /></g-link>
-       
-      <p class="text-blue-200"> 
-         Broadway<br /> Barking Essex
+
+      <p class="text-blue-200">
+        Oakfield Road<br />
+        Ilford Essex
+
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "http://bit.ly/3cXDRwZ"
+          to     = "http://bit.ly/2xHi1hb"
           target = "_blank"
         >
-          IG11 7LS
+          IG1 1BT
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Mary Poppins Reappears</h5>
+      <h5 class="text-2xl text-pink-300">Bugsy Malone</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 15 - 28 March
+        Wed 1 - Sun 5 April
       </p>
-    
 
-<article class="text-blue-200">
-   Mary Poppins, a mystical nanny returns to London....
-  <input id="read-more-ilford-1" class="read-more-ilford" type="checkbox">
-  <div class="read-more-content">
-         To save the day in this musical dance show suitable for all.
+      <article class="text-blue-200">
+        Bugsy Malone, Dandy Dan and the rest <br />of the gangsters.....
+        <input
+          id    = "read-more-ilford-1"
+          class = "read-more-ilford"
+          type  = "checkbox"
+        />
+        <div class="read-more-content">
+          They take to the streets <br />with Splurge Guns and cream pies.
+        </div>
+        <label
+          class = "read-more-ilford-label text-red-700 hover:text-white"
+          for   = "read-more-ilford-1"
+          >Read
+        </label>
+      </article>
 
-  </div>
-  <label class="read-more-ilford-label text-red-700 hover:text-white" for="read-more-ilford-1">Read </label>
-</article>
-     
-
-<br />
-<g-link
+      <br />
+      <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2WkdIT0"
+        to     = "http://bit.ly/39VrEaj"
         target = "_blank"
       >
         More Info
@@ -53,12 +58,10 @@
 </template>
 
 <style>
-
-
 .read-more-content {
   max-height: 0;
   overflow  : hidden;
-  transition: max-height .5s ease;
+  transition: max-height 0.5s ease;
 }
 .read-more-ilford {
   display: none;
@@ -69,7 +72,7 @@
   cursor     : pointer;
   border     : none;
   padding    : 5px;
-  margin     : .5em;
+  margin     : 0.5em;
   font-size  : 16px;
 }
 .read-more-ilford-label:after {

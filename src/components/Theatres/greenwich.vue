@@ -92,4 +92,7 @@
     than the content */
   max-height: 1000px;
 }
+.read-more-greenwich:checked + .read-more-content + .read-more-greenwich:after {
+  content: "Less";
+}
 </style>

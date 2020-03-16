@@ -11,7 +11,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 15 March
+        Mon 16 March
       </h3>
       <!-- Fri 13 March to Fri 3 Apri-->
       <div class="grid sm:flex">

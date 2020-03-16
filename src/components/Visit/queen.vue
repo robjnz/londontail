@@ -34,6 +34,8 @@
       >
         More Info
       </g-link>
+ 
+
     </div>
   </div>
 </template>

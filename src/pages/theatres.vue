@@ -15,6 +15,13 @@
         <greenwich /><!--Greenwich Theatre-->
         <hackney /><!--Faces -->
       </div>
+      
+      <div class="grid sm:flex">
+        <hoxton /><!--Hoxton Hall-->
+        <ilford /><!--Kenneth More Theatre-->
+        <romford /><!--Queen's Theatre Hornchurch -->
+      </div>
+     
     </div>
     <br />
   </Layout>
@@ -24,15 +31,11 @@
 import barking from "@/components/Theatres/barking";
 import greenwich from "@/components/Theatres/greenwich";
 import hackney from "@/components/Theatres/hackney";
-
+import hoxton from "@/components/Theatres/hoxton";
 import ilford from "@/components/Theatres/ilford";
 import romford from "@/components/Theatres/romford";
 
-import bar from "@/components/Nightclubs/bar";
-import faces from "@/components/Nightclubs/faces";
-import jhankaar from "@/components/Nightclubs/jhankaar";
-import kings from "@/components/Nightclubs/kings";
-import xoyo from "@/components/Nightclubs/xoyo";
+
 
 import date from "@/components/Home/date";
 
@@ -50,14 +53,11 @@ export default {
     barking,
     greenwich,
     hackney,
+    hoxton,
     ilford,
     romford,
-    bar,
-    faces,
-    jhankaar,
-    kings,
-    xoyo,
-    date
+    
+    date,
   }
 };
 </script>

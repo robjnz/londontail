@@ -2,7 +2,7 @@
   <Layout>
     <div id="background" class="container m-auto">
       <h1 class="ml-12 mt-16 text-4xl text-red-600">
-        Things to do in east London today
+        Things To Do In East London Today
       </h1>
       <!--<date class="ml-8"/>-->
      

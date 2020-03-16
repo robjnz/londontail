@@ -56,10 +56,12 @@ Once again we fuse together the best<br /> in musical talent.....<input
 </template>
 
 <style>
+
+
 .read-more-content {
   max-height: 0;
   overflow  : hidden;
-  transition: max-height 0.5s ease;
+  transition: max-height .5s ease;
 }
 .read-more-hackney {
   display: none;
@@ -70,7 +72,7 @@ Once again we fuse together the best<br /> in musical talent.....<input
   cursor     : pointer;
   border     : none;
   padding    : 5px;
-  margin     : 0.5em;
+  margin     : .5em;
   font-size  : 16px;
 }
 .read-more-hackney-label:after {
@@ -83,10 +85,7 @@ Once again we fuse together the best<br /> in musical talent.....<input
     than the content */
   max-height: 1000px;
 }
-    .read-more-hackney:checked + .read-more-content {
-  display: block;
-  /* css animation won't work with "auto"; set to some height larger
-    than the content */
-  max-height: 1000px;
+.read-more-hackney:checked + .read-more-content + .read-more-hackney-label:after {
+  content: "Less";
 }
 </style>
