@@ -9,14 +9,14 @@
       </h2>
 
       <!--march-->
-<!--fri 13 march-->
+<!--mon 16 march-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 13 March
+        Mon 16 March
       </h3>
-      <div class="grid sm:flex"><romford /><!--romford--></div>
+      <div class="grid sm:flex"><hornchurch /><!--romford--></div>
       <br />
       <!--end fri 13 march-->
       <h3 class="text-xl text-pink-300">
@@ -73,7 +73,7 @@ import greenwich from "@/components/Theatres/greenwich";
 import hackney from "@/components/Theatres/hackney";
 import hoxton from "@/components/Theatres/hoxton";
 import ilford from "@/components/Theatres/ilford";
-import romford from "@/components/Theatres/romford";
+import hornchurch from "@/components/Theatres/hornchurch";
 
 import Blank from "@/components/Home/Blank";
 import atik from "@/components/Nightclubs/atik";
@@ -85,9 +85,10 @@ export default {
     barking,
     greenwich,
     hackney,
+    hornchurch,
     hoxton,
     ilford,
-    romford,
+    
     
     
   }

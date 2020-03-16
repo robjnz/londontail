@@ -19,7 +19,13 @@
       <div class="grid sm:flex">
         <hoxton /><!--Hoxton Hall-->
         <ilford /><!--Kenneth More Theatre-->
-        <romford /><!--Queen's Theatre Hornchurch -->
+        <hornchurch/><!--Queen's Theatre Hornchurch -->
+      </div>
+      
+      <div class="grid sm:flex">
+        <hoxton /><!--Hoxton Hall-->
+        <ilford /><!--Kenneth More Theatre-->
+        <hornchurch /><!--Queen's Theatre Hornchurch -->
       </div>
      
     </div>
@@ -33,7 +39,7 @@ import greenwich from "@/components/Theatres/greenwich";
 import hackney from "@/components/Theatres/hackney";
 import hoxton from "@/components/Theatres/hoxton";
 import ilford from "@/components/Theatres/ilford";
-import romford from "@/components/Theatres/romford";
+import hornchurch from "@/components/Theatres/hornchurch";
 
 
 
@@ -53,9 +59,10 @@ export default {
     barking,
     greenwich,
     hackney,
+    hornchurch,
     hoxton,
     ilford,
-    romford,
+    
     
     date,
   }
