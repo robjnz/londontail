@@ -7,13 +7,6 @@
       <!--<date class="ml-8"/>-->
      
         <on />
-      
-
-      
-        <theatre />
-      
-
-      <night />
     </div>
     <br />
   </Layout>

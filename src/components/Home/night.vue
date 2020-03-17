@@ -8,39 +8,8 @@
         Nightclubs
       </h2>
       
-     <!--march-->
-        <h3 class="text-xl text-pink-300">
-      <span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span>
-      Fri 20 March
-    </h3>
-    <div class="grid sm:flex">
-        <atik /><!--atik-->
-      </div>
-      <br />
-<!--27 march-->
-       <h3 class="text-xl text-pink-300">
-      <span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span>
-      Fri 27 March
-    </h3>
-    <div class="grid sm:flex">
-        <xoyo /><!--xoyo-->
-      </div>
-      <!--27 march -->
-      <br />
-      <!--april-->
-       <h3 class="text-xl text-pink-300">
-      <span style="font-size: 1em;">
-        <i class="far fa-calendar-alt"></i>
-      </span>
-      Fri 3 April
-    </h3>
-    <div class="grid sm:flex">
-        <faces /><!--faces-->
-      </div>
+    
+       
       
 
       <g-link class="text-blue-500 text-2xl hover:text-white" to="/nightclubs"

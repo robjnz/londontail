@@ -12,8 +12,8 @@
 
       <div class="grid sm:flex">
         <barking /><!--Broadway Theatre Barking-->
-        <greenwich /><!--Greenwich Theatre-->
-        <hackney /><!--Faces -->
+        <greenwichT /><!--Greenwich Theatre-->
+        <hackneyT /><!--hackney empire -->
       </div>
       
       <div class="grid sm:flex">
@@ -39,8 +39,8 @@
 
 <script>
 import barking from "@/components/Theatres/barking";
-import greenwich from "@/components/Theatres/greenwich";
-import hackney from "@/components/Theatres/hackney";
+import greenwichT from "@/components/Theatres/greenwichT";
+import hackneyT from "@/components/Theatres/hackneyT";
 import hoxton from "@/components/Theatres/hoxton";
 import ilford from "@/components/Theatres/ilford";
 import hornchurch from "@/components/Theatres/hornchurch";
@@ -65,8 +65,8 @@ export default {
   },
   components: {
     barking,
-    greenwich,
-    hackney,
+    greenwichT,
+    hackneyT,
     hornchurch,
     hoxton,
     ilford,

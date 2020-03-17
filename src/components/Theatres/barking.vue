@@ -26,7 +26,7 @@
           <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 15 - 28 March
+        Sun 15 - Sat 28 March
       </p>
     <mask />
 

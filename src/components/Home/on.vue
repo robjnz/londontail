@@ -1,22 +1,20 @@
 <template>
   <div class="m-4 mt-1 p-4 w-auto rounded-lg">
     <div class="p-6">
-      <h2 class="text-3xl text-blue-500">
-        <span>
-          <i class="fas fa-landmark"></i>
-        </span>
-        Places to Visit
-      </h2>
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Tues 17 March
       </h3>
-      <!-- Fri 13 March to Fri 3 Apri-->
+
       <div class="grid sm:flex">
         <queen /><!--olympic park-->
         <valentines /><!--valentines-->
+      </div>
+      <div class="grid sm:flex">
+        <barking /><!--barking-->
+        <hornchurch /><!--romford-->
       </div>
       <!--wed 18 march-->
 
@@ -28,7 +26,14 @@
       </h3>
 
       <div class="grid sm:flex"><docklands /><!--Docklands Museum --></div>
-
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 20 March
+      </h3>
+      <div class="grid sm:flex"><atik /><!--atik--></div>
+      <br />
       <!--sat 21 march-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -41,7 +46,7 @@
         <severndroog /><!--Severndroog Castle-->
         <sutton /><!--sutton house-->
       </div>
-
+      <div class="grid sm:flex"><hoxton /><!--hoxton--></div>
       <!-- 22 March-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -54,18 +59,61 @@
         <hall /><!--Hall Place & Gardens-->
         <rainham /><!--rainham hall-->
       </div>
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Tues 24 March
+      </h3>
+      <div class="grid sm:flex">
+        <stratford /><!--stratford-->
+        </div>
+      
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Wed 25 March
+      </h3>
+      <div class="grid sm:flex"><wilton /><!--wilton--></div>
+      
 
-      <!--27 march
+      <!--27 march-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Fri 27 March
       </h3>
-      <div class="grid sm:flex"><valence -Valence House Museum--</div>
-
-      april
-      4 april--
+      <div class="grid sm:flex">
+        <valence /><!--Valence House Museum-->
+        <two /><!--02-->
+        <xoyo /><!--xoyo-->
+      </div>
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Wed 1 April
+      </h3>
+      <div class="grid sm:flex"><ilford /><!--ilford--></div>
+      
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Thurs 2 April
+      </h3>
+      <div class="grid sm:flex"><yard /><!--yard--></div>
+      
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 3 April
+      </h3>
+      <div class="grid sm:flex"><faces /><!--faces--></div>
+      
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -73,22 +121,18 @@
         Sat 4 April
       </h3>
       <div class="grid sm:flex">
-        <eltham />- Eltham Palace--
-        <red /> red house--
+        <eltham /><!-- Eltham Palace-->
+        <red />
+        <!--red house-->
       </div>
 
-      23 april
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Thurs 23 April
       </h3>
-      <div class="grid sm:flex"><trinity / Trinity Buoy Wharf--</div>
--->
-      <g-link class="text-blue-500 text-2xl hover:text-white" to="/visit"
-        >Places to visit</g-link
-      >
+      <div class="grid sm:flex"><trinity /><!-- Trinity Buoy Wharf--></div>
     </div>
   </div>
 </template>
@@ -134,7 +178,20 @@ import victoria from "@/components/Visit/victoria";
 import viktor from "@/components/Visit/viktor";
 import wanstead from "@/components/Visit/wanstead";
 import william from "@/components/Visit/william";
+import barking from "@/components/Theatres/barking";
+import greenwichT from "@/components/Theatres/greenwichT";
+import hackneyT from "@/components/Theatres/hackneyT";
+import hoxton from "@/components/Theatres/hoxton";
+import ilford from "@/components/Theatres/ilford";
+import hornchurch from "@/components/Theatres/hornchurch";
+import stratford from "@/components/Theatres/stratford";
+import two from "@/components/Theatres/two";
+import wilton from "@/components/Theatres/wilton";
+import yard from "@/components/Theatres/yard";
 import date from "@/components/Home/date";
+import atik from "@/components/Nightclubs/atik";
+import faces from "@/components/Nightclubs/faces";
+import xoyo from "@/components/Nightclubs/xoyo";
 
 export default {
   components: {
@@ -178,6 +235,19 @@ export default {
     viktor,
     wanstead,
     william,
+    barking,
+    greenwichT,
+    hackneyT,
+    hornchurch,
+    hoxton,
+    ilford,
+    stratford,
+    two,
+    wilton,
+    yard,
+    atik,
+    faces,
+    xoyo,
     date
   }
 };

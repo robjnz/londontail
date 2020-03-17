@@ -3,7 +3,7 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Valence House Museum</H2>
+        </span> Valence House</H2>
       <g-link href="http://bit.ly/2EmkhgG" target="_blank"
         ><g-image
           class = "w-auto h-auto"
