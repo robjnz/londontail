@@ -46,7 +46,11 @@
         <severndroog /><!--Severndroog Castle-->
         <sutton /><!--sutton house-->
       </div>
-      <div class="grid sm:flex"><hoxton /><!--hoxton--></div>
+      <div class="grid sm:flex">
+        <hoxton /><!--hoxton-->
+        <barkingF /><!--Barking F C-->
+
+        </div>
       <!-- 22 March-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -90,6 +94,16 @@
         <two /><!--02-->
         <xoyo /><!--xoyo-->
       </div>
+
+       <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Mon 30 March
+      </h3>
+      <div class="grid sm:flex"><barkingside /><!--barkingside fc--></div>
+
+
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -192,6 +206,9 @@ import date from "@/components/Home/date";
 import atik from "@/components/Nightclubs/atik";
 import faces from "@/components/Nightclubs/faces";
 import xoyo from "@/components/Nightclubs/xoyo";
+import barkingF from "@/components/Football/barkingF";
+import barkingside from "@/components/Football/barkingside";
+
 
 export default {
   components: {
@@ -248,7 +265,9 @@ export default {
     atik,
     faces,
     xoyo,
-    date
+    barkingF,
+    barkingside,
+    date,
   }
 };
 </script>

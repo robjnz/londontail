@@ -12,7 +12,7 @@
 
     <ul class="overflow-visible">
       <li class="flex flex-row">
-        <g-image class="mr-1 w-10 h-8" src="~/images/may.jpg" />
+        <g-image class="mr-1 w-10 h-8" src="~/images/football/may.jpg" />
         May & Bakers
         <span class="mx-1" style="color: #e000e0;">
           V
@@ -20,7 +20,7 @@
         Fenford <br />
       </li>
       <li class="flex flex-row">
-        <g-image class="mr-1 w-10 h-8" src="~/images/may.jpg" />
+        <g-image class="mr-1 w-10 h-8" src="~/images/football/may.jpg" />
         May & Bakers
         <span class="mx-1" style="color: #e000e0;">
           V
@@ -29,7 +29,7 @@
       </li>
 
       <li class="flex flex-row">
-        <g-image class="mr-1 w-10 h-8" src="~/images/may.jpg" />
+        <g-image class="mr-1 w-10 h-8" src="~/images/football/may.jpg" />
         May & Bakers
         <span class="mx-1" style="color: #e000e0;">
           V
