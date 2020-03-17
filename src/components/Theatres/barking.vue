@@ -1,7 +1,9 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H2 class="text-2xl text-blue-200"> Barking Theatre</H2>
+      <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
+          <i class="fas fa-theater-masks"></i>
+        </span>  Barking Theatre</H2>
       <g-link href="http://bit.ly/2WkdIT0" target="_blank"
         ><g-image
        class = "w-auto h-auto"
@@ -21,12 +23,12 @@
       </p>
       <h5 class="text-2xl text-pink-300">Mary Poppins Reappears</h5>
       <p class="text-pink-300">
-        <span>
+          <span>
           <i class="far fa-calendar-alt"></i>
         </span>
         Sun 15 - 28 March
       </p>
-    
+    <mask />
 
 <article class="text-blue-200">
    Mary Poppins, a mystical nanny returns <br />to London....
@@ -50,6 +52,8 @@
     </div>
   </div>
 </template>
+
+
 
 <style>
 

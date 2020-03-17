@@ -14,7 +14,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Mon 16 March
+        Tues 17 March
       </h3>
       <div class="grid sm:flex"><hornchurch /><!--romford--></div>
       <br />

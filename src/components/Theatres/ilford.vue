@@ -1,7 +1,9 @@
 <template>
   <div id="work-card" class="m-4 p-4 w-auto rounded-lg shadow-2xl">
     <div class="p-6">
-      <H2 class="text-2xl text-blue-200"> Kenneth More Theatre</H2>
+      <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
+          <i class="fas fa-theater-masks"></i>
+        </span> Kenneth More Theatre</H2>
       <g-link href="http://bit.ly/39VrEaj" target="_blank"
         ><g-image
           src = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1584347598/bugsy_vcrkb9.png"
