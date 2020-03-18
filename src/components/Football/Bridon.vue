@@ -14,20 +14,18 @@
           alt   = "Bridon Ropes"
       /></g-link>
       <p class="text-blue-200 text-center">
-                 Meridian Sports<br />
-Charlton Park Lane<br />
-Charlton London 
-
+        Meridian Sports<br />
+        Charlton Park Lane<br />
+        Charlton London
 
         <g-link
           class  = "text-red-700 hover:text-white"
           to     = "http://bit.ly/2w5xaIh"
           target = "_blank"
         >
-         SE7 8QS
+          SE7 8QS
         </g-link>
         <br /><br /><br /><br /><br />
-      
       </p>
 
       <g-link
