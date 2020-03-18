@@ -17,7 +17,7 @@
       </div>
 
        <div class="grid sm:flex">
-        <bridonF /><!--Bridon Ropes-->
+        <bridon /><!--Bridon Ropes-->
         <canning /><!-- Canning Town-->
         <charlton/><!--Charlton-->
       </div>
@@ -36,7 +36,7 @@
 import barkingF from "@/components/Football/barkingF";
 import barkingside from "@/components/Football/barkingside";
 import bexley from "@/components/Football/bexley";
-import bridonF from "@/components/Football/bridonF";
+import bridon from "@/components/Football/bridon";
 import canning from "@/components/Football/canning";
 import charlton from "@/components/Football/charlton";
 import charltonwomen from "@/components/Football/charltonwomen";
@@ -57,7 +57,7 @@ export default {
     barkingF,
     barkingside,
     bexley,
-    bridonF,
+    bridon,
     canning,
     charlton,
     charltonwomen,
