@@ -57,7 +57,7 @@
         <rainham /><!--rainham hall-->
       </div>
       <div class="grid sm:flex">
-        <charltonwomen/><!--charltonwomen-->
+        <!--<charltonwomen/>--charltonwomen-->
         
       </div>
       <h3 class="text-xl text-pink-300">
@@ -130,7 +130,7 @@
       <div class="grid sm:flex">
         <eltham /><!-- Eltham Palace-->
         <red /><!--red house-->
-        <charlton /><!--charlton fc-->
+        <!--<charlton --charlton fc-->
       </div>
 
       <h3 class="text-xl text-pink-300">
@@ -201,8 +201,7 @@ import faces from "@/components/Nightclubs/faces";
 import xoyo from "@/components/Nightclubs/xoyo";
 import barkingF from "@/components/Football/barkingF";
 import barkingside from "@/components/Football/barkingside";
-import charlton from "@/components/Football/charlton";
-import charltonwomen from "@/components/Football/charltonwomen";
+
 
 export default {
   components: {
@@ -261,9 +260,7 @@ export default {
     xoyo,
     barkingF,
     barkingside,
-    charlton,
-    charltonwomen,
-    date
+   
   }
 };
 </script>

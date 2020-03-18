@@ -18,12 +18,12 @@
 
        <div class="grid sm:flex">
         <bridon /><!--Bridon Ropes-->
-        <!--<canning  Canning Town-->
-        <charlton/><!--Charlton-->
+        
+       
       </div>
 
         <div class="grid sm:flex">
-        <charltonwomen /><!--Charlton women-->
+        
        
       </div>
     </div>
@@ -37,8 +37,7 @@ import barkingF from "@/components/Football/barkingF";
 import barkingside from "@/components/Football/barkingside";
 import bexley from "@/components/Football/bexley";
 import bridon from "@/components/Football/bridon";
-import charlton from "@/components/Football/charlton";
-import charltonwomen from "@/components/Football/charltonwomen";
+
 
 
 
@@ -57,8 +56,7 @@ export default {
     barkingside,
     bexley,
     bridon,
-    charlton,
-    charltonwomen,
+    
   }
 };
 </script>
