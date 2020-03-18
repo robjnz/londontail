@@ -5,27 +5,21 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Tues 17 March
+        Wed 18 March
       </h3>
 
       <div class="grid sm:flex">
+        <docklands /><!--Docklands Museum -->
         <queen /><!--olympic park-->
         <valentines /><!--valentines-->
       </div>
       <div class="grid sm:flex">
         <barking /><!--barking-->
         <hornchurch /><!--romford-->
+        
       </div>
-      <!--wed 18 march-->
 
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Wed 18 March
-      </h3>
-
-      <div class="grid sm:flex"><docklands /><!--Docklands Museum --></div>
+      <div class="grid sm:flex"></div>
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -49,8 +43,7 @@
       <div class="grid sm:flex">
         <hoxton /><!--hoxton-->
         <barkingF /><!--Barking F C-->
-
-        </div>
+      </div>
       <!-- 22 March-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -63,16 +56,18 @@
         <hall /><!--Hall Place & Gardens-->
         <rainham /><!--rainham hall-->
       </div>
+      <div class="grid sm:flex">
+        <charltonwomen/><!--charltonwomen-->
+        
+      </div>
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Tues 24 March
       </h3>
-      <div class="grid sm:flex">
-        <stratford /><!--stratford-->
-        </div>
-      
+      <div class="grid sm:flex"><stratford /><!--stratford--></div>
+
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -80,7 +75,6 @@
         Wed 25 March
       </h3>
       <div class="grid sm:flex"><wilton /><!--wilton--></div>
-      
 
       <!--27 march-->
       <h3 class="text-xl text-pink-300">
@@ -95,14 +89,13 @@
         <xoyo /><!--xoyo-->
       </div>
 
-       <h3 class="text-xl text-pink-300">
+      <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Mon 30 March
       </h3>
       <div class="grid sm:flex"><barkingside /><!--barkingside fc--></div>
-
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -111,7 +104,7 @@
         Wed 1 April
       </h3>
       <div class="grid sm:flex"><ilford /><!--ilford--></div>
-      
+
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -119,7 +112,7 @@
         Thurs 2 April
       </h3>
       <div class="grid sm:flex"><yard /><!--yard--></div>
-      
+
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -127,7 +120,7 @@
         Fri 3 April
       </h3>
       <div class="grid sm:flex"><faces /><!--faces--></div>
-      
+
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -136,8 +129,8 @@
       </h3>
       <div class="grid sm:flex">
         <eltham /><!-- Eltham Palace-->
-        <red />
-        <!--red house-->
+        <red /><!--red house-->
+        <charlton /><!--charlton fc-->
       </div>
 
       <h3 class="text-xl text-pink-300">
@@ -208,7 +201,8 @@ import faces from "@/components/Nightclubs/faces";
 import xoyo from "@/components/Nightclubs/xoyo";
 import barkingF from "@/components/Football/barkingF";
 import barkingside from "@/components/Football/barkingside";
-
+import charlton from "@/components/Football/charlton";
+import charltonwomen from "@/components/Football/charltonwomen";
 
 export default {
   components: {
@@ -267,7 +261,9 @@ export default {
     xoyo,
     barkingF,
     barkingside,
-    date,
+    charlton,
+    charltonwomen,
+    date
   }
 };
 </script>
