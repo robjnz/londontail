@@ -5,11 +5,11 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Wed 18 March
+        Thurs 19 March
       </h3>
 
       <div class="grid sm:flex">
-        <docklands /><!--Docklands Museum -->
+        
         <queen /><!--olympic park-->
         <valentines /><!--valentines-->
       </div>
@@ -57,7 +57,7 @@
         <rainham /><!--rainham hall-->
       </div>
       <div class="grid sm:flex">
-        <!--<charltonwomen/>--charltonwomen-->
+        <charltonwomen/><!--charltonwomen-->
         
       </div>
       <h3 class="text-xl text-pink-300">
@@ -130,7 +130,13 @@
       <div class="grid sm:flex">
         <eltham /><!-- Eltham Palace-->
         <red /><!--red house-->
+       
+      </div>
+
+       <div class="grid sm:flex">
+       
         <charlton /><!--charlton fc-->
+        <dagred /><!--Dagenham & Redbridge-->
       </div>
 
       <h3 class="text-xl text-pink-300">
@@ -202,6 +208,8 @@ import xoyo from "@/components/Nightclubs/xoyo";
 import barkingF from "@/components/Football/barkingF";
 import barkingside from "@/components/Football/barkingside";
 import charlton from "@/components/Football/charlton";
+import charltonwomen from "@/components/Football/charltonwomen";
+import dagred from "@/components/Football/dagred";
 
 
 export default {
@@ -262,6 +270,8 @@ export default {
     barkingF,
     barkingside,
     charlton,
+    charltonwomen,
+    dagred,
   }
 };
 </script>

@@ -23,10 +23,15 @@
       </div>
 
         <div class="grid sm:flex">
-        <bridon /><!--Bridon Ropes-->
-        <canning /><!--Canning Town-->
-        <charlton /><!--charlton-->
-       
+        <charltonwomen /><!--charlton womens-->
+        <dagenham /><!--Dagenham-->
+        <dagred /><!--Dagenham & Redbridge-->
+      </div>
+      
+      <div class="grid sm:flex">
+        <charltonwomen /><!--charlton womens-->
+        <dagenham /><!--Dagenham-->
+        <dagred /><!--Dagenham & Redbridge-->
       </div>
     </div>
 
@@ -41,6 +46,9 @@ import bexley from "@/components/Football/bexley";
 import bridon from "@/components/Football/bridon";
 import canning from "@/components/Football/canning";
 import charlton from "@/components/Football/charlton";
+import charltonwomen from "@/components/Football/charltonwomen";
+import dagenham from "@/components/Football/dagenham";
+import dagred from "@/components/Football/dagred";
 
 
 
@@ -51,7 +59,7 @@ export default {
     meta : [
       {
         name   : "description",
-        content: "Whats on guide for Local football matches In East London."
+        content: "Whats on guide for football home matches In East London."
       }
     ]
   },
@@ -62,6 +70,9 @@ export default {
     bridon,
     canning,
     charlton,
+    charltonwomen,
+    dagenham,
+    dagred,
   }
 };
 </script>
