@@ -138,6 +138,28 @@
         <charlton /><!--charlton fc-->
         <dagred /><!--Dagenham & Redbridge-->
       </div>
+ <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 10 April
+      </h3>
+ <div class="grid sm:flex">
+        <erithtown /><!--erith town fc-->
+        
+      </div>
+
+
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 11 April
+      </h3>
+ <div class="grid sm:flex">
+        <forest /><!--forest fc-->
+        
+      </div>
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -210,6 +232,8 @@ import barkingside from "@/components/Football/barkingside";
 import charlton from "@/components/Football/charlton";
 import charltonwomen from "@/components/Football/charltonwomen";
 import dagred from "@/components/Football/dagred";
+import erithtown from "@/components/Football/erithtown";
+import forest from "@/components/Football/forest";
 
 
 export default {
@@ -272,6 +296,8 @@ export default {
     charlton,
     charltonwomen,
     dagred,
+    erithtown,
+    forest,
   }
 };
 </script>

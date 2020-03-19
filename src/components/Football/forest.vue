@@ -5,46 +5,41 @@
         <span class="text-pink-300 mr-2">
           <i class="fas fa-futbol"></i>
         </span>
-        Dagenham & Redbridge
+       Forest Hill Park 
       </h2>
-      <g-link href="http://bit.ly/2KLUYEr" target="_blank"
+      <g-link href="http://bit.ly/2TqiECK" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/football/dagred.png"
-          alt   = "Dagenham & Redbridge"
+          src   = "~/images/football/forest.jpg"
+          alt   = "Forest Hill Park"
       /></g-link>
       <p class="text-blue-200 text-center">
-       Chigwell Construction Stadium<br />Victoria Road<br /> Dagenham Essex
+        Ladywell Arena<br />
+      Silvermere Road
+      <br />Catford London
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "http://bit.ly/398xzHX"
+          to     = "http://bit.ly/2Wso6bq"
           target = "_blank"
         >
-          RM10 7XL
+          SE6 4QX
         </g-link>
         <br /><br />
-      <!--Dag_RedFC-->
+       <!-- #barkingfc -->
       </p>
 
       <p class="text-pink-200 text-center">
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3 pm <br /><span class="text-red-700">V</span> <br />Halifax Town
-        
-         
-  <!--
-  
-  Mon 13 April 2020 @ 3pm<br>V<br>Eastleigh<br>
-  Sat 25 April 2020 @ 5.20pm<br>V<br>Chesterfield<br>
--->
-     
-    </p>
+        Sat 11 April 3 pm  <br /><span class="text-red-700">V</span> <br />Sporting Club Thamesmead
+      </p>
+       
 
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2KLUYEr"
+        to     = "http://bit.ly/2TqiECK"
         target = "_blank"
       >
         More Info

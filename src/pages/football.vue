@@ -29,9 +29,15 @@
       </div>
       
       <div class="grid sm:flex">
-        <charltonwomen /><!--charlton womens-->
-        <dagenham /><!--Dagenham-->
-        <dagred /><!--Dagenham & Redbridge-->
+        <erithtown /><!--Erith Town-->
+        <erithbell /><!--Erith & Belvedere-->
+        <forest /><!--Forest Hill Park-->
+      </div>
+
+        <div class="grid sm:flex">
+        <erithtown /><!--Erith Town-->
+        <erithbell /><!--Erith & Belvedere-->
+        <forest /><!--Forest Hill Park-->
       </div>
     </div>
 
@@ -49,6 +55,10 @@ import charlton from "@/components/Football/charlton";
 import charltonwomen from "@/components/Football/charltonwomen";
 import dagenham from "@/components/Football/dagenham";
 import dagred from "@/components/Football/dagred";
+import erithtown from "@/components/Football/erithtown";
+import erithbell from "@/components/Football/erithbell";
+import forest from "@/components/Football/forest";
+
 
 
 
@@ -73,6 +83,9 @@ export default {
     charltonwomen,
     dagenham,
     dagred,
+    erithtown,
+    erithbell,
+    forest,
   }
 };
 </script>

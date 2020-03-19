@@ -5,46 +5,44 @@
         <span class="text-pink-300 mr-2">
           <i class="fas fa-futbol"></i>
         </span>
-        Dagenham & Redbridge
+       Erith Town
       </h2>
-      <g-link href="http://bit.ly/2KLUYEr" target="_blank"
+      <g-link href="http://bit.ly/2zRykq3" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/football/dagred.png"
-          alt   = "Dagenham & Redbridge"
+          src   = "~/images/football/erith.jpg"
+          alt   = "Erith Town"
       /></g-link>
       <p class="text-blue-200 text-center">
-       Chigwell Construction Stadium<br />Victoria Road<br /> Dagenham Essex
+        Erith Stadium <br />Erith Avenue Road <br />Erith Kent
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "http://bit.ly/398xzHX"
+          to     = "http://bit.ly/3clNVzN"
           target = "_blank"
         >
-          RM10 7XL
+          DA8 3AT
         </g-link>
         <br /><br />
-      <!--Dag_RedFC-->
+       <!-- #barkingfc -->
       </p>
 
       <p class="text-pink-200 text-center">
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3 pm <br /><span class="text-red-700">V</span> <br />Halifax Town
+        Fri 10 April 1 pm<br /><span class="text-red-700">V</span> <br />Corinthian
         
-         
-  <!--
-  
-  Mon 13 April 2020 @ 3pm<br>V<br>Eastleigh<br>
-  Sat 25 April 2020 @ 5.20pm<br>V<br>Chesterfield<br>
+       <!--
+   
+
+Sat 25 April 2020 @ 3pm <br>V<br>Tunbridge Wells<br>
 -->
-     
     </p>
 
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2KLUYEr"
+        to     = "http://bit.ly/2zRykq3"
         target = "_blank"
       >
         More Info
