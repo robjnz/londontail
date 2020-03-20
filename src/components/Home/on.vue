@@ -130,13 +130,13 @@
       <div class="grid sm:flex">
         <eltham /><!-- Eltham Palace-->
         <red /><!--red house-->
-       
+        <charlton /><!--charlton fc-->
       </div>
 
        <div class="grid sm:flex">
-       
-        <charlton /><!--charlton fc-->
         <dagred /><!--Dagenham & Redbridge-->
+        <greenwichF /><!--greenwich fc-->
+        <hornchurchF /><!--hornchurch fc-->
       </div>
  <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -158,8 +158,17 @@
       </h3>
  <div class="grid sm:flex">
         <forest /><!--forest fc-->
-        
       </div>
+
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 18 April
+      </h3>
+      <div class="grid sm:flex">
+        <ilfordF/><!-- ilford fc--></div>
+    
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -234,6 +243,9 @@ import charltonwomen from "@/components/Football/charltonwomen";
 import dagred from "@/components/Football/dagred";
 import erithtown from "@/components/Football/erithtown";
 import forest from "@/components/Football/forest";
+import greenwichF from "@/components/Football/greenwichF";
+import hornchurchF from "@/components/Football/hornchurchF";
+import ilfordF from "@/components/Football/ilfordF";
 
 
 export default {
@@ -298,6 +310,9 @@ export default {
     dagred,
     erithtown,
     forest,
+    greenwichF,
+    hornchurchF,
+    ilfordF,
   }
 };
 </script>

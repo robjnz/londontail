@@ -35,9 +35,15 @@
       </div>
 
         <div class="grid sm:flex">
-        <erithtown /><!--Erith Town-->
-        <erithbell /><!--Erith & Belvedere-->
-        <forest /><!--Forest Hill Park-->
+        <greenwichF /><!--Greenwich-->
+        <hornchurchF /><!--Hornchurch-->
+        <ilfordF /><!--Ilford-->
+      </div>
+
+      <div class="grid sm:flex">
+        <greenwichF /><!--Greenwich-->
+        <hornchurchF /><!--Hornchurch-->
+        <ilfordF /><!--Ilford-->
       </div>
     </div>
 
@@ -58,6 +64,9 @@ import dagred from "@/components/Football/dagred";
 import erithtown from "@/components/Football/erithtown";
 import erithbell from "@/components/Football/erithbell";
 import forest from "@/components/Football/forest";
+import greenwichF from "@/components/Football/greenwichF";
+import hornchurchF from "@/components/Football/hornchurchF";
+import ilfordF from "@/components/Football/ilfordF";
 
 
 
@@ -86,6 +95,9 @@ export default {
     erithtown,
     erithbell,
     forest,
+    greenwichF,
+    hornchurchF,
+    ilfordF,
   }
 };
 </script>
