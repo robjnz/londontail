@@ -5,46 +5,43 @@
         <span class="text-pink-300 mr-2">
           <i class="fas fa-futbol"></i>
         </span>
-        Dagenham Redbridge
+        Orient
       </h2>
-      <g-link href="http://bit.ly/2KLUYEr" target="_blank"
+      <g-link href="http://bit.ly/2GsFU02" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/football/dagred.png"
-          alt   = "Dagenham & Redbridge"
+          src   = "~/images/football/orient.jpg"
+          alt   = "leyton orient"
       /></g-link>
       <p class="text-blue-200 text-center">
-       Chigwell Construction Stadium<br />Victoria Road<br /> Dagenham Essex
+        Matchroom Stadium<br>Brisbane Road <br />Leyton London 
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "http://bit.ly/398xzHX"
+          to     = "http://bit.ly/2PA8PRD"
           target = "_blank"
         >
-          RM10 7XL
+          E10 5NF
         </g-link>
         <br /><br />
-      <!--Dag_RedFC-->
+        <!-- #leytonorientfc -->
       </p>
 
       <p class="text-pink-200 text-center">
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3 pm <br /><span class="text-red-700">V</span> <br />Halifax Town
-        
-         
-  <!--
-  
-  Mon 13 April 2020 @ 3pm<br>V<br>Eastleigh<br>
-  Sat 25 April 2020 @ 5.20pm<br>V<br>Chesterfield<br>
--->
-     
-    </p>
+        Mon 13 April 3 pm <br /><span class="text-red-700">V</span>
+        <br />Salford City
+      </p>
 
+       <!--
+
+Sat 25 April 2020 @ 3pm <br>V<br>Exeter City <br>
+-->
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2KLUYEr"
+        to     = "http://bit.ly/2GsFU02"
         target = "_blank"
       >
         More Info

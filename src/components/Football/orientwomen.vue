@@ -5,46 +5,41 @@
         <span class="text-pink-300 mr-2">
           <i class="fas fa-futbol"></i>
         </span>
-        Dagenham Redbridge
+        Orient<span class="ml-2 text-pink-200">Women's Team</span>
       </h2>
-      <g-link href="http://bit.ly/2KLUYEr" target="_blank"
+      <g-link href="http://bit.ly/2IjjrAF" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/football/dagred.png"
-          alt   = "Dagenham & Redbridge"
+          src   = "~/images/football/orient.jpg"
+          alt   = "leyton orient"
       /></g-link>
       <p class="text-blue-200 text-center">
-       Chigwell Construction Stadium<br />Victoria Road<br /> Dagenham Essex
+        Mile End Stadium<br />190 Burdett Road <br />Mile End London
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "http://bit.ly/398xzHX"
+          to     = "http://bit.ly/2uFKXVA"
           target = "_blank"
         >
-          RM10 7XL
+          E3 4HL
         </g-link>
         <br /><br />
-      <!--Dag_RedFC-->
+        <!-- #leytonorientfc -->
+         <!--OrientWFC-->
       </p>
 
       <p class="text-pink-200 text-center">
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3 pm <br /><span class="text-red-700">V</span> <br />Halifax Town
-        
-         
-  <!--
-  
-  Mon 13 April 2020 @ 3pm<br>V<br>Eastleigh<br>
-  Sat 25 April 2020 @ 5.20pm<br>V<br>Chesterfield<br>
--->
-     
-    </p>
+        Sun 26 April 2 pm <br /><span class="text-red-700">V</span>
+        <br />Cambridge United
+      </p>
 
+   
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2KLUYEr"
+        to     = "http://bit.ly/2IjjrAF"
         target = "_blank"
       >
         More Info

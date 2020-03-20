@@ -5,43 +5,24 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Thurs 19 March
+      Sat 21 March
       </h3>
 
       <div class="grid sm:flex">
-        
-        <queen /><!--olympic park-->
         <valentines /><!--valentines-->
-      </div>
-      <div class="grid sm:flex">
         <barking /><!--barking-->
         <hornchurch /><!--romford-->
         
       </div>
 
-      <div class="grid sm:flex"></div>
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Fri 20 March
-      </h3>
-      <div class="grid sm:flex"><atik /><!--atik--></div>
-      <br />
-      <!--sat 21 march-->
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sat 21 March
-      </h3>
 
       <div class="grid sm:flex">
         <severndroog /><!--Severndroog Castle-->
         <sutton /><!--sutton house-->
+        <hoxton /><!--hoxton-->
+
       </div>
       <div class="grid sm:flex">
-        <hoxton /><!--hoxton-->
         <barkingF /><!--Barking F C-->
       </div>
       <!-- 22 March-->
@@ -148,16 +129,24 @@
         <erithtown /><!--erith town fc-->
         
       </div>
-
-
-      <h3 class="text-xl text-pink-300">
+<h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Sat 11 April
       </h3>
- <div class="grid sm:flex">
+      <div class="grid sm:flex">
         <forest /><!--forest fc-->
+      </div>
+
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Mon 13 April
+      </h3>
+ <div class="grid sm:flex">
+        <orient/><!--orient fc-->
       </div>
 
       <h3 class="text-xl text-pink-300">
@@ -177,6 +166,16 @@
         Thurs 23 April
       </h3>
       <div class="grid sm:flex"><trinity /><!-- Trinity Buoy Wharf--></div>
+
+       <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sun 26 April
+      </h3>
+      <div class="grid sm:flex">
+        <orientwomen /><!-- orientwomens fc-->
+        </div>
     </div>
   </div>
 </template>
@@ -246,6 +245,8 @@ import forest from "@/components/Football/forest";
 import greenwichF from "@/components/Football/greenwichF";
 import hornchurchF from "@/components/Football/hornchurchF";
 import ilfordF from "@/components/Football/ilfordF";
+import orient from "@/components/Football/orient";
+import orientwomen from "@/components/Football/orientwomen";
 
 
 export default {
@@ -313,6 +314,8 @@ export default {
     greenwichF,
     hornchurchF,
     ilfordF,
+    orient,
+    orientwomen,
   }
 };
 </script>

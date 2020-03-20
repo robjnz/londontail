@@ -21,6 +21,9 @@
         >
          E20 2ST
         </g-link>
+      </p>
+      <br /><br />
+        <!--
          <h5 class="text-2xl text-pink-300">Driverless Pod Trial</h5>
       <p class="text-pink-300">
         <span>
@@ -28,7 +31,7 @@
         </span>
         Mon 9 – Fri 20 March
       </p>
-      
+      -->
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/33bvDwV"
