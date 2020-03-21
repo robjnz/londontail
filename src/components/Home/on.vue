@@ -182,6 +182,17 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
+        Sat 25 April
+      </h3>
+      <div class="grid sm:flex">
+        <phoenix /><!-- phoenix sport -->
+        <redbridge /><!--redbridge fc -->
+        </div>
+
+        <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
         Sun 26 April
       </h3>
       <div class="grid sm:flex">
@@ -260,6 +271,8 @@ import orient from "@/components/Football/orient";
 import orientwomen from "@/components/Football/orientwomen";
 import may from "@/components/Football/may";
 import newbury from "@/components/Football/newbury";
+import phoenix from "@/components/Football/phoenix";
+import redbridge from "@/components/Football/redbridge";
 
 
 export default {
@@ -331,6 +344,8 @@ export default {
     orientwomen,
     may,
     newbury,
+    phoenix,
+    redbridge,
   }
 };
 </script>

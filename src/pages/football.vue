@@ -51,6 +51,18 @@
         <orient /><!--Leyton Orient-->
         <orientwomen /><!--Leyton Orient womens-->
       </div>
+
+      <div class="grid sm:flex">
+        <phoenix /><!--Phoenix Sports-->
+        <phoenixwomen /><!--Phoenix Sports womens-->
+        <redbridge /><!--redbridge-->
+      </div>
+
+       <div class="grid sm:flex">
+        <phoenix /><!--romford-->
+        <phoenixwomen /><!--Tower Hamlets-->
+        <redbridge /><!--walthamstow-->
+      </div>
     </div>
 
     <br />
@@ -79,6 +91,9 @@ import orientwomen from "@/components/Football/orientwomen";
 import lopes from "@/components/Football/lopes";
 import may from "@/components/Football/may";
 import newbury from "@/components/Football/newbury";
+import phoenix from "@/components/Football/phoenix";
+import phoenixwomen from "@/components/Football/phoenixwomen";
+import redbridge from "@/components/Football/redbridge";
 
 
 
@@ -116,6 +131,9 @@ export default {
     orientwomen,
     may,
     newbury,
+    phoenix,
+    phoenixwomen,
+    redbridge,
   }
 };
 </script>
