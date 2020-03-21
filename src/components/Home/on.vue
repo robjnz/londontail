@@ -129,7 +129,7 @@
         <erithtown /><!--erith town fc-->
         
       </div>
-<h3 class="text-xl text-pink-300">
+      <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
@@ -139,15 +139,26 @@
         <forest /><!--forest fc-->
       </div>
 
-      <h3 class="text-xl text-pink-300">
+       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
         Mon 13 April
       </h3>
- <div class="grid sm:flex">
-        <orient/><!--orient fc-->
+      <div class="grid sm:flex">
+        <newbury /><!--newbury forest fc-->
       </div>
+
+      <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Fri 17 April
+      </h3>
+ <div class="grid sm:flex">
+        <may/><!--may baker fc-->
+      </div>
+
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -247,6 +258,8 @@ import hornchurchF from "@/components/Football/hornchurchF";
 import ilfordF from "@/components/Football/ilfordF";
 import orient from "@/components/Football/orient";
 import orientwomen from "@/components/Football/orientwomen";
+import may from "@/components/Football/may";
+import newbury from "@/components/Football/newbury";
 
 
 export default {
@@ -316,6 +329,8 @@ export default {
     ilfordF,
     orient,
     orientwomen,
+    may,
+    newbury,
   }
 };
 </script>

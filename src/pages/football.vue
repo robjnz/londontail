@@ -42,12 +42,12 @@
 
       <div class="grid sm:flex">
         <lewisham/><!--Lewisham-->
-        <orient /><!--Leyton Orient-->
-        <orientwomen /><!--Leyton Orient womens-->
+        <lopes /><!--lopes-->
+        <may /><!--May & Bakers-->
       </div>
 
       <div class="grid sm:flex">
-        <lewisham/><!--Lewisham-->
+        <newbury /><!--newbury forest-->
         <orient /><!--Leyton Orient-->
         <orientwomen /><!--Leyton Orient womens-->
       </div>
@@ -76,6 +76,9 @@ import ilfordF from "@/components/Football/ilfordF";
 import lewisham from "@/components/Football/lewisham";
 import orient from "@/components/Football/orient";
 import orientwomen from "@/components/Football/orientwomen";
+import lopes from "@/components/Football/lopes";
+import may from "@/components/Football/may";
+import newbury from "@/components/Football/newbury";
 
 
 
@@ -108,8 +111,11 @@ export default {
     hornchurchF,
     ilfordF,
     lewisham,
+    lopes,
     orient,
     orientwomen,
+    may,
+    newbury,
   }
 };
 </script>
