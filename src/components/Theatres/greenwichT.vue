@@ -21,14 +21,14 @@
          SE10 8ES
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Paper Moon</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 22 March 1pm & 3 pm
+        <!--Sun 22 March 1pm & 3 pm-->
       </p>
-
+<!--
       <article class="text-blue-200">
         The moonlight is beautiful, shining <br /> across the......
         <input
@@ -47,7 +47,7 @@
           >Read
         </label>
       </article>
-
+-->
       <br />
       <g-link
         class  = "text-red-700 hover:text-white"

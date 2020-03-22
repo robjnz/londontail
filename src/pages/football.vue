@@ -59,9 +59,15 @@
       </div>
 
        <div class="grid sm:flex">
-        <phoenix /><!--romford-->
-        <phoenixwomen /><!--Tower Hamlets-->
-        <redbridge /><!--walthamstow-->
+        <romford /><!--romford-->
+        <tower /><!--Tower Hamlets-->
+        <walthamstow /><!--walthamstow-->
+      </div>
+
+      <div class="grid sm:flex">
+        <romford /><!--Welling United-->
+        <tower /><!--West Ham-->
+        <walthamstow /><!--West Ham womens team-->
       </div>
     </div>
 
@@ -94,6 +100,9 @@ import newbury from "@/components/Football/newbury";
 import phoenix from "@/components/Football/phoenix";
 import phoenixwomen from "@/components/Football/phoenixwomen";
 import redbridge from "@/components/Football/redbridge";
+import romford from "@/components/Football/romford";
+import tower from "@/components/Football/tower";
+import walthamstow from "@/components/Football/walthamstow";
 
 
 
@@ -134,6 +143,9 @@ export default {
     phoenix,
     phoenixwomen,
     redbridge,
+    romford,
+    tower,
+    walthamstow,
   }
 };
 </script>

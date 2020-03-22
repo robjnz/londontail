@@ -139,8 +139,9 @@
         Sat 18 April
       </h3>
       <div class="grid sm:flex">
-        <ilfordF/><!-- ilford fc--></div>
-    
+        <ilfordF/><!-- ilford fc-->
+        <romford /><!--romford fc -->
+        </div>
  <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -165,9 +166,13 @@
         Sat 25 April
       </h3>
       <div class="grid sm:flex">
-        <barking /><!--barking fc -->
+        <barkingF /><!--barking fc -->
         <phoenix /><!-- phoenix sport -->
         <redbridge /><!--redbridge fc -->
+        </div>
+        <div class="grid sm:flex">
+        <walthamstow /><!--walthamstow fc -->
+       
         </div>
 
         <h3 class="text-xl text-pink-300">
@@ -254,6 +259,8 @@ import may from "@/components/Football/may";
 import newbury from "@/components/Football/newbury";
 import phoenix from "@/components/Football/phoenix";
 import redbridge from "@/components/Football/redbridge";
+import romford from "@/components/Football/romford";
+import walthamstow from "@/components/Football/walthamstow";
 
 
 export default {
@@ -327,6 +334,8 @@ export default {
     newbury,
     phoenix,
     redbridge,
+    romford,
+    walthamstow,
   }
 };
 </script>
