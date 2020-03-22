@@ -32,15 +32,10 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 21 March 3pm<br /><span class="text-red-700">V</span> <br />Ashford
-        Town
+        Sat 25 April 3pm<br /><span class="text-red-700">V</span> <br />Chipstead
+        
         <br />
-        <!--
-  Sat 4 April 2020 @ 3pm<br>V<br>Marlow FC<br>
-  Sat 11 April 2020 @ 3pm<br>V<br>Ware FC <br>
-  Mon 13 April 2020 @ 3pm<br>V<br>Harlow Town FC  <br>
-  Sat 25 April 2020 @ 3pm<br>V<br>Chipstead FC<br>
--->
+   
       </p>
 
       <g-link

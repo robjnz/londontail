@@ -21,15 +21,15 @@
           IG11 7LS
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Mary Poppins Reappears</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
           <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 15 - Sat 28 March
+       <!-- Sun 15 - Sat 28 March-->
       </p>
-    <mask />
-
+    
+<!--
 <article class="text-blue-200">
    Mary Poppins, a mystical nanny returns <br />to London....
   <input id="read-more-barking-1" class="read-more-barking" type="checkbox">
@@ -39,7 +39,7 @@
   </div>
   <label class="read-more-barking-label text-red-700 hover:text-white" for="read-more-barking-1">Read </label>
 </article>
-     
+    --> 
 
 <br />
 <g-link

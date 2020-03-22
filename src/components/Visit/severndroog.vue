@@ -21,12 +21,12 @@
           SE18 3RT 
         </g-link>
       </p>
-       <h5 class="text-2xl text-pink-300">Mother's Day Afternoon Tea</h5>
+       <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-       Sat 21 March
+      <!-- Sat 21 March-->
       </p>
 
        

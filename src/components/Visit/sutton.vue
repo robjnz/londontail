@@ -22,12 +22,12 @@
           E9 6JQ
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Mother's Day</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 21 & Sun 22 March
+        <!--Sat 21 & Sun 22 March-->
       </p>
 
       <g-link

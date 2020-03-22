@@ -31,12 +31,9 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 22 March <br /><span class="text-red-700">V</span> <br />London Bees 
+        Sun 19 April <br /><span class="text-red-700">V</span> <br />Durham
         <br />
-     <!--
-Sun 29 March 2020 @ 2pm <br>V<br>Crystal Palace<br>
-Sun 19 April 2020 @ 12pm <br>V<br>Durham<br>
--->
+  
       </p>
 
       <g-link

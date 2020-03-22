@@ -21,12 +21,12 @@
         >
          RM13 9YN
         </g-link>
-         <h5 class="text-2xl text-pink-300">Mother's Day Afternoon Tea</h5>
+         <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 22 March
+        <!--Sun 22 March-->
       </p>
         
       <g-link

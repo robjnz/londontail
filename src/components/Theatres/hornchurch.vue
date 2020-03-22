@@ -21,14 +21,14 @@
           RM11 1QT
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Maggie May</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 13 – Sat 28 March
+      <!--  Fri 13 – Sat 28 March-->
       </p>
-
+<!--
       <article class="text-blue-200">
         Maggie and Gordon first met in 1971 <br />dancing to the sound of Rod
         Stewart.....<input
@@ -50,7 +50,7 @@
           >Read
         </label>
       </article>
-
+-->
       <br />
       <g-link
         class  = "text-red-700 hover:text-white"

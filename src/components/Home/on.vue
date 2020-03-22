@@ -1,30 +1,8 @@
 <template>
   <div class="m-4 mt-1 p-4 w-auto rounded-lg">
     <div class="p-6">
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-      Sat 21 March
-      </h3>
+     
 
-      <div class="grid sm:flex">
-        <valentines /><!--valentines-->
-        <barking /><!--barking-->
-        <hornchurch /><!--romford-->
-        
-      </div>
-
-
-      <div class="grid sm:flex">
-        <severndroog /><!--Severndroog Castle-->
-        <sutton /><!--sutton house-->
-        <hoxton /><!--hoxton-->
-
-      </div>
-      <div class="grid sm:flex">
-        <barkingF /><!--Barking F C-->
-      </div>
       <!-- 22 March-->
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -32,15 +10,9 @@
         </span>
         Sun 22 March
       </h3>
-      <div class="grid sm:flex">
-        <eastbury /><!--Eastbury Manor House-->
-        <hall /><!--Hall Place & Gardens-->
-        <rainham /><!--rainham hall-->
-      </div>
-      <div class="grid sm:flex">
-        <charltonwomen/><!--charltonwomen-->
-        
-      </div>
+      <h1 class="text-red-500  text-2xl">Some Parks & Gardens are still open</h1>
+      
+      
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
@@ -169,6 +141,14 @@
       <div class="grid sm:flex">
         <ilfordF/><!-- ilford fc--></div>
     
+ <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sun 19 April
+      </h3>
+      <div class="grid sm:flex">
+        <charltonwomen /><!-- charltonwomen fc--></div>
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -185,6 +165,7 @@
         Sat 25 April
       </h3>
       <div class="grid sm:flex">
+        <barking /><!--barking fc -->
         <phoenix /><!-- phoenix sport -->
         <redbridge /><!--redbridge fc -->
         </div>
