@@ -5,69 +5,19 @@
         <span class="text-pink-300">
           <i class="fas fa-futbol"></i>
         </span>
-        Football
+        Football Results
       </h1>
       <!--<date class="ml-8" />-->
       <br />
 
-      <div class="grid sm:flex">
-        <barkingF /><!--Barking-->
-        <barkingside /><!--Barkingside-->
-        <bexley /><!--Bexley-->
-      </div>
-
-       <div class="grid sm:flex">
-        <bridon /><!--Bridon Ropes-->
-        <canning /><!--Canning Town-->
-        <charlton /><!--charlton-->
-      </div>
-
-        <div class="grid sm:flex">
-        <charltonwomen /><!--charlton womens-->
-        <dagenham /><!--Dagenham-->
-        <dagred /><!--Dagenham & Redbridge-->
-      </div>
-      
-      <div class="grid sm:flex">
-        <erithtown /><!--Erith Town-->
-        <erithbell /><!--Erith & Belvedere-->
-        <forest /><!--Forest Hill Park-->
-      </div>
-
-        <div class="grid sm:flex">
-        <greenwichF /><!--Greenwich-->
-        <hornchurchF /><!--Hornchurch-->
-        <ilfordF /><!--Ilford-->
-      </div>
-
-      <div class="grid sm:flex">
-        <lewisham/><!--Lewisham-->
-        <lopes /><!--lopes-->
-        <may /><!--May & Bakers-->
-      </div>
-
-      <div class="grid sm:flex">
-        <newbury /><!--newbury forest-->
-        <orient /><!--Leyton Orient-->
-        <orientwomen /><!--Leyton Orient womens-->
-      </div>
-
-      <div class="grid sm:flex">
-        <phoenix /><!--Phoenix Sports-->
-        <phoenixwomen /><!--Phoenix Sports womens-->
-        <redbridge /><!--redbridge-->
-      </div>
-
-       <div class="grid sm:flex">
-        <romford /><!--romford-->
-        <tower /><!--Tower Hamlets-->
-        <walthamstow /><!--walthamstow-->
-      </div>
-
-      <div class="grid sm:flex">
-        <welling /><!--Welling United-->
-        <west /><!--West Ham-->
-        <westwomen/><!--West Ham womens team-->
+      <div class="port container" id="works">
+        <div class="row">
+          <div class="work col-md-12">
+            <div class="work-card">
+              
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -106,10 +56,6 @@ import walthamstow from "@/components/Football/walthamstow";
 import welling from "@/components/Football/welling";
 import west from "@/components/Football/west";
 import westwomen from "@/components/Football/westwomen";
-
-
-
-
 
 export default {
   metaInfo: {
@@ -151,7 +97,7 @@ export default {
     walthamstow,
     welling,
     west,
-    westwomen,
+    westwomen
   }
 };
 </script>

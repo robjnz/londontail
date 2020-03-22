@@ -141,6 +141,7 @@
       <div class="grid sm:flex">
         <ilfordF/><!-- ilford fc-->
         <romford /><!--romford fc -->
+        <west /><!--west ham -->
         </div>
  <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
@@ -183,6 +184,16 @@
       </h3>
       <div class="grid sm:flex">
         <orientwomen /><!-- orientwomens fc-->
+        </div>
+
+         <h3 class="text-xl text-pink-300">
+        <span style="font-size: 1em;">
+          <i class="far fa-calendar-alt"></i>
+        </span>
+        Sat 26 May
+      </h3>
+      <div class="grid sm:flex">
+        <westwomen /><!-- west ham womens fc-->
         </div>
     </div>
   </div>
@@ -261,6 +272,8 @@ import phoenix from "@/components/Football/phoenix";
 import redbridge from "@/components/Football/redbridge";
 import romford from "@/components/Football/romford";
 import walthamstow from "@/components/Football/walthamstow";
+import west from "@/components/Football/west";
+import westwomen from "@/components/Football/westwomen";
 
 
 export default {
@@ -336,6 +349,8 @@ export default {
     redbridge,
     romford,
     walthamstow,
+    west,
+    westwomen,
   }
 };
 </script>
