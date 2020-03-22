@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sun 22 March
+       Mon 23 March
       </h3>
       <h1 class="text-red-500  text-2xl">Some Parks & Gardens are still open</h1>
       
