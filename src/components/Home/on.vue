@@ -1,5 +1,5 @@
 <template>
-  <div class="m-4 mt-1 p-4 w-auto rounded-lg">
+  <div class="m-4 mt-10 p-4 w-auto rounded-lg">
     <div class="p-6">
      
 
