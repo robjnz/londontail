@@ -11,28 +11,21 @@
       <br />
 
       <div class="grid sm:flex">
-        <atik /><!--Atik-->
-        <bar /><!--Bar300-->
-        <faces /><!--Faces -->
+        <barkingR /><!--Barking Rugby-->
+        <blackheath /><!--Blackheath Rugby-->
+        <blackheathwomen /><!--Blackheathwomen rugby-->
       </div>
-      <div class="grid sm:flex">
-        <jhankaar /><!--Jhankaar club-->
-        <kings /><!--kings Bull-->
-        <xoyo /><!--xoyo-->
 
-      </div>
     </div>
+
     <br />
   </Layout>
 </template>
 
 <script>
-import atik from "@/components/Nightclubs/atik";
-import bar from "@/components/Nightclubs/bar";
-import faces from "@/components/Nightclubs/faces";
-import jhankaar from "@/components/Nightclubs/jhankaar";
-import kings from "@/components/Nightclubs/kings";
-import xoyo from "@/components/Nightclubs/xoyo";
+import barkingR from "@/components/Rugby/barkingR";
+import blackheath from "@/components/Rugby/blackheath";
+import blackheathwomen from "@/components/Rugby/blackheathwomen";
 
 import date from "@/components/Home/date";
 
@@ -42,18 +35,14 @@ export default {
     meta : [
       {
         name   : "description",
-        content: 
-          "Whats on guide for rugby home matches In East London."
+        content: "Whats on guide for rugby home matches In East London."
       }
     ]
   },
   components: {
-    atik,
-    bar,
-    faces,
-    jhankaar,
-    kings,
-    xoyo,
+    barkingR,
+    blackheath,
+    blackheathwomen,
     date
   }
 };
