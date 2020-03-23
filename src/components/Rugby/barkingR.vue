@@ -14,7 +14,7 @@
           alt   = "Barking"
       /></g-link>
       <p class="text-blue-200 text-center">
-        Gale Street Goresbrook<br />
+        Gale Street <br />Goresbrook<br />
         Dagenham Essex
 
         <g-link

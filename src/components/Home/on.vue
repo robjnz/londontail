@@ -8,18 +8,10 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Mon 23 March
+       Tues 24 March
       </h3>
       <h1 class="text-red-500  text-2xl">Some Parks & Gardens are still open</h1>
       
-      
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Tues 24 March
-      </h3>
-      <div class="grid sm:flex"><stratford /><!--stratford--></div>
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">

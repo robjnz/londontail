@@ -5,26 +5,27 @@
         <span class="text-pink-300 mr-2">
           <i class="fas fa-football-ball"></i>
         </span>
-        Blackheath<span class="ml-2 text-pink-200">Women's Team</span>
+        Romford & Gidea Park
       </h2>
-      <g-link href="https://bit.ly/2QDWvAF" target="_blank"
+      <g-link href="https://bit.ly/2J8CdLd" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/rugby/blackheath.png"
-          alt   = "Blackheath"
+          src   = "~/images/rugby/gidea.jpg"
+          alt   = "Hackney"
       /></g-link>
       <p class="text-blue-200 text-center">
-        Rectory Field<br />
-        Charlton Road <br />London
+        Crowlands<br />
+        Crow Lane<br />
+        Romford Essex
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2QBMP9A"
+          to     = "https://bit.ly/2WNWkXp"
           target = "_blank"
         >
-          SE3 8SR
+          RM7 0EP
         </g-link>
-        <br /><br />
+        <br /><br /><br />
       </p>
 
       <p class="text-pink-200 text-center">
@@ -35,12 +36,12 @@
         Sat 18 April - 3pm <br /><span class="text-red-700">V</span>
         <br />Upminster
 -->
-        
+        <br />
       </p>
-<br /><br /><br />
+
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2QDWvAF"
+        to     = "https://bit.ly/2J8CdLd"
         target = "_blank"
       >
         More Info

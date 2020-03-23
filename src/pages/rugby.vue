@@ -16,6 +16,25 @@
         <blackheathwomen /><!--Blackheathwomen rugby-->
       </div>
 
+      <div class="grid sm:flex">
+        <eton /><!--eton manor-->
+        <etonwoman /><!--eton woman manor-->
+        <hackneyR /><!--hackney Rugby-->
+      </div>
+
+      <div class="grid sm:flex">
+        <hackneywoman /><!--hackney woman Rugby-->
+        <gideawoman /><!--romford & Gidia park ravens rugby-->
+        <gidea /><!--romford & Gidia park rugby-->
+      </div>
+
+      <div class="grid sm:flex">
+        <millwall /><!--millwall Rugby-->
+        <millwallwoman /><!--millwall venus Rugby-->
+
+      </div>
+
+
     </div>
 
     <br />
@@ -26,6 +45,15 @@
 import barkingR from "@/components/Rugby/barkingR";
 import blackheath from "@/components/Rugby/blackheath";
 import blackheathwomen from "@/components/Rugby/blackheathwomen";
+import hackneyR from "@/components/Rugby/hackneyR";
+import hackneywoman from "@/components/Rugby/hackneywoman";
+import gidea from "@/components/Rugby/gidea";
+import gideawoman from "@/components/Rugby/gideawoman";
+import eton from "@/components/Rugby/eton";
+import etonwoman from "@/components/Rugby/etonwoman";
+import millwall from "@/components/Rugby/millwall";
+import millwallwoman from "@/components/Rugby/millwallwoman";
+
 
 import date from "@/components/Home/date";
 
@@ -43,6 +71,14 @@ export default {
     barkingR,
     blackheath,
     blackheathwomen,
+    eton,
+    etonwoman,
+    hackneyR,
+    hackneywoman,
+    gidea,
+    gideawoman,
+    millwall,
+    millwallwoman,
     date
   }
 };

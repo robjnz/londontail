@@ -5,26 +5,28 @@
         <span class="text-pink-300 mr-2">
           <i class="fas fa-football-ball"></i>
         </span>
-        Blackheath<span class="ml-2 text-pink-200">Women's Team</span>
+        Eton<span class="ml-2 text-pink-200">Women's Team</span>
       </h2>
-      <g-link href="https://bit.ly/2QDWvAF" target="_blank"
+      <g-link href="https://bit.ly/3a947CN" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/rugby/blackheath.png"
-          alt   = "Blackheath"
+          src   = "~/images/rugby/eton.jpg"
+          alt   = "Eton Manor"
       /></g-link>
       <p class="text-blue-200 text-center">
-        Rectory Field<br />
-        Charlton Road <br />London
+          <br />
+        Nutter Lane<br />Wanstead London
+
+
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2QBMP9A"
+          to     = "https://bit.ly/2UdPo48"
           target = "_blank"
         >
-          SE3 8SR
+          E11 2JA
         </g-link>
-        <br /><br />
+        <br /><br /><br />
       </p>
 
       <p class="text-pink-200 text-center">
@@ -35,12 +37,12 @@
         Sat 18 April - 3pm <br /><span class="text-red-700">V</span>
         <br />Upminster
 -->
-        
+        <br />
       </p>
-<br /><br /><br />
+
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2QDWvAF"
+        to     = "https://bit.ly/3a947CN"
         target = "_blank"
       >
         More Info

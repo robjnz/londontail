@@ -20,14 +20,14 @@
           E15 1BN
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Nt-Connections-2020</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Tues 24 - Fri 27 March 7 pm
+       <!-- Tues 24 - Fri 27 March 7 pm-->
       </p>
-
+<!--
       <article class="text-blue-200">
         The National Theatre Connections<br /> festival is a celebration.....
         
@@ -45,8 +45,8 @@
           >Read
         </label>
       </article>
-
-      <br />
+-->
+      <br /><br /><br />
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2JjU3Kr"
