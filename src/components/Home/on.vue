@@ -3,23 +3,17 @@
     <div class="p-6">
      
 
-      <!-- 22 March-->
+    
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Tues 24 March
+       Wed 25 March
       </h3>
       <h1 class="text-red-500  text-2xl">Some Parks & Gardens are still open</h1>
       
 
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Wed 25 March
-      </h3>
-      <div class="grid sm:flex"><wilton /><!--wilton--></div>
+     
 
       <!--27 march-->
       <h3 class="text-xl text-pink-300">

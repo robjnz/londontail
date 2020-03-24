@@ -22,14 +22,14 @@
          E1 8JB
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">The Turn of the Screw</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Wed 25 March - Wed 1 April
+        <!--Wed 25 March - Wed 1 April-->
       </p>
-
+<!--
       <article class="text-blue-200">
        Turn of the Screw is a curious story<br /> Set in an old English country house.....
         <input
@@ -46,8 +46,8 @@
           >Read
         </label>
       </article>
-
-      <br />
+-->
+      <br /><br /><br />
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2R9bBf7"

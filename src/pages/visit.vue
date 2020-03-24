@@ -75,6 +75,12 @@
         <wanstead /><!--Wansted Park-->
         <william /><!--William Morris Gallery-->
       </div>
+
+      <div class="grid sm:flex">
+        <bethune /><!--Bethune Nature reserve-->
+        <totteridge /><!--Totteridge fields-->
+       
+      </div>
     </div>
     <br />
   </Layout>
@@ -121,6 +127,10 @@ import victoria from "@/components/Visit/victoria";
 import viktor from "@/components/Visit/viktor";
 import wanstead from "@/components/Visit/wanstead";
 import william from "@/components/Visit/william";
+import totteridge from "@/components/Visit/totteridge";
+import bethune from "@/components/Visit/bethune";
+
+
 import date from "@/components/Home/date";
 
 export default {
@@ -135,6 +145,7 @@ export default {
   },
   components: {
     antioch,
+    bethune,
     bexley,
     chingford,
     danson,
@@ -165,6 +176,7 @@ export default {
     severndroog,
     sutton,
     thames,
+    totteridge,
     tower,
     trinity,
     upminster,
