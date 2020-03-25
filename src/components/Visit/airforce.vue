@@ -5,41 +5,42 @@
         ><span class="text-pink-300">
           <i class="fas fa-landmark"></i>
         </span>
-        Bethune Nature Reserve</H2
+        Royal Air Force Museum
+</H2
       >
-      <g-link href="https://bit.ly/3asPxGc" target="_blank"
+      <g-link href="https://bit.ly/3broAmB" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1585076334/bethune_c02oyh.jpg"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1585156962/airforce_ft0caa.jpg"
           fluid-grow
-          alt = "Bethune Nature Reserve"
+          alt = "Royal Air Force Museum"
       /></g-link>
       <p class="text-blue-200">
-        Beaconsfield Road<br />
-        Friern Barnet London
-
-
+        Grahame Park Way<br /> Hendon London 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2WEXqEx"
+          to     = "https://bit.ly/2WKtOpo"
           target = "_blank"
         >
-          N11 3BB
+           NW9 5LL
         </g-link>
       </p>
       <br />
+       <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       <article class="text-blue-200">
-  Nature Reserve and Wildlife Interest<br /> adjoins with ......<br /> 
-  <input id="read-more-bethune-1" class="read-more-bethune" type="checkbox">
+  Celebrates and commemorates<br /> the Royal Air Force 
+....... 
+  <input id="read-more-airforce-1" class="read-more-airforce" type="checkbox">
   <div class="read-more-content">
-        Bethune Recreation Ground
+      <br />
+The new innovative galleries<br /> explore the first 100 years<br /> of the RAF & its role today.
 
   </div>
-  <label class="read-more-bethune-label text-red-700 hover:text-white" for="read-more-bethune-1">Read </label>
+  <label class="read-more-airforce-label text-red-700 hover:text-white" for="read-more-airforce-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/3asPxGc"
+        to     = "https://bit.ly/3broAmB"
         target = "_blank"
       >
         More Info
@@ -56,10 +57,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-bethune {
+.read-more-airforce {
   display: none;
 }
-.read-more-bethune-label {
+.read-more-airforce-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -68,17 +69,17 @@
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-bethune-label:after {
+.read-more-airforce-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-bethune:checked + .read-more-content {
+.read-more-airforce:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-bethune:checked + .read-more-content + .read-more-bethune-label:after {
+.read-more-airforce:checked + .read-more-content + .read-more-airforce-label:after {
   content: "Less";
 }
 </style>

@@ -7,8 +7,11 @@
         </span>
         Places to Visit
       </h1>
+      <h2 class="ml-8 text-3xl text-blue-200">
+        East London
+      </h2>
       <!--<date class="ml-8" />-->
-      <br />
+      
 
       <div class="grid sm:flex">
         <bexley /><!--bexleyWoods-->
@@ -75,12 +78,7 @@
         <wanstead /><!--Wansted Park-->
         <william /><!--William Morris Gallery-->
       </div>
-
-      <div class="grid sm:flex">
-        <bethune /><!--Bethune Nature reserve-->
-        <totteridge /><!--Totteridge fields-->
-       
-      </div>
+ <north/>
     </div>
     <br />
   </Layout>
@@ -127,8 +125,9 @@ import victoria from "@/components/Visit/victoria";
 import viktor from "@/components/Visit/viktor";
 import wanstead from "@/components/Visit/wanstead";
 import william from "@/components/Visit/william";
-import totteridge from "@/components/Visit/totteridge";
-import bethune from "@/components/Visit/bethune";
+
+import north from "@/components/Visit/north/north";
+
 
 
 import date from "@/components/Home/date";
@@ -145,7 +144,6 @@ export default {
   },
   components: {
     antioch,
-    bethune,
     bexley,
     chingford,
     danson,
@@ -176,7 +174,6 @@ export default {
     severndroog,
     sutton,
     thames,
-    totteridge,
     tower,
     trinity,
     upminster,
@@ -186,7 +183,8 @@ export default {
     viktor,
     wanstead,
     william,
-    date
+    north,
+    date,
   }
 };
 </script>

@@ -10,8 +10,17 @@
         </span>
        Wed 25 March
       </h3>
-      <h1 class="text-red-500  text-2xl">Some Parks & Gardens are still open</h1>
-      
+      <h1 class="text-red-500  text-2xl">
+        <span class="text-pink-300" style="font-size: 1em;">
+          <i class="fas fa-virus"></i>
+        </span> Some Parks & Gardens are still open
+        <span class="text-pink-300" style="font-size: 1em;">
+            <i class="fas fa-hands-wash"></i>
+            <i class="fas fa-people-arrows"></i>
+        </span>
+        </h1>
+        <br />
+    
 
      
 
@@ -23,9 +32,8 @@
         Fri 27 March
       </h3>
       <div class="grid sm:flex">
-        <valence /><!--Valence House Museum-->
+        
         <two /><!--02-->
-        <xoyo /><!--xoyo-->
       </div>
 
       <h3 class="text-xl text-pink-300">

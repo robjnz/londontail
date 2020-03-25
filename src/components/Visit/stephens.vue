@@ -5,41 +5,40 @@
         ><span class="text-pink-300">
           <i class="fas fa-landmark"></i>
         </span>
-        Bethune Nature Reserve</H2
+        Stephens House & Gardens
+</H2
       >
-      <g-link href="https://bit.ly/3asPxGc" target="_blank"
+      <g-link href="https://bit.ly/2R0v5oP" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1585076334/bethune_c02oyh.jpg"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1585155211/stephans_xezuy7.jpg"
           fluid-grow
-          alt = "Bethune Nature Reserve"
+          alt = "Stephens House & Gardens"
       /></g-link>
       <p class="text-blue-200">
-        Beaconsfield Road<br />
-        Friern Barnet London
-
-
+        17 East End Road<br /> London
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2WEXqEx"
+          to     = "https://bit.ly/2WHAx3n"
           target = "_blank"
         >
-          N11 3BB
+           N3 3QE 
         </g-link>
       </p>
       <br />
+       <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       <article class="text-blue-200">
-  Nature Reserve and Wildlife Interest<br /> adjoins with ......<br /> 
-  <input id="read-more-bethune-1" class="read-more-bethune" type="checkbox">
+  Grade ll listed house <br /> & landscaped gardens......<br /> 
+  <input id="read-more-stephens-1" class="read-more-stephens" type="checkbox">
   <div class="read-more-content">
-        Bethune Recreation Ground
+        gifted for the use <br />and enjoyment of the people<br /> by Henry Charles 'Inky' Stephens<br /> of the Stephens' Ink Company.
 
   </div>
-  <label class="read-more-bethune-label text-red-700 hover:text-white" for="read-more-bethune-1">Read </label>
+  <label class="read-more-stephens-label text-red-700 hover:text-white" for="read-more-stephens-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/3asPxGc"
+        to     = "https://bit.ly/2R0v5oP"
         target = "_blank"
       >
         More Info
@@ -56,10 +55,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-bethune {
+.read-more-stephens {
   display: none;
 }
-.read-more-bethune-label {
+.read-more-stephens-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -68,17 +67,17 @@
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-bethune-label:after {
+.read-more-stephens-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-bethune:checked + .read-more-content {
+.read-more-stephens:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-bethune:checked + .read-more-content + .read-more-bethune-label:after {
+.read-more-stephens:checked + .read-more-content + .read-more-stephens-label:after {
   content: "Less";
 }
 </style>

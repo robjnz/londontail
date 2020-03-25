@@ -23,12 +23,12 @@
           EC2A 4AW
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Viper</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 27 March 21.30 - 04.00
+        <!--Fri 27 March 21.30 - 04.00-->
       </p>
 
 

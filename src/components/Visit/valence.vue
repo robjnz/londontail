@@ -4,7 +4,7 @@
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
         </span> Valence House</H2>
-      <g-link href="http://bit.ly/2EmkhgG" target="_blank"
+      <g-link href="http://bit.ly/2RtEkMK" target="_blank"
         ><g-image
           class = "w-auto h-auto"
           src   = "@/images/visit/valence.jpg"
@@ -23,16 +23,16 @@
           RM8 3HT
         </g-link>
       </p>
-       <h5 class="text-2xl text-pink-300">Murder Mystery Evening</h5>
+       <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 27 March
+        <!--Fri 27 March-->
       </p>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "http://bit.ly/2EmkhgG"
+        to     = "http://bit.ly/2RtEkMK"
         target = "_blank"
       >
         More Info
