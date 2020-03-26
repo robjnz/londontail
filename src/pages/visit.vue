@@ -7,78 +7,91 @@
         </span>
         Places to Visit
       </h1>
-      <h2 class="ml-8 text-3xl text-blue-200">
-        East London
-      </h2>
-      <!--<date class="ml-8" />-->
       
 
       <div class="grid sm:flex">
+        <alexandra /><!--alexandra palace-->
+        <bethune /><!--Bethune Nature reserve-->
         <bexley /><!--bexleyWoods-->
+      </div>
+      <div class="grid sm:flex">
         <chingford /><!--Chingford Sky Trail-->
         <docklands /><!--Docklands Museum-->
+        <eastbury /><!--Eastbury Manor House-->
       </div>
       <div class="grid sm:flex">
-        <eastbury /><!--Eastbury Manor House-->
         <elizabeth /><!--Elizabeth's Hunting Lodge-->
         <eltham /><!--Eltham Palace-->
-      </div>
-      <div class="grid sm:flex">
         <epping /><!--Epping Forest-->
-        <fairlop /><!--Fairlop Waters Park-->
-        <geffrye /><!--Geffrye Museum-->
       </div>
       <div class="grid sm:flex">
+        <fairlop /><!--Fairlop Waters Park-->
+        <fenton /><!--fenton house-->
+        <forty /><!--forty hall-->
+         </div>
+      <div class="grid sm:flex">
+        <geffrye /><!--Geffrye Museum-->
         <hackney /><!--Hackney City Farm-->
         <hall /><!--Hall Place & Gardens-->
+         </div>
+      <div class="grid sm:flex">
         <havering /><!--Havering Country Park-->
-      </div>
-       <div class="grid sm:flex">
-        <horniman/><!--Horniman Museam & Park-->
+        <horniman /><!--Horniman Museam & Park-->
         <hospital /><!--Hospital Chapel Ilford-->
+         </div>
+      <div class="grid sm:flex">
         <house /><!--House Mill-->
-      </div>
-       <div class="grid sm:flex">
         <jack /><!--Jack The Ripper Museum-->
+        <jewish /><!--jewish museum-->
+         </div>
+      <div class="grid sm:flex">
         <lee /><!--Lee Valley-->
+        <canal /><!--London canal museum-->
         <mayesbrook /><!--Mayesbrook Park-->
-      </div>
+         </div>
       <div class="grid sm:flex">
         <mudchute /><!--mudchute-->
+        <markfield /><!--Markfield -->
         <newham /><!--Newham City Farm-->
-        <queen /><!--Queen Elizabeth Olympic Park-->
-      </div>
+         </div>
       <div class="grid sm:flex">
+        <queen /><!--Queen Elizabeth Olympic Park-->
         <ragged /><!--Ragged School Museum-->
         <rainham /><!--Rainham Hall-->
+         </div>
+      <div class="grid sm:flex">
         <ranger /><!--Ranger’s House-->
-      </div>
-       <div class="grid sm:flex">
         <red /><!--Red house-->
+        <airforce /><!--Royal Air Force Museum-->
+         </div>
+      <div class="grid sm:flex">
         <greenwich /><!--Royal Museums Greenwich-->
         <severndroog /><!--Severndroog Castle-->
-      </div>
-      <div class="grid sm:flex">
         <antioch /><!--St. Margaret of Antioch-->
+         </div>
+      <div class="grid sm:flex">
+        <stephens /><!--Stephens house-->
         <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
-      </div>
+         </div>
       <div class="grid sm:flex">
+        <totteridge /><!--Totteridge fields-->
         <tower /><!--Tower Of London-->
         <trinity /><!--Trinity Buoy Wharf-->
+         </div>
+      <div class="grid sm:flex">
         <upminster /><!--Upminster Windmill-->
-      </div>
-       <div class="grid sm:flex">
         <valence /><!--Valence House Museum-->
         <valentines /><!--Valentines Mansion-->
+         </div>
+      <div class="grid sm:flex">
         <victoria /><!--Victoria Park-->
-      </div>
-       <div class="grid sm:flex">
         <viktor /><!--Viktor Wyne Museum-->
         <wanstead /><!--Wansted Park-->
+         </div>
+      <div class="grid sm:flex">
         <william /><!--William Morris Gallery-->
       </div>
- <north/>
     </div>
     <br />
   </Layout>
@@ -126,9 +139,19 @@ import viktor from "@/components/Visit/viktor";
 import wanstead from "@/components/Visit/wanstead";
 import william from "@/components/Visit/william";
 
-import north from "@/components/Visit/north/north";
+import alexandra from "@/components/Visit/north/alexandra";
+import bethune from "@/components/Visit/north/bethune";
+import canal from "@/components/Visit/north/canal";
 
+import forty from "@/components/Visit/north/forty";
+import jewish from "@/components/Visit/north/jewish";
 
+import markfield from "@/components/Visit/north/markfield";
+
+import stephens from "@/components/Visit/north/stephens";
+import airforce from "@/components/Visit/north/airforce";
+import totteridge from "@/components/Visit/north/totteridge";
+import fenton from "@/components/Visit/north/fenton";
 
 import date from "@/components/Home/date";
 
@@ -138,7 +161,8 @@ export default {
     meta : [
       {
         name   : "description",
-        content: "Visit Places Of Historical And Local Interest In East London for Day Out."
+        content: 
+          "Visit Places Of Historical And Local Interest In North & East London for Day Out."
       }
     ]
   },
@@ -183,8 +207,17 @@ export default {
     viktor,
     wanstead,
     william,
-    north,
-    date,
+    alexandra,
+    bethune,
+    canal,
+    forty,
+    jewish,
+    markfield,
+    stephens,
+    totteridge,
+    airforce,
+    fenton,
+    date
   }
 };
 </script>

@@ -21,14 +21,14 @@
          SE10 0DX
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Santana</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 27 March 
+       <!-- Fri 27 March -->
       </p>
-
+<!--
       <article class="text-blue-200">
         Carlos Santana European Tour......
         <input
@@ -45,8 +45,8 @@
           >Read
         </label>
       </article>
-
-      <br />
+-->
+      <br /><br /><br />
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2PpXswU"

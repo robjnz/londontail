@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Thurs 26 March
+       Fri 27 March
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -20,21 +20,7 @@
         </span>
         </h1>
         <br />
-    
-
-     
-
-      <!--27 march-->
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Fri 27 March
-      </h3>
-      <div class="grid sm:flex">
-        
-        <two /><!--02-->
-      </div>
+  
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
