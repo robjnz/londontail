@@ -5,7 +5,7 @@
         ><span class="text-pink-300">
           <i class="fas fa-landmark"></i>
         </span>
-        Stephens House & Gardens
+        Stephens House
 </H2
       >
       <g-link href="https://bit.ly/2R0v5oP" target="_blank"
@@ -25,7 +25,6 @@
            N3 3QE 
         </g-link>
       </p>
-      <br />
        <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       <article class="text-blue-200">
   Grade ll listed house <br /> & landscaped gardens......<br /> 

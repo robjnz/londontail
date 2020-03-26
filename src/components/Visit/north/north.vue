@@ -5,11 +5,13 @@
       </h2>
       <div class="grid sm:flex">
         <bethune /><!--Bethune Nature reserve-->
-        <stephens /><!--Stephens house-->
-        <totteridge /><!--Totteridge fields-->
+        <forty /><!--forty hall-->
+        <markfield /> <!--Markfield -->
       </div>
 
       <div class="grid sm:flex">
+        <stephens /><!--Stephens house-->
+        <totteridge /><!--Totteridge fields-->
         <airforce /><!--Royal Air Force Museum-->
        
       </div>
@@ -19,14 +21,19 @@
 
 <script>
 
-import bethune from "@/components/Visit/bethune";
-import stephens from "@/components/Visit/stephens";
-import airforce from "@/components/Visit/airforce";
-import totteridge from "@/components/Visit/totteridge";
+import bethune from "@/components/Visit/north/bethune";
+import forty from "@/components/Visit/north/forty";
+import markfield from "@/components/Visit/north/markfield";
+
+import stephens from "@/components/Visit/north/stephens";
+import airforce from "@/components/Visit/north/airforce";
+import totteridge from "@/components/Visit/north/totteridge";
 
 export default {
     components: {
       bethune,
+      forty,
+      markfield,
         stephens,
         totteridge,
         airforce,

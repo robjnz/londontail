@@ -5,42 +5,42 @@
         ><span class="text-pink-300">
           <i class="fas fa-landmark"></i>
         </span>
-        Royal Air Force Museum
+        Forty Hall
 </H2
       >
-      <g-link href="https://bit.ly/3broAmB" target="_blank"
+      <g-link href="https://bit.ly/3aw80SF" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1585156962/airforce_ft0caa.jpg"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1585204449/fortyhill_dw52u0.jpg"
           fluid-grow
-          alt = "Royal Air Force Museum"
+          alt = "Forty Hall"
       /></g-link>
       <p class="text-blue-200">
-        Grahame Park Way<br /> Hendon London 
+        Forty Hill<br /> Enfield Middlesex  
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2WKtOpo"
+          to     = "https://bit.ly/2ybi3OD"
           target = "_blank"
         >
-           NW9 5LL
+           EN2 9HA
         </g-link>
       </p>
-      <br />
+      
        <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       <article class="text-blue-200">
-  Celebrates and commemorates<br /> the Royal Air Force 
+  Grade 1 Listed Jacobean Manor House<br /> 
 ....... 
-  <input id="read-more-airforce-1" class="read-more-airforce" type="checkbox">
+  <input id="read-more-forty-1" class="read-more-forty" type="checkbox">
   <div class="read-more-content">
       <br />
-The new innovative galleries<br /> explore the first 100 years<br /> of the RAF & its role today.
+ Landscaped with an Ornamental lake<br /> medieval fishing ponds and streams,<br /> a walled garden.
 
   </div>
-  <label class="read-more-airforce-label text-red-700 hover:text-white" for="read-more-airforce-1">Read </label>
+  <label class="read-more-forty-label text-red-700 hover:text-white" for="read-more-forty-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/3broAmB"
+        to     = "https://bit.ly/3aw80SF"
         target = "_blank"
       >
         More Info
@@ -57,10 +57,10 @@ The new innovative galleries<br /> explore the first 100 years<br /> of the RAF 
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-airforce {
+.read-more-forty {
   display: none;
 }
-.read-more-airforce-label {
+.read-more-forty-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -69,17 +69,17 @@ The new innovative galleries<br /> explore the first 100 years<br /> of the RAF 
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-airforce-label:after {
+.read-more-forty-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-airforce:checked + .read-more-content {
+.read-more-forty:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-airforce:checked + .read-more-content + .read-more-airforce-label:after {
+.read-more-forty:checked + .read-more-content + .read-more-forty-label:after {
   content: "Less";
 }
 </style>

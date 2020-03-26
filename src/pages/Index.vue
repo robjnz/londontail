@@ -3,7 +3,7 @@
     
     <div id="background" class="container m-auto">
       <h1 class="ml-12 mt-16 mb-16 text-4xl text-red-600">
-        Things To Do In East London Today
+        Things To Do In North & East London Today
       </h1>
     
       
@@ -38,7 +38,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Things to do in east London today the local cinemas, theatres, nightclubs & football matches, free online movies, tv series, picard, places to visit for days out in east London, places to eat, job search resources and much more!"
+          "Things to do in north & east London today the local theatres, nightclubs, Rugby & football matches, places of historical interest to visit for days out, and much more!"
       }
     ],
     script: [
