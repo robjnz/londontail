@@ -8,7 +8,7 @@
         src   = "@/images/logowhite_transparent.png" width = "70"
       ></g-image>
       <span class="font-semibold text-2xl tracking-tight"
-        ><g-link class="hover:text-red-500" to="/">London East</g-link>
+        ><g-link class="hover:text-red-500" to="/">North & East London</g-link>
       </span>
     </div>
     <div class="block lg:hidden">
