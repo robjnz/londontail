@@ -11,25 +11,32 @@
       <br />
 
       <div class="grid sm:flex">
+        <alex /><!--alexandra palace-->
+        <arts /><!--artsdepot-->
         <barking /><!--Broadway Theatre Barking-->
+       </div>
+      
+      <div class="grid sm:flex">
+        <chickenshed /><!--chickenshed-->
         <greenwichT /><!--Greenwich Theatre-->
         <hackneyT /><!--hackney empire -->
       </div>
       
       <div class="grid sm:flex">
         <hoxton /><!--Hoxton Hall-->
+        <intimate /><!--Intimate Theatre-->
         <ilford /><!--Kenneth More Theatre-->
-        <hornchurch/><!--Queen's Theatre Hornchurch -->
       </div>
       
       <div class="grid sm:flex">
+        <hornchurch/><!--Queen's Theatre Hornchurch -->
+        <rainbow /><!--Rainbow Theatre-->
         <stratford /><!--Theatre Royal Stratford East-->
-        <two /><!--The O2 arena-->
-        <wilton /><!--Wilton's Music Hall -->
       </div>
       <div class="grid sm:flex">
+        <two /><!--The O2 arena-->
+        <wilton /><!--Wilton's Music Hall -->
         <yard/><!--The Yard -->
-        
       </div>
      
     </div>
@@ -48,6 +55,11 @@ import stratford from "@/components/Theatres/stratford";
 import two from "@/components/Theatres/two";
 import wilton from "@/components/Theatres/wilton";
 import yard from "@/components/Theatres/yard";
+import arts from "@/components/Theatres/arts";
+import chickenshed from "@/components/Theatres/chickenshed";
+import alex from "@/components/Theatres/alex";
+import intimate from "@/components/Theatres/intimate";
+import rainbow from "@/components/Theatres/rainbow";
 
 
 
@@ -59,7 +71,7 @@ export default {
     meta : [
       {
         name   : "description",
-        content: "Whats on guide for Local Theatres In East London."
+        content: "Whats on guide for Local Theatres In North And East London."
       }
     ]
   },
@@ -74,6 +86,11 @@ export default {
     two,
     wilton,
     yard,
+    arts,
+    chickenshed,
+    alex,
+    intimate,
+    rainbow,
     date,
   }
 };

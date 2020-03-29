@@ -47,7 +47,7 @@
         </label>
       </article>
 -->
-      <br /><br /><br />
+      <br />
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2R9bBf7"

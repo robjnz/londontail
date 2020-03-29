@@ -10,7 +10,7 @@
       <g-link href="http://bit.ly/32CuiyT" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/football/may.jpg"
+          src   = "@/images/football/may.jpg"
           alt   = "May & Bakers"
       /></g-link>
       <p class="text-blue-200 text-center">

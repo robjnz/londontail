@@ -8,12 +8,12 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Fri 27 March
+       Sun 29 March
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
           <i class="fas fa-virus"></i>
-        </span> Some Parks & Gardens are still open
+        </span> Some Parks & Gardens Are Still Open
         <span class="text-pink-300" style="font-size: 1em;">
             <i class="fas fa-hands-wash"></i>
             <i class="fas fa-people-arrows"></i>
@@ -21,38 +21,6 @@
         </h1>
         <br />
   
-
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Mon 30 March
-      </h3>
-      <div class="grid sm:flex"><barkingside /><!--barkingside fc--></div>
-
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Wed 1 April
-      </h3>
-      <div class="grid sm:flex"><ilford /><!--ilford--></div>
-
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Thurs 2 April
-      </h3>
-      <div class="grid sm:flex"><yard /><!--yard--></div>
-
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Fri 3 April
-      </h3>
-      <div class="grid sm:flex"><faces /><!--faces--></div>
 
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">

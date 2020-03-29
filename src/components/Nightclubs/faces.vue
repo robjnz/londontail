@@ -22,12 +22,12 @@
           IG2 6LE
         </g-link>
       </p>
-      <h5 class="text-2xl text-pink-300">Launch Party</h5>
+      <h5 class="text-2xl text-pink-300">Closed</h5>
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 3 April 8 pm - 3 am
+        <!--Fri 3 April 8 pm - 3 am-->
       </p>
       <g-link
         class  = "text-red-700 hover:text-white"

@@ -33,14 +33,9 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Mon 30 March  <br /><span class="text-red-700">V</span> <br />Lopes Tavares
+        Sat 25 April<br /><span class="text-red-700">V</span> <br />Little Oakley
         
-        <br />
-      <!--
       
-      Mon 13 April 2020 @19.45 pm<br />V<br />Frenford<br />
-      Sat 25 April 2020 @ 3 pm <br />V<br />Little Oakley<br />
-      -->
     </p>
 
       <g-link
