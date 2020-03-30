@@ -33,14 +33,11 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3 pm <br /><span class="text-red-700">V</span>
-        <br />Carshalton
+        Sat 18 April 3 pm <br /><span class="text-red-700">V</span>
+        <br />Gray Wanderers
       </p>
 
-      <!--
-Mon 13 April 2020 @ 3pm <br>V<br>East Thurrock<br>
-Sat 18 April 2020 @ 3pm <br>V<br>Gray Wanderers<br>
--->
+ 
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2Tkk0z4"

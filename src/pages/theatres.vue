@@ -48,7 +48,6 @@
 
       <div class="grid sm:flex">
         <wilton /><!--Wilton's Music Hall -->
-       <shorditch /><!--Shoreditch Town Hall-->
       </div>
      
      

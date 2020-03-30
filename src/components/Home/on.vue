@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Mon 30 March
+       Tues 31 March
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -20,35 +20,9 @@
         </span>
         </h1>
         <br />
-  
 
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sat 4 April
-      </h3>
-      <div class="grid sm:flex">
-        <eltham /><!-- Eltham Palace-->
-        <red /><!--red house-->
-        <charlton /><!--charlton fc-->
-      </div>
+     
 
-       <div class="grid sm:flex">
-        <dagred /><!--Dagenham & Redbridge-->
-        <greenwichF /><!--greenwich fc-->
-        <hornchurchF /><!--hornchurch fc-->
-      </div>
- <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Fri 10 April
-      </h3>
- <div class="grid sm:flex">
-        <erithtown /><!--erith town fc-->
-        
-      </div>
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>

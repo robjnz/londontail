@@ -31,14 +31,9 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3 pm <br /><span class="text-red-700">V</span> <br />Halifax Town
+        Sat 25 April 5.20 pm <br /><span class="text-red-700">V</span> <br />Chesterfield
         
-         
-  <!--
-  
-  Mon 13 April 2020 @ 3pm<br>V<br>Eastleigh<br>
-  Sat 25 April 2020 @ 5.20pm<br>V<br>Chesterfield<br>
--->
+        
      
     </p>
 

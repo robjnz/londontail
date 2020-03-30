@@ -31,13 +31,8 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 10 April 1 pm<br /><span class="text-red-700">V</span> <br />Corinthian
+        Sat 25 April 3 pm<br /><span class="text-red-700">V</span> <br />Tunbridge Wells
         
-       <!--
-   
-
-Sat 25 April 2020 @ 3pm <br>V<br>Tunbridge Wells<br>
--->
     </p>
 
       <g-link

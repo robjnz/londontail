@@ -32,14 +32,10 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Sat 4 April 3pm <br /><span class="text-red-700">V</span> <br />Millwall
+        Sat 25 April 3pm <br /><span class="text-red-700">V</span> <br />Wigan Athletic
 
         <br />
-        <!--
- 
-Mon 13 April 2020 @ 3pm <br>V<br>Reading<br>
-Sat 25 April 2020 @ 3pm <br>V<br>Wigan Athletic<br>
--->
+
       </p>
 
       <g-link
