@@ -12,32 +12,45 @@
 
       <div class="grid sm:flex">
         <alex /><!--alexandra palace-->
+        <almeida /><!--Almeida Theatre-->
         <arts /><!--artsdepot-->
-        <barking /><!--Broadway Theatre Barking-->
        </div>
       
       <div class="grid sm:flex">
+        <barking /><!--Broadway Theatre Barking-->
         <chickenshed /><!--chickenshed-->
         <greenwichT /><!--Greenwich Theatre-->
-        <hackneyT /><!--hackney empire -->
       </div>
       
       <div class="grid sm:flex">
+        <hackneyT /><!--hackney empire -->
+        <hampsteadT /><!--Hampstead Theatre-->
         <hoxton /><!--Hoxton Hall-->
+        </div>
+      
+      <div class="grid sm:flex">
         <intimate /><!--Intimate Theatre-->
         <ilford /><!--Kenneth More Theatre-->
-      </div>
+        <angel /><!--Little Angel Theatre-->
+       </div>
       
       <div class="grid sm:flex">
         <hornchurch/><!--Queen's Theatre Hornchurch -->
         <rainbow /><!--Rainbow Theatre-->
-        <stratford /><!--Theatre Royal Stratford East-->
-      </div>
+        <shorditch /><!--Shoreditch Town Hall-->
+       </div>
+      
       <div class="grid sm:flex">
+        <stratford /><!--Theatre Royal Stratford East-->
         <two /><!--The O2 arena-->
-        <wilton /><!--Wilton's Music Hall -->
         <yard/><!--The Yard -->
       </div>
+
+      <div class="grid sm:flex">
+        <wilton /><!--Wilton's Music Hall -->
+       <shorditch /><!--Shoreditch Town Hall-->
+      </div>
+     
      
     </div>
     <br />
@@ -60,6 +73,10 @@ import chickenshed from "@/components/Theatres/chickenshed";
 import alex from "@/components/Theatres/alex";
 import intimate from "@/components/Theatres/intimate";
 import rainbow from "@/components/Theatres/rainbow";
+import almeida from "@/components/Theatres/almeida";
+import hampsteadT from "@/components/Theatres/hampsteadT";
+import angel from "@/components/Theatres/angel";
+import shorditch from "@/components/Theatres/shorditch";
 
 
 
@@ -91,6 +108,10 @@ export default {
     alex,
     intimate,
     rainbow,
+    almeida,
+    hampsteadT,
+    angel,
+    shorditch,
     date,
   }
 };
