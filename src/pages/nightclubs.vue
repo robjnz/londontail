@@ -13,13 +13,17 @@
       <div class="grid sm:flex">
         <atik /><!--Atik-->
         <bar /><!--Bar300-->
-        <faces /><!--Faces -->
-      </div>
+        <inegales /><!--Club Inégales-->
+        </div>
       <div class="grid sm:flex">
+        <egg /><!--Egg London Nightclub-->
+        <faces /><!--Faces -->
         <jhankaar /><!--Jhankaar club-->
+        </div>
+      <div class="grid sm:flex">
         <kings /><!--kings Bull-->
+        <kolis /><!--Kolis London-->
         <xoyo /><!--xoyo-->
-
       </div>
     </div>
     <br />
@@ -33,6 +37,9 @@ import faces from "@/components/Nightclubs/faces";
 import jhankaar from "@/components/Nightclubs/jhankaar";
 import kings from "@/components/Nightclubs/kings";
 import xoyo from "@/components/Nightclubs/xoyo";
+import egg from "@/components/Nightclubs/egg";
+import inegales from "@/components/Nightclubs/inegales";
+import kolis from "@/components/Nightclubs/kolis";
 
 import date from "@/components/Home/date";
 
@@ -43,7 +50,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Whats on guide for Local Nightclubs In East London."
+          "Whats on guide for Local Nightclubs In North and East London."
       }
     ]
   },
@@ -54,7 +61,10 @@ export default {
     jhankaar,
     kings,
     xoyo,
-    date
+    egg,
+    inegales,
+    kolis,
+    date,
   }
 };
 </script>
