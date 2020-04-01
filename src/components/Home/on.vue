@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Tues 31 March
+       Wed 1 April
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -22,16 +22,6 @@
         <br />
 
      
-
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sat 11 April
-      </h3>
-      <div class="grid sm:flex">
-        <forest /><!--forest fc-->
-      </div>
 
        <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">

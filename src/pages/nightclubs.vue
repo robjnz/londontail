@@ -17,12 +17,22 @@
         </div>
       <div class="grid sm:flex">
         <egg /><!--Egg London Nightclub-->
+        <fabric /><!--fabric-->
         <faces /><!--Faces -->
-        <jhankaar /><!--Jhankaar club-->
-        </div>
+         </div>
       <div class="grid sm:flex">
+        <jhankaar /><!--Jhankaar club-->
         <kings /><!--kings Bull-->
         <kolis /><!--Kolis London-->
+         </div>
+      <div class="grid sm:flex">
+        <orleans /><!--Orleans-->
+        <rio /><!--Rio Nightclub-->
+        <underworld /><!--The Underworld-->
+         </div>
+      <div class="grid sm:flex">
+        <venue /><!--The Venue N10-->
+        <vdf /><!--VFD-->
         <xoyo /><!--xoyo-->
       </div>
     </div>
@@ -40,6 +50,12 @@ import xoyo from "@/components/Nightclubs/xoyo";
 import egg from "@/components/Nightclubs/egg";
 import inegales from "@/components/Nightclubs/inegales";
 import kolis from "@/components/Nightclubs/kolis";
+import rio from "@/components/Nightclubs/rio";
+import orleans from "@/components/Nightclubs/orleans";
+import venue from "@/components/Nightclubs/venue";
+import underworld from "@/components/Nightclubs/underworld";
+import fabric from "@/components/Nightclubs/fabric";
+import vdf from "@/components/Nightclubs/vdf";
 
 import date from "@/components/Home/date";
 
@@ -64,6 +80,12 @@ export default {
     egg,
     inegales,
     kolis,
+    rio,
+    orleans,
+    venue,
+    underworld,
+    fabric,
+    vdf,
     date,
   }
 };
