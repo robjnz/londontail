@@ -16,24 +16,32 @@
         <inegales /><!--Club Inégales-->
         </div>
       <div class="grid sm:flex">
+        <crystals /><!--Crystals-->
         <egg /><!--Egg London Nightclub-->
         <fabric /><!--fabric-->
-        <faces /><!--Faces -->
-         </div>
+        </div>
       <div class="grid sm:flex">
+        <faces /><!--Faces -->
+        <infernos /><!--Infernos -->
         <jhankaar /><!--Jhankaar club-->
+        </div>
+      <div class="grid sm:flex">
         <kings /><!--kings Bull-->
         <kolis /><!--Kolis London-->
-         </div>
-      <div class="grid sm:flex">
         <orleans /><!--Orleans-->
+        </div>
+      <div class="grid sm:flex">
         <rio /><!--Rio Nightclub-->
+        <grand /><!--The Clapham Grand-->
         <underworld /><!--The Underworld-->
-         </div>
+        </div>
       <div class="grid sm:flex">
         <venue /><!--The Venue N10-->
         <vdf /><!--VFD-->
         <xoyo /><!--xoyo-->
+        </div>
+      <div class="grid sm:flex">
+        
       </div>
     </div>
     <br />
@@ -56,6 +64,9 @@ import venue from "@/components/Nightclubs/venue";
 import underworld from "@/components/Nightclubs/underworld";
 import fabric from "@/components/Nightclubs/fabric";
 import vdf from "@/components/Nightclubs/vdf";
+import infernos from "@/components/Nightclubs/infernos";
+import grand from "@/components/Nightclubs/grand";
+import crystals from "@/components/Nightclubs/crystals";
 
 import date from "@/components/Home/date";
 
@@ -86,6 +97,9 @@ export default {
     underworld,
     fabric,
     vdf,
+    infernos,
+    grand,
+    crystals,
     date,
   }
 };
