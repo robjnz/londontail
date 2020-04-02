@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Wed 1 April
+       Thurs 2 April
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -20,28 +20,6 @@
         </span>
         </h1>
         <br />
-
-     
-
-       <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Mon 13 April
-      </h3>
-      <div class="grid sm:flex">
-        <newbury /><!--newbury forest fc-->
-      </div>
-
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Fri 17 April
-      </h3>
- <div class="grid sm:flex">
-        <may/><!--may baker fc-->
-      </div>
 
 
       <h3 class="text-xl text-pink-300">

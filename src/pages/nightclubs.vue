@@ -16,32 +16,34 @@
         <inegales /><!--Club Inégales-->
         </div>
       <div class="grid sm:flex">
+        <club /><!--CLUB 701-->
         <crystals /><!--Crystals-->
         <egg /><!--Egg London Nightclub-->
-        <fabric /><!--fabric-->
         </div>
       <div class="grid sm:flex">
+          <fabric /><!--fabric-->
         <faces /><!--Faces -->
         <infernos /><!--Infernos -->
-        <jhankaar /><!--Jhankaar club-->
         </div>
       <div class="grid sm:flex">
+        <jhankaar /><!--Jhankaar club-->
         <kings /><!--kings Bull-->
         <kolis /><!--Kolis London-->
-        <orleans /><!--Orleans-->
         </div>
       <div class="grid sm:flex">
+        <ministry /><!--Ministry of Sound-->
+        <orleans /><!--Orleans-->
         <rio /><!--Rio Nightclub-->
+         </div>
+      <div class="grid sm:flex">
         <grand /><!--The Clapham Grand-->
+        <art /><!--The CLF Art Cafe-->
         <underworld /><!--The Underworld-->
-        </div>
+         </div>
       <div class="grid sm:flex">
         <venue /><!--The Venue N10-->
         <vdf /><!--VFD-->
         <xoyo /><!--xoyo-->
-        </div>
-      <div class="grid sm:flex">
-        
       </div>
     </div>
     <br />
@@ -67,6 +69,9 @@ import vdf from "@/components/Nightclubs/vdf";
 import infernos from "@/components/Nightclubs/infernos";
 import grand from "@/components/Nightclubs/grand";
 import crystals from "@/components/Nightclubs/crystals";
+import art from "@/components/Nightclubs/art";
+import club from "@/components/Nightclubs/club";
+import ministry from "@/components/Nightclubs/ministry";
 
 import date from "@/components/Home/date";
 
@@ -100,6 +105,9 @@ export default {
     infernos,
     grand,
     crystals,
+    art,
+    club,
+    ministry,
     date,
   }
 };

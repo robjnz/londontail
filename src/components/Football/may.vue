@@ -33,8 +33,9 @@
         <span class="text-pink-300">
           <i class="far fa-calendar-alt"></i>
         </span>
-        Fri 17 April 7.45 pm <br /><span class="text-red-700">V</span>
+      <!--  Fri 17 April 7.45 pm <br /><span class="text-red-700">V</span>
         <br />Hackney Wick
+        -->
       </p>
 
      
