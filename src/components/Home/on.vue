@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Thurs 2 April
+       Fri 3 April
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -22,73 +22,10 @@
         <br />
 
 
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sat 18 April
-      </h3>
-      <div class="grid sm:flex">
-        <ilfordF/><!-- ilford fc-->
-        <romford /><!--romford fc -->
-        <west /><!--west ham -->
-        </div>
-         <div class="grid sm:flex">
-        <barkingR/><!-- barking rugby-->
-        
-        </div>
- <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sun 19 April
-      </h3>
-      <div class="grid sm:flex">
-        <charltonwomen /><!-- charltonwomen fc--></div>
+      
 
-      <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Thurs 23 April
-      </h3>
-      <div class="grid sm:flex"><trinity /><!-- Trinity Buoy Wharf--></div>
-
-       <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sat 25 April
-      </h3>
-      <div class="grid sm:flex">
-        <barkingF /><!--barking fc -->
-        <phoenix /><!-- phoenix sport -->
-        <redbridge /><!--redbridge fc -->
-        </div>
-        <div class="grid sm:flex">
-        <walthamstow /><!--walthamstow fc -->
        
-        </div>
 
-        <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sun 26 April
-      </h3>
-      <div class="grid sm:flex">
-        <orientwomen /><!-- orientwomens fc-->
-        </div>
-
-         <h3 class="text-xl text-pink-300">
-        <span style="font-size: 1em;">
-          <i class="far fa-calendar-alt"></i>
-        </span>
-        Sat 26 May
-      </h3>
-      <div class="grid sm:flex">
-        <westwomen /><!-- west ham womens fc-->
-        </div>
     </div>
   </div>
 </template>

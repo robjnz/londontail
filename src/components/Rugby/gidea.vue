@@ -10,7 +10,7 @@
       <g-link href="https://bit.ly/2J8CdLd" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "~/images/rugby/gidea.jpg"
+          src   = "@/images/rugby/gidea.jpg"
           alt   = "Hackney"
       /></g-link>
       <p class="text-blue-200 text-center">
