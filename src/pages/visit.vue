@@ -16,84 +16,92 @@
       </div>
       <div class="grid sm:flex">
         <chingford /><!--Chingford Sky Trail-->
+        <crystalV /><!--Crystal Palace Park-->
+        <down /><!--Down House-->
+        </div>
+      <div class="grid sm:flex">
         <docklands /><!--Docklands Museum-->
         <eastbury /><!--Eastbury Manor House-->
-      </div>
-      <div class="grid sm:flex">
         <elizabeth /><!--Elizabeth's Hunting Lodge-->
+        </div>
+      <div class="grid sm:flex">
         <eltham /><!--Eltham Palace-->
         <epping /><!--Epping Forest-->
-      </div>
-      <div class="grid sm:flex">
         <fairlop /><!--Fairlop Waters Park-->
+        </div>
+      <div class="grid sm:flex">
         <fenton /><!--fenton house-->
         <forty /><!--forty hall-->
+        <freud /><!--Freud Museum-->
          </div>
       <div class="grid sm:flex">
-        <freud /><!--Freud Museum-->
         <geffrye /><!--Geffrye Museum-->
         <hackney /><!--Hackney City Farm-->
+        <hall /><!--Hall Place & Gardens-->
          </div>
       <div class="grid sm:flex">
-        <hall /><!--Hall Place & Gardens-->
         <havering /><!--Havering Country Park-->
         <horniman /><!--Horniman Museam & Park-->
+        <hospital /><!--Hospital Chapel Ilford-->
          </div>
       <div class="grid sm:flex">
-        <hospital /><!--Hospital Chapel Ilford-->
         <house /><!--House Mill-->
         <jack /><!--Jack The Ripper Museum-->
-        </div>
-      <div class="grid sm:flex">
         <jewish /><!--jewish museum-->
-         
+          </div>
+      <div class="grid sm:flex">
         <lee /><!--Lee Valley-->
         <canal /><!--London canal museum-->
-        </div>
-      <div class="grid sm:flex">
         <zoo /><!--london zoo-->
+         </div>
+      <div class="grid sm:flex">
         <mayesbrook /><!--Mayesbrook Park-->
         <mudchute /><!--mudchute-->
-        </div>
-      <div class="grid sm:flex">
         <markfield /><!--Markfield -->
+         </div>
+      <div class="grid sm:flex">
         <newham /><!--Newham City Farm-->
         <queen /><!--Queen Elizabeth Olympic Park-->
-        </div>
-      <div class="grid sm:flex">
         <ragged /><!--Ragged School Museum-->
+         </div>
+      <div class="grid sm:flex">
         <rainham /><!--Rainham Hall-->
         <ranger /><!--Ranger’s House-->
-        </div>
-      <div class="grid sm:flex">
         <red /><!--Red house-->
+         </div>
+      <div class="grid sm:flex">
         <airforce /><!--Royal Air Force Museum-->
         <greenwich /><!--Royal Museums Greenwich-->
-        </div>
-      <div class="grid sm:flex">
         <severndroog /><!--Severndroog Castle-->
+         </div>
+      <div class="grid sm:flex">
         <antioch /><!--St. Margaret of Antioch-->
         <stephens /><!--Stephens house-->
-        </div>
-      <div class="grid sm:flex">
         <sutton /><!--Sutton House-->
+         </div>
+      <div class="grid sm:flex">
         <thames /><!--Thames Barrier-->
         <totteridge /><!--Totteridge fields-->
-        </div>
-      <div class="grid sm:flex">
         <tower /><!--Tower Of London-->
+         </div>
+      <div class="grid sm:flex">
         <trinity /><!--Trinity Buoy Wharf-->
         <upminster /><!--Upminster Windmill-->
-        </div>
-      <div class="grid sm:flex">
         <valence /><!--Valence House Museum-->
+         </div>
+      <div class="grid sm:flex">
         <valentines /><!--Valentines Mansion-->
         <victoria /><!--Victoria Park-->
-        </div>
-      <div class="grid sm:flex">
         <viktor /><!--Viktor Wyne Museum-->
+         </div>
+      <div class="grid sm:flex">
         <wanstead /><!--Wansted Park-->
         <william /><!--William Morris Gallery-->
+      </div>
+
+        <div class="grid sm:flex">
+        <crystalV /><!--Crystal Palace Park-->
+        
       </div>
     </div>
     <br />
@@ -157,6 +165,8 @@ import totteridge from "@/components/Visit/north/totteridge";
 import fenton from "@/components/Visit/north/fenton";
 import zoo from "@/components/Visit/north/zoo";
 import freud from "@/components/Visit/north/freud";
+import down from "@/components/Visit/down";
+import crystalV from "@/components/Visit/crystalV";
 
 import date from "@/components/Home/date";
 
@@ -167,7 +177,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Visit Places Of Historical And Local Interest In North & East London for Day Out."
+          "Visit Places Of Historical And Local Interest In North South & East London for Day Out."
       }
     ]
   },
@@ -224,7 +234,9 @@ export default {
     fenton,
     zoo,
     freud,
-    date
+    down,
+    crystalV,
+    date,
   }
 };
 </script>
