@@ -25,6 +25,7 @@
       </p>
 
      <h5 class="text-2xl text-pink-300">Closed</h5>
+     <br />
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>

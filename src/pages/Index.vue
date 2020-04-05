@@ -3,7 +3,7 @@
     
     <div id="background" class="container m-auto">
       <h1 class="ml-12 mt-16 mb-16 text-4xl text-red-600">
-        Top 10 Things To Do In North & East London Today
+        Top 10 Things To Do In London Today
       </h1>
     
       
@@ -38,7 +38,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Top 10 Things to do in north & east London today, theatres, nightclubs, Rugby & football matches, places of historical interest to visit for days out, and much more!"
+          "Top 10 Things to do in London today, theatres, nightclubs, Rugby & football matches, places of historical interest to visit for days out, and much more!"
       }
     ],
     script: [

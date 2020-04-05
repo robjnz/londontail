@@ -22,8 +22,10 @@
         >
           E4 8TA
         </g-link>
-        <br /><br /><br />
+
       </p>
+              <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2THvCgW"

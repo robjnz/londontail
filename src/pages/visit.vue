@@ -16,6 +16,11 @@
       </div>
       <div class="grid sm:flex">
         <chingford /><!--Chingford Sky Trail-->
+        <chislehurst /><!--Chislehurst Caves-->
+        <churchhouse /><!--Church House Gardens-->
+      </div>
+      <div class="grid sm:flex">
+        <minster /><!--Croydon Minster-->
         <crystalV /><!--Crystal Palace Park-->
         <down /><!--Down House-->
         </div>
@@ -75,32 +80,33 @@
         <severndroog /><!--Severndroog Castle-->
          </div>
       <div class="grid sm:flex">
+        <shirley/><!--Shirley Windmill-->
         <antioch /><!--St. Margaret of Antioch-->
         <stephens /><!--Stephens house-->
-        <sutton /><!--Sutton House-->
          </div>
       <div class="grid sm:flex">
+        <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
         <totteridge /><!--Totteridge fields-->
-        <tower /><!--Tower Of London-->
          </div>
       <div class="grid sm:flex">
+        <tower /><!--Tower Of London-->
         <trinity /><!--Trinity Buoy Wharf-->
         <upminster /><!--Upminster Windmill-->
-        <valence /><!--Valence House Museum-->
          </div>
       <div class="grid sm:flex">
+        <valence /><!--Valence House Museum-->
         <valentines /><!--Valentines Mansion-->
         <victoria /><!--Victoria Park-->
-        <viktor /><!--Viktor Wyne Museum-->
          </div>
       <div class="grid sm:flex">
+        <viktor /><!--Viktor Wyne Museum-->
         <wanstead /><!--Wansted Park-->
         <william /><!--William Morris Gallery-->
       </div>
 
         <div class="grid sm:flex">
-        <crystalV /><!--Crystal Palace Park-->
+        
         
       </div>
     </div>
@@ -167,6 +173,10 @@ import zoo from "@/components/Visit/north/zoo";
 import freud from "@/components/Visit/north/freud";
 import down from "@/components/Visit/down";
 import crystalV from "@/components/Visit/crystalV";
+import chislehurst from "@/components/Visit/chislehurst";
+import churchhouse from "@/components/Visit/churchhouse";
+import shirley from "@/components/Visit/shirley";
+import minster from "@/components/Visit/minster";
 
 import date from "@/components/Home/date";
 
@@ -177,7 +187,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Visit Places Of Historical And Local Interest In North South & East London for Day Out."
+          "Visit Places Of Historical And Local Interest In London for Day Out."
       }
     ]
   },
@@ -236,6 +246,10 @@ export default {
     freud,
     down,
     crystalV,
+    chislehurst,
+    churchhouse,
+    shirley,
+    minster,
     date,
   }
 };

@@ -22,7 +22,8 @@
         >
           E6 5LT
         </g-link>
-        <br /><br /><br />
+              <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+
       </p>
       <g-link
         class  = "text-red-700 hover:text-white"

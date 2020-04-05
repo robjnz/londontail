@@ -22,12 +22,13 @@
           E14 0JW
         </g-link>
       </p>
-       <h5 class="text-2xl text-pink-300">Filthy Lucre Hurricane Bells</h5>
+       <h5 class="text-2xl text-pink-300">Closed</h5>
+       <br />
       <p class="text-pink-300">
         <span>
           <i class="far fa-calendar-alt"></i>
         </span>
-        Thurs 23 April @ 7.30 pm - 10.30 pm
+       <!-- Thurs 23 April @ 7.30 pm - 10.30 pm-->
       </p>
       <g-link
         class  = "text-red-700 hover:text-white"

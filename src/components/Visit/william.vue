@@ -24,7 +24,8 @@ Walthamstow London
          E17 4PP 
         </g-link>
       </p>
-     <br /><br /><br />
+             <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+
       <g-link
         class  = "text-red-700 hover:text-white"
         to     = "http://bit.ly/2IHVzGL"

@@ -3,29 +3,29 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-           <i class="fas fa-arrow-alt-circle-crystalV"></i>
-        </span> Crystal Palace Park</H2>
-      <g-link href="https://bit.ly/2UGgiSc" target="_blank"
+           <i class="fas fa-arrow-alt-circle-shirley"></i>
+        </span> Shirley Windmill</H2>
+      <g-link href="https://bit.ly/2RajpzS" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586018315/crystal_dbrf8g.jpg"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586099997/shirley_d9pc5t.jpg"
           fluid-grow
-          alt = "Crystal Palace Park"
+          alt = "Shirley Windmill"
       /></g-link>
       <p class="text-blue-200">
-        Thicket Road<br />London 
+        Postmill Close<br /> Croydon Surrey
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2UIr8Y4"
+          to     = "https://bit.ly/2V1JKkK"
           target = "_blank"
         >
-          SE19 2GA
+          CR0 5DY
         </g-link>
       </p>
       
-      <!--<h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>-->
-      <br />
+        <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+
       <!--
       <p class="text-pink-300">
         <span>
@@ -36,17 +36,17 @@
       </p>
       -->
       <article class="text-blue-200">
-  South London park with<br /> full-size model dinosaurs..... 
-  <input id="read-more-crystalV-1" class="read-more-crystalV" type="checkbox">
+  One of the last windmills<br /> to be built...... 
+  <input id="read-more-shirley-1" class="read-more-shirley" type="checkbox">
   <div class="read-more-content">
-        an outdoor concert stage,<br />  a maze children's farm<br /> and playground.<br /> including a lake which<br /> is valuable for water birds. 
+     in this country, a fascinating piece of <br />industrial archaeology of<br />a tower Mill built in 1854.
 
   </div>
-  <label class="read-more-crystalV-label text-red-700 hover:text-white" for="read-more-crystalV-1">Read </label>
+  <label class="read-more-shirley-label text-red-700 hover:text-white" for="read-more-shirley-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2UGgiSc"
+        to     = "https://bit.ly/2RajpzS"
         target = "_blank"
       >
         More Info
@@ -63,10 +63,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-crystalV {
+.read-more-shirley {
   display: none;
 }
-.read-more-crystalV-label {
+.read-more-shirley-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -75,17 +75,17 @@
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-crystalV-label:after {
+.read-more-shirley-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-crystalV:checked + .read-more-content {
+.read-more-shirley:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-crystalV:checked + .read-more-content + .read-more-crystalV-label:after {
+.read-more-shirley:checked + .read-more-content + .read-more-shirley-label:after {
   content: "Less";
 }
 </style>

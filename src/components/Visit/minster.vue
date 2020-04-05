@@ -3,29 +3,29 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-           <i class="fas fa-arrow-alt-circle-crystalV"></i>
-        </span> Crystal Palace Park</H2>
-      <g-link href="https://bit.ly/2UGgiSc" target="_blank"
+           <i class="fas fa-arrow-alt-circle-minster"></i>
+        </span> Croydon Minster</H2>
+      <g-link href="https://bit.ly/3aKv2VT" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586018315/crystal_dbrf8g.jpg"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586101564/minster_bmtyye.jpg"
           fluid-grow
-          alt = "Crystal Palace Park"
+          alt = "Croydon Minster"
       /></g-link>
       <p class="text-blue-200">
-        Thicket Road<br />London 
+        Church Street<br />  Croydon Surrey
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2UIr8Y4"
+          to     = "https://bit.ly/34b85bS"
           target = "_blank"
         >
-          SE19 2GA
+          CR0 1RN
         </g-link>
       </p>
       
-      <!--<h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>-->
-      <br />
+      <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+
       <!--
       <p class="text-pink-300">
         <span>
@@ -36,17 +36,16 @@
       </p>
       -->
       <article class="text-blue-200">
-  South London park with<br /> full-size model dinosaurs..... 
-  <input id="read-more-crystalV-1" class="read-more-crystalV" type="checkbox">
+  Croydon Minster has a long <br />and distinguished history....... 
+  <input id="read-more-minster-1" class="read-more-minster" type="checkbox">
   <div class="read-more-content">
-        an outdoor concert stage,<br />  a maze children's farm<br /> and playground.<br /> including a lake which<br /> is valuable for water birds. 
-
+ It is believed to have been founded<br /> in Saxon times. There <br /> is a record of a<br /> priest of Croydon in 960. <br />The first record of<br /> a church building<br /> is in Domesday Book of 1086. 
   </div>
-  <label class="read-more-crystalV-label text-red-700 hover:text-white" for="read-more-crystalV-1">Read </label>
+  <label class="read-more-minster-label text-red-700 hover:text-white" for="read-more-minster-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2UGgiSc"
+        to     = "https://bit.ly/3aKv2VT"
         target = "_blank"
       >
         More Info
@@ -63,10 +62,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-crystalV {
+.read-more-minster {
   display: none;
 }
-.read-more-crystalV-label {
+.read-more-minster-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -75,17 +74,17 @@
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-crystalV-label:after {
+.read-more-minster-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-crystalV:checked + .read-more-content {
+.read-more-minster:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-crystalV:checked + .read-more-content + .read-more-crystalV-label:after {
+.read-more-minster:checked + .read-more-content + .read-more-minster-label:after {
   content: "Less";
 }
 </style>
