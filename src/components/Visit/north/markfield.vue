@@ -29,7 +29,7 @@
        <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       <article class="text-blue-200">
   Grade 2 listed engine hall <br />housing a restored.....
-....... 
+
   <input id="read-more-markfield-1" class="read-more-markfield" type="checkbox">
   <div class="read-more-content">
       <br />

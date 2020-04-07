@@ -33,7 +33,7 @@ import date from "@/components/Home/date";
 
 export default {
   metaInfo: {
-    title: "London East",
+    title: "Top 10 Things To Do Today",
     meta : [
       {
         name   : "description",
