@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Wed 8 April
+       Thurs 9 April
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -21,7 +21,34 @@
         </h1>
         <br />
 
+<div class="grid sm:flex">
+      <battersea /><!--Battersea Park-->
+      <bethune /><!--Bethune Nature reserve-->
+      <bexley /><!--bexleyWoods-->
+      </div>
 
+      <div class="grid sm:flex">
+      <crystalV /><!--Crystal Palace Park-->
+      <epping /><!--Epping Forest-->
+        <fairlop /><!--Fairlop Waters Park-->
+        </div>
+
+      <div class="grid sm:flex">
+        <havering /><!--Havering Country Park-->
+        <lee /><!--Lee Valley-->
+        <mudchute /><!--mudchute-->
+        </div>
+
+      <div class="grid sm:flex">
+        <queen /><!--Queen Elizabeth Olympic Park-->
+        <totteridge /><!--Totteridge fields-->
+        <wandsworthcommon /><!--Wandsworth Common-->
+        </div>
+
+      <div class="grid sm:flex">
+        <wanstead /><!--Wansted Park-->
+       <wimbledoncommon /><!--Wimbledon Common-->
+      </div>
       
 
 
@@ -110,6 +137,12 @@ import walthamstow from "@/components/Football/walthamstow";
 import west from "@/components/Football/west";
 import westwomen from "@/components/Football/westwomen";
 import barkingR from "@/components/Rugby/barkingR";
+import bethune from "@/components/Visit/north/bethune";
+import crystalV from "@/components/Visit/crystalV";
+import totteridge from "@/components/Visit/north/totteridge";
+import wandsworthcommon from "@/components/Visit/wandsworthcommon";
+import wimbledoncommon from "@/components/Visit/wimbledoncommon";
+import battersea from "@/components/Visit/battersea";
 
 
  
@@ -190,6 +223,12 @@ export default {
     west,
     westwomen,
     barkingR,
+    bethune,
+    crystalV,
+    totteridge,
+    wandsworthcommon,
+    wimbledoncommon,
+    battersea,
   }
   
 };
