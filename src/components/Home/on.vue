@@ -2,13 +2,13 @@
   <div class="m-4 mt-10 p-4 w-auto rounded-lg">
     <div class="p-6">
      
-
     
+
       <h3 class="text-xl text-pink-300">
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Tues 7 April
+       Wed 8 April
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -24,13 +24,17 @@
 
       
 
-       
 
     </div>
   </div>
 </template>
 
+
+
+
+
 <script>
+
 import antioch from "@/components/Visit/antioch";
 import bexley from "@/components/Visit/bexley";
 import chingford from "@/components/Visit/chingford";
@@ -107,6 +111,8 @@ import west from "@/components/Football/west";
 import westwomen from "@/components/Football/westwomen";
 import barkingR from "@/components/Rugby/barkingR";
 
+
+ 
 
 export default {
   components: {
@@ -185,5 +191,6 @@ export default {
     westwomen,
     barkingR,
   }
+  
 };
 </script>
