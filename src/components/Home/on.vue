@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-       Thurs 9 April
+       Fri 10 April 2020
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -41,11 +41,12 @@
 
       <div class="grid sm:flex">
         <queen /><!--Queen Elizabeth Olympic Park-->
+        <roundwood /><!--Roundwood Park-->
         <totteridge /><!--Totteridge fields-->
-        <wandsworthcommon /><!--Wandsworth Common-->
         </div>
 
       <div class="grid sm:flex">
+        <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
        <wimbledoncommon /><!--Wimbledon Common-->
       </div>
@@ -143,6 +144,7 @@ import totteridge from "@/components/Visit/north/totteridge";
 import wandsworthcommon from "@/components/Visit/wandsworthcommon";
 import wimbledoncommon from "@/components/Visit/wimbledoncommon";
 import battersea from "@/components/Visit/battersea";
+import roundwood from "@/components/Visit/roundwood";
 
 
  
@@ -229,6 +231,7 @@ export default {
     wandsworthcommon,
     wimbledoncommon,
     battersea,
+    roundwood,
   }
   
 };

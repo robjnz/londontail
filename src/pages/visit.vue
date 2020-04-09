@@ -40,86 +40,89 @@
         <epping /><!--Epping Forest-->
         </div>
       <div class="grid sm:flex">
+         <emery /><!--Emery Walker’s House-->
         <fairlop /><!--Fairlop Waters Park-->
         <fenton /><!--fenton house-->
-        <forty /><!--forty hall-->
         </div>
       <div class="grid sm:flex">
+        <forty /><!--forty hall-->
         <freud /><!--Freud Museum-->
         <geffrye /><!--Geffrye Museum-->
-        <hackney /><!--Hackney City Farm-->
         </div>
       <div class="grid sm:flex">
+        <hackney /><!--Hackney City Farm-->
         <hall /><!--Hall Place & Gardens-->
         <havering /><!--Havering Country Park-->
-        <horniman /><!--Horniman Museam & Park-->
         </div>
       <div class="grid sm:flex">
+        <robinson /><!--HEATH ROBINSON MUSEUM-->
+        <horniman /><!--Horniman Museam & Park-->
         <hospital /><!--Hospital Chapel Ilford-->
+        </div>
+      <div class="grid sm:flex">
         <house /><!--House Mill-->
         <jack /><!--Jack The Ripper Museum-->
+        <jewish /><!--jewish museum-->
         </div>
       <div class="grid sm:flex">
-        <jewish /><!--jewish museum-->
         <lee /><!--Lee Valley-->
         <canal /><!--London canal museum-->
+        <zoo /><!--london zoo-->
         </div>
       <div class="grid sm:flex">
-        <zoo /><!--london zoo-->
         <markfield /><!--Markfield -->
         <mayesbrook /><!--Mayesbrook Park-->
+        <morden /><!--MORDEN HALL PARK-->
         </div>
       <div class="grid sm:flex">
-        <morden /><!--MORDEN HALL PARK-->
         <mudchute /><!--mudchute-->
         <newham /><!--Newham City Farm-->
+        <queen /><!--Queen Elizabeth Olympic Park-->
         </div>
       <div class="grid sm:flex">
-        <queen /><!--Queen Elizabeth Olympic Park-->
+        <pitzhanger /><!--Pitzhanger Manor House-->
         <ragged /><!--Ragged School Museum-->
         <rainham /><!--Rainham Hall-->
         </div>
       <div class="grid sm:flex">
         <ranger /><!--Ranger’s House-->
         <red /><!--Red house-->
-        <airforce /><!--Royal Air Force Museum-->
+        <roundwood /><!--Roundwood Park-->
         </div>
       <div class="grid sm:flex">
+        <airforce /><!--Royal Air Force Museum-->
         <greenwich /><!--Royal Museums Greenwich-->
         <severndroog /><!--Severndroog Castle-->
-        <shirley/><!--Shirley Windmill-->
         </div>
       <div class="grid sm:flex">
+        <shirley/><!--Shirley Windmill-->
         <antioch /><!--St. Margaret of Antioch-->
         <stephens /><!--Stephens house-->
-        <sutton /><!--Sutton House-->
         </div>
       <div class="grid sm:flex">
+        <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
         <totteridge /><!--Totteridge fields-->
-        <tower /><!--Tower Of London-->
         </div>
       <div class="grid sm:flex">
+        <tower /><!--Tower Of London-->
         <trinity /><!--Trinity Buoy Wharf-->
         <upminster /><!--Upminster Windmill-->
-        <valence /><!--Valence House Museum-->
         </div>
       <div class="grid sm:flex">
+        <valence /><!--Valence House Museum-->
         <valentines /><!--Valentines Mansion-->
         <victoria /><!--Victoria Park-->
-        <viktor /><!--Viktor Wyne Museum-->
         </div>
       <div class="grid sm:flex">
+        <viktor /><!--Viktor Wyne Museum-->
         <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
-        <william /><!--William Morris Gallery-->
         </div>
       <div class="grid sm:flex">
+        <william /><!--William Morris Gallery-->
         <wimbledoncommon /><!--Wimbledon Common-->
         <wimbledonmill /><!--Wimbledon Windmill-->
-      </div>
-      <div class="grid sm:flex">
-      
       </div>
     </div>
     <br />
@@ -197,6 +200,10 @@ import wandsworthcommon from "@/components/Visit/wandsworthcommon";
 import demorgan from "@/components/Visit/demorgan";
 import batterseazoo from "@/components/Visit/batterseazoo";
 import battersea from "@/components/Visit/battersea";
+import roundwood from "@/components/Visit/roundwood";
+import pitzhanger from "@/components/Visit/pitzhanger";
+import emery from "@/components/Visit/emery";
+import robinson from "@/components/Visit/robinson";
 
 
 import date from "@/components/Home/date";
@@ -279,7 +286,10 @@ export default {
     demorgan,
     batterseazoo,
     battersea,
-
+    roundwood,
+    pitzhanger,
+    emery,
+    robinson,
     date,
   }
 };

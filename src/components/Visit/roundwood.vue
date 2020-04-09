@@ -3,26 +3,26 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> De Morgan Foundation</H2>
-      <g-link href="https://bit.ly/34mGepg" target="_blank"
+        </span> Roundwood Park</H2>
+      <g-link href="https://bit.ly/3c7BKFQ" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586358398/demorgan_x5rtvu.jpg"
-          alt   = "De Morgan Foundation"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586433868/roundwood_udoj8w.jpg"
+          alt   = "roundwood Park"
       /></g-link>
       <p class="text-blue-200">
-    Down Lane Compton<br /> Guildford surrey
+    Harlesden Road<br />Willesden London
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2y2m73K"
+          to     = "https://bit.ly/2UQGklP"
           target = "_blank"
         >
-          GU3 1DQ
+          NW10 3SH
         </g-link>
       </p>
       
-      <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+      <h5 class=" mb-4 text-2xl text-pink-300">Park Open</h5>
       
       <!--
       <p class="text-pink-300">
@@ -35,16 +35,16 @@
       -->
       <article class="text-blue-200">
 
-          Museum of Arts <br />and Crafts paintings..... 
-<input id="read-more-demorgan-1" class="read-more-demorgan" type="checkbox">
+        Roundwood Park opend in 1895<br />and is one of the finest examples....... 
+<input id="read-more-roundwood-1" class="read-more-roundwood" type="checkbox">
   <div class="read-more-content">
 
-and ceramics by <br />William and Evelyn De Morgan.  </div>
- <label class="read-more-demorgan-label text-red-700 hover:text-white" for="read-more-demorgan-1">Read </label>
+ of a Victorian park.<br /> It has a maintains several<br /> iconic buildings of the<br /> area including the gazebo,<br /> drinking fountains<br /> and its flower beds.</div>
+<label class="read-more-roundwood-label text-red-700 hover:text-white" for="read-more-roundwood-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/34mGepg"
+        to     = "https://bit.ly/3c7BKFQ"
         target = "_blank"
       >
         More Info
@@ -61,10 +61,10 @@ and ceramics by <br />William and Evelyn De Morgan.  </div>
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-demorgan {
+.read-more-roundwood {
   display: none;
 }
-.read-more-demorgan-label {
+.read-more-roundwood-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -73,17 +73,17 @@ and ceramics by <br />William and Evelyn De Morgan.  </div>
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-demorgan-label:after {
+.read-more-roundwood-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-demorgan:checked + .read-more-content {
+.read-more-roundwood:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-demorgan:checked + .read-more-content + .read-more-demorgan-label:after {
+.read-more-roundwood:checked + .read-more-content + .read-more-roundwood-label:after {
   content: "Less";
 }
 </style>

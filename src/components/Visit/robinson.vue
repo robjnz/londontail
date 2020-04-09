@@ -3,22 +3,24 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> De Morgan Foundation</H2>
-      <g-link href="https://bit.ly/34mGepg" target="_blank"
+        </span> Heath Robinson Museum</H2>
+      <g-link href="https://bit.ly/2JRecbV" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586358398/demorgan_x5rtvu.jpg"
-          alt   = "De Morgan Foundation"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586448975/robinson_jhf5hs.jpg"
+          alt   = "Heath Robinson Museum"
       /></g-link>
       <p class="text-blue-200">
-    Down Lane Compton<br /> Guildford surrey
+    Pinner Memorial Park
+50 West End Lane<br />
+Pinner London 
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2y2m73K"
+          to     = "https://bit.ly/34opLkh"
           target = "_blank"
         >
-          GU3 1DQ
+          HA5 1AE
         </g-link>
       </p>
       
@@ -34,17 +36,18 @@
       </p>
       -->
       <article class="text-blue-200">
-
-          Museum of Arts <br />and Crafts paintings..... 
-<input id="read-more-demorgan-1" class="read-more-demorgan" type="checkbox">
+Heath Robinson exhibition<br /> tells the full story.....
+<input id="read-more-robinson-1" class="read-more-robinson" type="checkbox">
   <div class="read-more-content">
-
-and ceramics by <br />William and Evelyn De Morgan.  </div>
- <label class="read-more-demorgan-label text-red-700 hover:text-white" for="read-more-demorgan-1">Read </label>
+<br />
+ of Heath Robinson’s<br /> artistic career with<br /> original artwork and other items.  
+ 
+ </div>
+<label class="read-more-robinson-label text-red-700 hover:text-white" for="read-more-robinson-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/34mGepg"
+        to     = "https://bit.ly/2JRecbV"
         target = "_blank"
       >
         More Info
@@ -61,10 +64,10 @@ and ceramics by <br />William and Evelyn De Morgan.  </div>
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-demorgan {
+.read-more-robinson {
   display: none;
 }
-.read-more-demorgan-label {
+.read-more-robinson-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -73,17 +76,17 @@ and ceramics by <br />William and Evelyn De Morgan.  </div>
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-demorgan-label:after {
+.read-more-robinson-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-demorgan:checked + .read-more-content {
+.read-more-robinson:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-demorgan:checked + .read-more-content + .read-more-demorgan-label:after {
+.read-more-robinson:checked + .read-more-content + .read-more-robinson-label:after {
   content: "Less";
 }
 </style>
