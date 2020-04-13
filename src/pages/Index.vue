@@ -3,7 +3,7 @@
     
     <div id="background" class="container m-auto">
       <h1 class="ml-12 mt-16 mb-16 text-4xl text-red-600">
-        Top 10 Things To Do In London Today
+        Top 20 Things To Do In London Today
       </h1>
     
       
@@ -33,12 +33,12 @@ import date from "@/components/Home/date";
 
 export default {
   metaInfo: {
-    title: "Top 10 Things To Do Today",
+    title: "Top 20 Things To Do Today",
     meta : [
       {
         name   : "description",
         content: 
-          "Top 10 Things to do in London today, theatres, nightclubs, Rugby & football matches, places of historical interest to visit for days out, and much more!"
+          "Top 20 Things to do in London today, theatres, nightclubs, Rugby & football matches, places of historical interest to visit for days out, and much more!"
       }
     ],
     script: [

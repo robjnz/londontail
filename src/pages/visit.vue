@@ -65,33 +65,38 @@
         <jewish /><!--jewish museum-->
         </div>
       <div class="grid sm:flex">
+        <kew /><!--Kew Gardens -->
         <lee /><!--Lee Valley-->
         <canal /><!--London canal museum-->
-        <zoo /><!--london zoo-->
         </div>
       <div class="grid sm:flex">
+        <zoo /><!--london zoo-->
+        <marblehouse /><!--MARBLE HILL HOUSE -->
         <markfield /><!--Markfield -->
+        </div>
+      <div class="grid sm:flex">
         <mayesbrook /><!--Mayesbrook Park-->
         <morden /><!--MORDEN HALL PARK-->
+        <mudchute /><!--mudchute-->
         </div>
       <div class="grid sm:flex">
-        <mudchute /><!--mudchute-->
         <newham /><!--Newham City Farm-->
         <queen /><!--Queen Elizabeth Olympic Park-->
+        <pitzhanger /><!--Pitzhanger Manor House-->
         </div>
       <div class="grid sm:flex">
-        <pitzhanger /><!--Pitzhanger Manor House-->
         <ragged /><!--Ragged School Museum-->
         <rainham /><!--Rainham Hall-->
+        <ranger /><!--Ranger’s House-->
         </div>
       <div class="grid sm:flex">
-        <ranger /><!--Ranger’s House-->
         <red /><!--Red house-->
         <roundwood /><!--Roundwood Park-->
+        <airforce /><!--Royal Air Force Museum-->
         </div>
       <div class="grid sm:flex">
-        <airforce /><!--Royal Air Force Museum-->
         <greenwich /><!--Royal Museums Greenwich-->
+        <ruislip /><!--Ruislip Woods -->
         <severndroog /><!--Severndroog Castle-->
         </div>
       <div class="grid sm:flex">
@@ -204,6 +209,9 @@ import roundwood from "@/components/Visit/roundwood";
 import pitzhanger from "@/components/Visit/pitzhanger";
 import emery from "@/components/Visit/emery";
 import robinson from "@/components/Visit/robinson";
+import ruislip from "@/components/Visit/ruislip";
+import marblehouse from "@/components/Visit/marblehouse";
+import kew from "@/components/Visit/kew";
 
 
 import date from "@/components/Home/date";
@@ -290,6 +298,9 @@ export default {
     pitzhanger,
     emery,
     robinson,
+    ruislip,
+    marblehouse,
+    kew,
     date,
   }
 };

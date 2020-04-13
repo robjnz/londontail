@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-      Mon 13 April 2020
+      Tues 14 April 2020
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -36,17 +36,22 @@
       <div class="grid sm:flex">
         <havering /><!--Havering Country Park-->
         <lee /><!--Lee Valley-->
-        <mudchute /><!--mudchute-->
-        </div>
+        <marblehouse /><!--MARBLE HILL HOUSE -->
+</div>
 
       <div class="grid sm:flex">
+        <mudchute /><!--mudchute-->
         <queen /><!--Queen Elizabeth Olympic Park-->
         <roundwood /><!--Roundwood Park-->
-        <totteridge /><!--Totteridge fields-->
         </div>
 
       <div class="grid sm:flex">
+        <ruislip /><!--Ruislip Woods -->
+        <totteridge /><!--Totteridge fields-->
         <wandsworthcommon /><!--Wandsworth Common-->
+        </div>
+
+      <div class="grid sm:flex">
         <wanstead /><!--Wansted Park-->
        <wimbledoncommon /><!--Wimbledon Common-->
       </div>
@@ -145,6 +150,8 @@ import wandsworthcommon from "@/components/Visit/wandsworthcommon";
 import wimbledoncommon from "@/components/Visit/wimbledoncommon";
 import battersea from "@/components/Visit/battersea";
 import roundwood from "@/components/Visit/roundwood";
+import ruislip from "@/components/Visit/ruislip";
+import marblehouse from "@/components/Visit/marblehouse";
 
 
  
@@ -232,6 +239,9 @@ export default {
     wimbledoncommon,
     battersea,
     roundwood,
+    ruislip,
+    marblehouse,
+
   }
   
 };
