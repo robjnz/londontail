@@ -11,73 +11,78 @@
 
       <div class="grid sm:flex">
         <alexandra /><!--alexandra palace-->
+        <bankengland /><!--bank of england museum-->
         <battersea /><!--Battersea Park-->
-        <batterseazoo /><!--Battersea Park Children’s Zoo-->
         </div>
       <div class="grid sm:flex">
+        <batterseazoo /><!--Battersea Park Children’s Zoo-->
         <bethune /><!--Bethune Nature reserve-->
         <bexley /><!--bexleyWoods-->
-        <chingford /><!--Chingford Sky Trail-->
         </div>
       <div class="grid sm:flex">
+        <chingford /><!--Chingford Sky Trail-->
         <chislehurst /><!--Chislehurst Caves-->
         <churchhouse /><!--Church House Gardens-->
-        <minster /><!--Croydon Minster-->
         </div>
       <div class="grid sm:flex">
+        <minster /><!--Croydon Minster-->
         <crystalV /><!--Crystal Palace Park-->
         <deen /><!--DEEN CITY FARM-->
-        <demorgan /><!--De Morgan Center-->
         </div>
       <div class="grid sm:flex">
+        <demorgan /><!--De Morgan Center-->
         <down /><!--Down House-->
         <docklands /><!--Docklands Museum-->
-        <eastbury /><!--Eastbury Manor House-->
         </div>
       <div class="grid sm:flex">
+        <eastbury /><!--Eastbury Manor House-->
         <elizabeth /><!--Elizabeth's Hunting Lodge-->
         <eltham /><!--Eltham Palace-->
-        <epping /><!--Epping Forest-->
         </div>
       <div class="grid sm:flex">
+        <epping /><!--Epping Forest-->
          <emery /><!--Emery Walker’s House-->
         <fairlop /><!--Fairlop Waters Park-->
-        <fenton /><!--fenton house-->
         </div>
       <div class="grid sm:flex">
+        <fenton /><!--fenton house-->
         <forty /><!--forty hall-->
         <freud /><!--Freud Museum-->
-        <geffrye /><!--Geffrye Museum-->
         </div>
       <div class="grid sm:flex">
+        <geffrye /><!--Geffrye Museum-->
         <hackney /><!--Hackney City Farm-->
         <hall /><!--Hall Place & Gardens-->
-        <havering /><!--Havering Country Park-->
         </div>
       <div class="grid sm:flex">
+        <havering /><!--Havering Country Park-->
         <robinson /><!--HEATH ROBINSON MUSEUM-->
         <horniman /><!--Horniman Museam & Park-->
-        <hospital /><!--Hospital Chapel Ilford-->
         </div>
       <div class="grid sm:flex">
+        <hospital /><!--Hospital Chapel Ilford-->
         <house /><!--House Mill-->
         <jack /><!--Jack The Ripper Museum-->
-        <jewish /><!--jewish museum-->
         </div>
       <div class="grid sm:flex">
+        <jewish /><!--jewish museum-->
         <kew /><!--Kew Gardens -->
         <lee /><!--Lee Valley-->
-        <canal /><!--London canal museum-->
         </div>
       <div class="grid sm:flex">
+        <canal /><!--London canal museum-->
+        <mithraeum /><!--London Mithraeum-->
         <zoo /><!--london zoo-->
+        </div>
+      <div class="grid sm:flex">
         <marblehouse /><!--MARBLE HILL HOUSE -->
         <markfield /><!--Markfield -->
+        <mayesbrook /><!--Mayesbrook Park-->
         </div>
       <div class="grid sm:flex">
-        <mayesbrook /><!--Mayesbrook Park-->
         <morden /><!--MORDEN HALL PARK-->
         <mudchute /><!--mudchute-->
+        <museumlondon /><!--museum of london-->
         </div>
       <div class="grid sm:flex">
         <newham /><!--Newham City Farm-->
@@ -212,7 +217,9 @@ import robinson from "@/components/Visit/robinson";
 import ruislip from "@/components/Visit/ruislip";
 import marblehouse from "@/components/Visit/marblehouse";
 import kew from "@/components/Visit/kew";
-
+import museumlondon from "@/components/Visit/museumlondon";
+import bankengland from "@/components/Visit/bankengland";
+import mithraeum from "@/components/Visit/mithraeum";
 
 import date from "@/components/Home/date";
 
@@ -301,6 +308,9 @@ export default {
     ruislip,
     marblehouse,
     kew,
+    museumlondon,
+    bankengland,
+    mithraeum,
     date,
   }
 };
