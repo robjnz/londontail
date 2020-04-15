@@ -107,30 +107,34 @@
       <div class="grid sm:flex">
         <shirley/><!--Shirley Windmill-->
         <antioch /><!--St. Margaret of Antioch-->
-        <stephens /><!--Stephens house-->
-        </div>
+        <pauls /><!--St. Pauls Cathedral-->
+      </div>
       <div class="grid sm:flex">
+        <stephens /><!--Stephens house-->
         <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
-        <totteridge /><!--Totteridge fields-->
-        </div>
+         </div>
       <div class="grid sm:flex">
+        <totteridge /><!--Totteridge fields-->
+        <towerbridge /><!--Tower Bridge-->
         <tower /><!--Tower Of London-->
+         </div>
+      <div class="grid sm:flex">
         <trinity /><!--Trinity Buoy Wharf-->
         <upminster /><!--Upminster Windmill-->
-        </div>
-      <div class="grid sm:flex">
         <valence /><!--Valence House Museum-->
+         </div>
+      <div class="grid sm:flex">
         <valentines /><!--Valentines Mansion-->
         <victoria /><!--Victoria Park-->
-        </div>
-      <div class="grid sm:flex">
         <viktor /><!--Viktor Wyne Museum-->
+         </div>
+      <div class="grid sm:flex">
         <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
-        </div>
-      <div class="grid sm:flex">
         <william /><!--William Morris Gallery-->
+         </div>
+      <div class="grid sm:flex">
         <wimbledoncommon /><!--Wimbledon Common-->
         <wimbledonmill /><!--Wimbledon Windmill-->
       </div>
@@ -220,6 +224,8 @@ import kew from "@/components/Visit/kew";
 import museumlondon from "@/components/Visit/museumlondon";
 import bankengland from "@/components/Visit/bankengland";
 import mithraeum from "@/components/Visit/mithraeum";
+import pauls from "@/components/Visit/pauls";
+import towerbridge from "@/components/Visit/towerbridge";
 
 import date from "@/components/Home/date";
 
@@ -311,6 +317,8 @@ export default {
     museumlondon,
     bankengland,
     mithraeum,
+    pauls,
+    towerbridge,
     date,
   }
 };
