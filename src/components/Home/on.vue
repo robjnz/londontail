@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-      Thurs 16 April 2020
+      Fri 17 April 2020
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -34,24 +34,25 @@
         </div>
 
       <div class="grid sm:flex">
+        <hampstead /><!--Hampstead Heath-->
         <havering /><!--Havering Country Park-->
         <lee /><!--Lee Valley-->
-        <marblehouse /><!--MARBLE HILL HOUSE -->
-</div>
+         </div>
 
       <div class="grid sm:flex">
+        <marblehouse /><!--MARBLE HILL HOUSE -->
         <mudchute /><!--mudchute-->
         <queen /><!--Queen Elizabeth Olympic Park-->
-        <roundwood /><!--Roundwood Park-->
-        </div>
+         </div>
 
       <div class="grid sm:flex">
+        <roundwood /><!--Roundwood Park-->
         <ruislip /><!--Ruislip Woods -->
         <totteridge /><!--Totteridge fields-->
-        <wandsworthcommon /><!--Wandsworth Common-->
-        </div>
+         </div>
 
       <div class="grid sm:flex">
+        <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
        <wimbledoncommon /><!--Wimbledon Common-->
       </div>
@@ -152,6 +153,7 @@ import battersea from "@/components/Visit/battersea";
 import roundwood from "@/components/Visit/roundwood";
 import ruislip from "@/components/Visit/ruislip";
 import marblehouse from "@/components/Visit/marblehouse";
+import hampstead from "@/components/Visit/hampstead";
 
 
  
@@ -241,7 +243,7 @@ export default {
     roundwood,
     ruislip,
     marblehouse,
-
+    hampstead,
   }
   
 };

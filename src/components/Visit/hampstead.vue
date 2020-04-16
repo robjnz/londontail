@@ -3,27 +3,27 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Tower Bridge</H2>
-      <g-link href="https://bit.ly/2RFKCdU" target="_blank"
+        </span> Hampstead Heath</H2>
+      <g-link href="https://bit.ly/2VfzR49" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1515831480/tower_vow6im.jpg"
-          alt   = "tower bridge"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1587054305/hampstead_dystfp.jpg"
+          alt   = "Hampstead Heath"
       /></g-link>
       <p class="text-blue-200">
-      Tower Bridge Road<br />London 
+     Hampstead Lane<br /> Highgate London 
 
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/34BkyWF"
+          to     = "https://bit.ly/3abNWnh"
           target = "_blank"
         >
-          SE1 2UP
+          NW3 7JR
         </g-link>
       </p>
       
-      <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
+      <h5 class=" mb-4 text-2xl text-pink-300">Open</h5>
       
       <!--
       <p class="text-pink-300">
@@ -35,19 +35,18 @@
       </p>
       -->
       <article class="text-blue-200">
-Tower Bridge will transport<br /> you back to Victorian London......
-<input id="read-more-towerbridge-1" class="read-more-towerbridge" type="checkbox">
+ From Parliament Hill is the<br /> best view of London........
+<input id="read-more-hampstead-1" class="read-more-hampstead" type="checkbox">
 
   <div class="read-more-content">
 <br />
-telling the story of the city’s <br />defining landmark from <br />the very beginning.
-<br /><br />visit its high-level Walkways and Glass Floors.
+ ......
  </div>
-<label class="read-more-towerbridge-label text-red-700 hover:text-white" for="read-more-towerbridge-1">Read </label>
+<label class="read-more-hampstead-label text-red-700 hover:text-white" for="read-more-hampstead-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2RFKCdU"
+        to     = "https://bit.ly/2VfzR49"
         target = "_blank"
       >
         More Info
@@ -64,10 +63,10 @@ telling the story of the city’s <br />defining landmark from <br />the very be
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-towerbridge {
+.read-more-hampstead {
   display: none;
 }
-.read-more-towerbridge-label {
+.read-more-hampstead-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -76,17 +75,17 @@ telling the story of the city’s <br />defining landmark from <br />the very be
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-towerbridge-label:after {
+.read-more-hampstead-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-towerbridge:checked + .read-more-content {
+.read-more-hampstead:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-towerbridge:checked + .read-more-content + .read-more-towerbridge-label:after {
+.read-more-hampstead:checked + .read-more-content + .read-more-hampstead-label:after {
   content: "Less";
 }
 </style>

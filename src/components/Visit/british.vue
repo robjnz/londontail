@@ -3,23 +3,23 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Tower Bridge</H2>
-      <g-link href="https://bit.ly/2RFKCdU" target="_blank"
+        </span> British Museum</H2>
+      <g-link href="https://bit.ly/2KckjaU" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1515831480/tower_vow6im.jpg"
-          alt   = "tower bridge"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1587052674/british_vexfwb.jpg"
+          alt   = "British Museum"
       /></g-link>
       <p class="text-blue-200">
-      Tower Bridge Road<br />London 
+      Great Russell Street<br />London 
 
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/34BkyWF"
+          to     = "https://bit.ly/2K8ALZI"
           target = "_blank"
         >
-          SE1 2UP
+          WC1B 3DG
         </g-link>
       </p>
       
@@ -35,19 +35,18 @@
       </p>
       -->
       <article class="text-blue-200">
-Tower Bridge will transport<br /> you back to Victorian London......
-<input id="read-more-towerbridge-1" class="read-more-towerbridge" type="checkbox">
+The British Museum was founded in 1753<br /> opened its doors in 1759.......
+<input id="read-more-british-1" class="read-more-british" type="checkbox">
 
   <div class="read-more-content">
 <br />
-telling the story of the city’s <br />defining landmark from <br />the very beginning.
-<br /><br />visit its high-level Walkways and Glass Floors.
+ It was the first national museum <br />to cover all fields of human knowledge.
  </div>
-<label class="read-more-towerbridge-label text-red-700 hover:text-white" for="read-more-towerbridge-1">Read </label>
+<label class="read-more-british-label text-red-700 hover:text-white" for="read-more-british-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2RFKCdU"
+        to     = "https://bit.ly/2KckjaU"
         target = "_blank"
       >
         More Info
@@ -64,10 +63,10 @@ telling the story of the city’s <br />defining landmark from <br />the very be
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-towerbridge {
+.read-more-british {
   display: none;
 }
-.read-more-towerbridge-label {
+.read-more-british-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -76,17 +75,17 @@ telling the story of the city’s <br />defining landmark from <br />the very be
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-towerbridge-label:after {
+.read-more-british-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-towerbridge:checked + .read-more-content {
+.read-more-british:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-towerbridge:checked + .read-more-content + .read-more-towerbridge-label:after {
+.read-more-british:checked + .read-more-content + .read-more-british-label:after {
   content: "Less";
 }
 </style>
