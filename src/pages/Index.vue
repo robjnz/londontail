@@ -38,7 +38,7 @@ export default {
       {
         name   : "description",
         content: 
-          "Top 20 Things to do in London today, theatres, nightclubs, Rugby & football matches, places of historical interest to visit for days out, and much more!"
+          "Top 20 Things to do in London today, places of historical interest to visit for days out, theatres, nightclubs, Rugby & football matches, and much more!"
       }
     ],
     script: [
