@@ -3,16 +3,15 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Hampstead Heath</H2>
-      <g-link href="https://bit.ly/2VfzR49" target="_blank"
+        </span> kenwood House</H2>
+      <g-link href="https://bit.ly/2yrob5n" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1587054305/hampstead_dystfp.jpg"
-          alt   = "hampstead Heath"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1587464118/kenwood_ow0mh6.jpg"
+          alt   = "kenwood House"
       /></g-link>
       <p class="text-blue-200">
-     Hampstead Lane<br />
-Highgate London 
+     Hampstead Lane<br />Hampstead London
 
 
         <g-link
@@ -24,7 +23,7 @@ Highgate London
         </g-link>
       </p>
       
-      <h5 class=" mb-4 text-2xl text-pink-300">Open</h5>
+      <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       
       <!--
       <p class="text-pink-300">
@@ -36,18 +35,18 @@ Highgate London
       </p>
       -->
       <article class="text-blue-200">
- From Parliament Hill is the<br /> best view of London........
-<input id="read-more-hampstead-1" class="read-more-hampstead" type="checkbox">
+ Kenwood is one of London's hidden <br />gems, with breathtaking interiors.......
+<input id="read-more-kenwood-1" class="read-more-kenwood" type="checkbox">
 
   <div class="read-more-content">
 <br />
- ......
+  stunning art collection, including <br />Rembrandt's 'Portrait with Two Circles'.
  </div>
-<label class="read-more-hampstead-label text-red-700 hover:text-white" for="read-more-hampstead-1">Read </label>
+<label class="read-more-kenwood-label text-red-700 hover:text-white" for="read-more-kenwood-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/2VfzR49"
+        to     = "https://bit.ly/2yrob5n"
         target = "_blank"
       >
         More Info
@@ -64,10 +63,10 @@ Highgate London
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-hampstead {
+.read-more-kenwood {
   display: none;
 }
-.read-more-hampstead-label {
+.read-more-kenwood-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -76,17 +75,17 @@ Highgate London
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-hampstead-label:after {
+.read-more-kenwood-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-hampstead:checked + .read-more-content {
+.read-more-kenwood:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-hampstead:checked + .read-more-content + .read-more-hampstead-label:after {
+.read-more-kenwood:checked + .read-more-content + .read-more-kenwood-label:after {
   content: "Less";
 }
 </style>

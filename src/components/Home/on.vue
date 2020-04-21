@@ -46,14 +46,18 @@
          </div>
 
       <div class="grid sm:flex">
+        <regentspark /><!--Regent’s Park-->
         <roundwood /><!--Roundwood Park-->
         <ruislip /><!--Ruislip Woods -->
-        <totteridge /><!--Totteridge fields-->
          </div>
 
       <div class="grid sm:flex">
+        <totteridge /><!--Totteridge fields-->
         <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
+         </div>
+
+      <div class="grid sm:flex">
        <wimbledoncommon /><!--Wimbledon Common-->
       </div>
       
@@ -154,6 +158,7 @@ import roundwood from "@/components/Visit/roundwood";
 import ruislip from "@/components/Visit/ruislip";
 import marblehouse from "@/components/Visit/marblehouse";
 import hampstead from "@/components/Visit/hampstead";
+import regentspark from "@/components/Visit/regentspark";
 
 
  
@@ -244,6 +249,7 @@ export default {
     ruislip,
     marblehouse,
     hampstead,
+    regentspark,
   }
   
 };

@@ -70,76 +70,78 @@
         <jewish /><!--jewish museum-->
          </div>
       <div class="grid sm:flex">
+        <kenwood /><!--kenwood house-->
         <kew /><!--Kew Gardens -->
         <lee /><!--Lee Valley-->
-        <canal /><!--London canal museum-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <canal /><!--London canal museum-->
         <mithraeum /><!--London Mithraeum-->
         <zoo /><!--london zoo-->
-        <marblehouse /><!--MARBLE HILL HOUSE -->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <marblehouse /><!--MARBLE HILL HOUSE -->
         <markfield /><!--Markfield -->
         <mayesbrook /><!--Mayesbrook Park-->
-        <morden /><!--MORDEN HALL PARK-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <morden /><!--MORDEN HALL PARK-->
         <mudchute /><!--mudchute-->
         <museumlondon /><!--museum of london-->
-        <newham /><!--Newham City Farm-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <newham /><!--Newham City Farm-->
         <queen /><!--Queen Elizabeth Olympic Park-->
         <pitzhanger /><!--Pitzhanger Manor House-->
-        <ragged /><!--Ragged School Museum-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <ragged /><!--Ragged School Museum-->
         <rainham /><!--Rainham Hall-->
         <ranger /><!--Ranger’s House-->
-        <red /><!--Red house-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <red /><!--Red house-->
+        <regentspark /><!--Regent’s Park-->
         <roundwood /><!--Roundwood Park-->
+        </div>
+      <div class="grid sm:flex">
         <airforce /><!--Royal Air Force Museum-->
         <greenwich /><!--Royal Museums Greenwich-->
-         </div>
-      <div class="grid sm:flex">
         <ruislip /><!--Ruislip Woods -->
+        </div>
+      <div class="grid sm:flex">
         <severndroog /><!--Severndroog Castle-->
         <shirley/><!--Shirley Windmill-->
-         </div>
-      <div class="grid sm:flex">
         <antioch /><!--St. Margaret of Antioch-->
+        </div>
+      <div class="grid sm:flex">
         <pauls /><!--St. Pauls Cathedral-->
         <stephens /><!--Stephens house-->
-         </div>
-      <div class="grid sm:flex">
         <sutton /><!--Sutton House-->
+        </div>
+      <div class="grid sm:flex">
         <thames /><!--Thames Barrier-->
         <totteridge /><!--Totteridge fields-->
-         </div>
-      <div class="grid sm:flex">
         <towerbridge /><!--Tower Bridge-->
+        </div>
+      <div class="grid sm:flex">
         <tower /><!--Tower Of London-->
         <trinity /><!--Trinity Buoy Wharf-->
-         </div>
-      <div class="grid sm:flex">
         <upminster /><!--Upminster Windmill-->
+        </div>
+      <div class="grid sm:flex">
         <valence /><!--Valence House Museum-->
         <valentines /><!--Valentines Mansion-->
-         </div>
-      <div class="grid sm:flex">
         <victoria /><!--Victoria Park-->
+        </div>
+      <div class="grid sm:flex">
         <viktor /><!--Viktor Wyne Museum-->
         <wandsworthcommon /><!--Wandsworth Common-->
-         </div>
-      <div class="grid sm:flex">
         <wanstead /><!--Wansted Park-->
+        </div>
+      <div class="grid sm:flex">
         <william /><!--William Morris Gallery-->
         <wimbledoncommon /><!--Wimbledon Common-->
-         </div>
-      <div class="grid sm:flex">
         <wimbledonmill /><!--Wimbledon Windmill-->
       </div>
 
@@ -189,16 +191,12 @@ import victoria from "@/components/Visit/victoria";
 import viktor from "@/components/Visit/viktor";
 import wanstead from "@/components/Visit/wanstead";
 import william from "@/components/Visit/william";
-
 import alexandra from "@/components/Visit/north/alexandra";
 import bethune from "@/components/Visit/north/bethune";
 import canal from "@/components/Visit/north/canal";
-
 import forty from "@/components/Visit/north/forty";
 import jewish from "@/components/Visit/north/jewish";
-
 import markfield from "@/components/Visit/north/markfield";
-
 import stephens from "@/components/Visit/north/stephens";
 import airforce from "@/components/Visit/north/airforce";
 import totteridge from "@/components/Visit/north/totteridge";
@@ -233,6 +231,8 @@ import pauls from "@/components/Visit/pauls";
 import towerbridge from "@/components/Visit/towerbridge";
 import british from "@/components/Visit/british";
 import hampstead from "@/components/Visit/hampstead";
+import kenwood from "@/components/Visit/kenwood";
+import regentspark from "@/components/Visit/regentspark";
 
 import date from "@/components/Home/date";
 
@@ -328,6 +328,8 @@ export default {
     towerbridge,
     british,
     hampstead,
+    kenwood,
+    regentspark,
     date,
   }
 };
