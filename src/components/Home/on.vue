@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-      Tues 21 April 2020
+      Wed 22 April 2020
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
