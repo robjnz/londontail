@@ -3,7 +3,7 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Horniman Museam & Park</H2>
+        </span> Horniman Museam</H2>
       <g-link href="http://bit.ly/2ykLEm0" target="_blank"
         ><g-image
           class = "w-auto h-auto"
@@ -23,7 +23,7 @@
         </g-link>
       </p>
 
-            <h5 class=" mb-4 text-2xl text-pink-300">Gardens Still Open</h5>
+            <h5 class=" mb-4 text-2xl text-pink-300">Gardens Open</h5>
 
 
       <g-link

@@ -22,7 +22,7 @@
         </g-link>
       </p>
       
-      <h5 class=" mb-4 text-2xl text-pink-300">Park Open</h5>
+      <h5 class=" mb-4 text-2xl text-pink-300">Open</h5>
       
       <!--
       <p class="text-pink-300">

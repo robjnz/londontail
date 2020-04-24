@@ -41,7 +41,7 @@ Tower Bridge will transport<br /> you back to Victorian London......
   <div class="read-more-content">
 <br />
 telling the story of the city’s <br />defining landmark from <br />the very beginning.
-<br /><br />visit its high-level Walkways and Glass Floors.
+<br /><br />visit its high-level <br />Walkways and Glass Floors.
  </div>
 <label class="read-more-towerbridge-label text-red-700 hover:text-white" for="read-more-towerbridge-1">Read </label>
 </article>

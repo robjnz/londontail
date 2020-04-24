@@ -3,22 +3,24 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Roundwood Park</H2>
-      <g-link href="https://bit.ly/3c7BKFQ" target="_blank"
+        </span> Regents Canal</H2>
+      <g-link href="https://bit.ly/3535DEI" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586433868/roundwood_udoj8w.jpg"
-          alt   = "roundwood Park"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1587744063/regents_canal_d6luen.jpg"
+          alt   = "regents canal"
       /></g-link>
       <p class="text-blue-200">
-    Harlesden Road<br />Willesden London
+     
+Pool of Little Venice<br />London
+
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2UQGklP"
+          to     = "https://bit.ly/2VWhMXP"
           target = "_blank"
         >
-          NW10 3SH
+          W9 2PF
         </g-link>
       </p>
       
@@ -34,17 +36,19 @@
       </p>
       -->
       <article class="text-blue-200">
+Built in the 1810s<br /> this waterway runs for 8.6 miles ......
+<input id="read-more-regentscanal-1" class="read-more-regentscanal" type="checkbox">
 
-        Roundwood Park opend in 1895<br />and is one of the finest examples....... 
-<input id="read-more-roundwood-1" class="read-more-roundwood" type="checkbox">
   <div class="read-more-content">
+<br />
 
- of a Victorian park.<br /> It has a maintains several<br /> iconic buildings of the<br /> area including the gazebo,<br /> drinking fountains<br /> and its flower beds.</div>
-<label class="read-more-roundwood-label text-red-700 hover:text-white" for="read-more-roundwood-1">Read </label>
+through east and north-central <br />London between the Grand Union<br />canal at Paddington and the<br /> River Thames at Limehouse.
+ </div>
+<label class="read-more-regentscanal-label text-red-700 hover:text-white" for="read-more-regentscanal-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/3c7BKFQ"
+        to     = "https://bit.ly/3535DEI"
         target = "_blank"
       >
         More Info
@@ -61,10 +65,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-roundwood {
+.read-more-regentscanal {
   display: none;
 }
-.read-more-roundwood-label {
+.read-more-regentscanal-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -73,17 +77,17 @@
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-roundwood-label:after {
+.read-more-regentscanal-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-roundwood:checked + .read-more-content {
+.read-more-regentscanal:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-roundwood:checked + .read-more-content + .read-more-roundwood-label:after {
+.read-more-regentscanal:checked + .read-more-content + .read-more-regentscanal-label:after {
   content: "Less";
 }
 </style>

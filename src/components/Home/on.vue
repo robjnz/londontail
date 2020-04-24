@@ -8,7 +8,7 @@
         <span style="font-size: 1em;">
           <i class="far fa-calendar-alt"></i>
         </span>
-      Friday 24 April 2020
+      Saturday 25 April 2020
       </h3>
       <h1 class="text-red-500  text-2xl">
         <span class="text-pink-300" style="font-size: 1em;">
@@ -46,18 +46,19 @@
          </div>
 
       <div class="grid sm:flex">
+        <regentscanal /><!--Regent’s Canal-->
         <regentspark /><!--Regent’s Park-->
         <roundwood /><!--Roundwood Park-->
-        <ruislip /><!--Ruislip Woods -->
-         </div>
+        </div>
 
       <div class="grid sm:flex">
+        <ruislip /><!--Ruislip Woods -->
         <totteridge /><!--Totteridge fields-->
         <wandsworthcommon /><!--Wandsworth Common-->
-        <wanstead /><!--Wansted Park-->
-         </div>
+        </div>
 
       <div class="grid sm:flex">
+        <wanstead /><!--Wansted Park-->
        <wimbledoncommon /><!--Wimbledon Common-->
       </div>
       
@@ -159,6 +160,7 @@ import ruislip from "@/components/Visit/ruislip";
 import marblehouse from "@/components/Visit/marblehouse";
 import hampstead from "@/components/Visit/hampstead";
 import regentspark from "@/components/Visit/regentspark";
+import regentscanal from "@/components/Visit/regentscanal";
 
 
  
@@ -250,6 +252,7 @@ export default {
     marblehouse,
     hampstead,
     regentspark,
+    regentscanal,
   }
   
 };

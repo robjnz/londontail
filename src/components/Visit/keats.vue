@@ -3,26 +3,27 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Roundwood Park</H2>
-      <g-link href="https://bit.ly/3c7BKFQ" target="_blank"
+        </span> Keats House</H2>
+      <g-link href="https://bit.ly/2Y1UJNX" target="_blank"
         ><g-image
           class = "w-auto h-auto"
-          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1586433868/roundwood_udoj8w.jpg"
-          alt   = "roundwood Park"
+          src   = "https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1587741322/keats_au8ir2.jpg"
+          alt   = "keats house"
       /></g-link>
       <p class="text-blue-200">
-    Harlesden Road<br />Willesden London
+     10 Keats Grove<br />Hampstead London 
+
 
         <g-link
           class  = "text-red-700 hover:text-white"
-          to     = "https://bit.ly/2UQGklP"
+          to     = "https://bit.ly/2x4cOzV"
           target = "_blank"
         >
-          NW10 3SH
+          NW3 2RR
         </g-link>
       </p>
       
-      <h5 class=" mb-4 text-2xl text-pink-300">Open</h5>
+      <h5 class=" mb-4 text-2xl text-pink-300">Closed</h5>
       
       <!--
       <p class="text-pink-300">
@@ -34,17 +35,19 @@
       </p>
       -->
       <article class="text-blue-200">
+ Home of John Keats the poet <br />1818 to 1820...... 
+<input id="read-more-keats-1" class="read-more-keats" type="checkbox">
 
-        Roundwood Park opend in 1895<br />and is one of the finest examples....... 
-<input id="read-more-roundwood-1" class="read-more-roundwood" type="checkbox">
   <div class="read-more-content">
+<br />
+Built in 1815 and originally<br /> named Wentworth Place.
 
- of a Victorian park.<br /> It has a maintains several<br /> iconic buildings of the<br /> area including the gazebo,<br /> drinking fountains<br /> and its flower beds.</div>
-<label class="read-more-roundwood-label text-red-700 hover:text-white" for="read-more-roundwood-1">Read </label>
+ </div>
+<label class="read-more-keats-label text-red-700 hover:text-white" for="read-more-keats-1">Read </label>
 </article>
       <g-link
         class  = "text-red-700 hover:text-white"
-        to     = "https://bit.ly/3c7BKFQ"
+        to     = "https://bit.ly/2Y1UJNX"
         target = "_blank"
       >
         More Info
@@ -61,10 +64,10 @@
   overflow  : hidden;
   transition: max-height .5s ease;
 }
-.read-more-roundwood {
+.read-more-keats {
   display: none;
 }
-.read-more-roundwood-label {
+.read-more-keats-label {
   display    : inline-block;
   user-select: none;
   cursor     : pointer;
@@ -73,17 +76,17 @@
   margin     : .5em;
   font-size  : 16px;
 }
-.read-more-roundwood-label:after {
+.read-more-keats-label:after {
   content: "More";
   display: inline-block;
 }
-.read-more-roundwood:checked + .read-more-content {
+.read-more-keats:checked + .read-more-content {
   display: block;
   /* css animation won't work with "auto"; set to some height larger
     than the content */
   max-height: 1000px;
 }
-.read-more-roundwood:checked + .read-more-content + .read-more-roundwood-label:after {
+.read-more-keats:checked + .read-more-content + .read-more-keats-label:after {
   content: "Less";
 }
 </style>

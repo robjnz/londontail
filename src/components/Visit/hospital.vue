@@ -3,7 +3,7 @@
     <div class="p-6">
       <H2 class="text-2xl text-blue-200"><span class="text-pink-300">
            <i class="fas fa-landmark"></i>
-        </span> Hospital Chapel Ilford</H2>
+        </span> Hospital Chapel</H2>
       <g-link href="http://bit.ly/2NY3WOT" target="_blank"
         ><g-image
           class = "w-auto h-auto"

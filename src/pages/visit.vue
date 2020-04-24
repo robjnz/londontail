@@ -70,77 +70,81 @@
         <jewish /><!--jewish museum-->
          </div>
       <div class="grid sm:flex">
+        <keats /><!--Keats House -->
         <kenwood /><!--kenwood house-->
         <kew /><!--Kew Gardens -->
-        <lee /><!--Lee Valley-->
-          </div>
+         </div>
       <div class="grid sm:flex">
+        <lee /><!--Lee Valley-->
         <canal /><!--London canal museum-->
         <mithraeum /><!--London Mithraeum-->
-        <zoo /><!--london zoo-->
-          </div>
+         </div>
       <div class="grid sm:flex">
+        <zoo /><!--london zoo-->
         <marblehouse /><!--MARBLE HILL HOUSE -->
         <markfield /><!--Markfield -->
-        <mayesbrook /><!--Mayesbrook Park-->
-          </div>
+         </div>
       <div class="grid sm:flex">
+        <mayesbrook /><!--Mayesbrook Park-->
         <morden /><!--MORDEN HALL PARK-->
         <mudchute /><!--mudchute-->
-        <museumlondon /><!--museum of london-->
-          </div>
+         </div>
       <div class="grid sm:flex">
+        <museumlondon /><!--museum of london-->
         <newham /><!--Newham City Farm-->
         <queen /><!--Queen Elizabeth Olympic Park-->
-        <pitzhanger /><!--Pitzhanger Manor House-->
-          </div>
+         </div>
       <div class="grid sm:flex">
+        <pitzhanger /><!--Pitzhanger Manor House-->
         <ragged /><!--Ragged School Museum-->
         <rainham /><!--Rainham Hall-->
-        <ranger /><!--Ranger’s House-->
-          </div>
+         </div>
       <div class="grid sm:flex">
+        <ranger /><!--Ranger’s House-->
         <red /><!--Red house-->
+        <regentscanal /><!--Regent’s Canal-->
+         </div>
+      <div class="grid sm:flex">
         <regentspark /><!--Regent’s Park-->
         <roundwood /><!--Roundwood Park-->
-        </div>
-      <div class="grid sm:flex">
         <airforce /><!--Royal Air Force Museum-->
+         </div>
+      <div class="grid sm:flex">
         <greenwich /><!--Royal Museums Greenwich-->
         <ruislip /><!--Ruislip Woods -->
-        </div>
-      <div class="grid sm:flex">
         <severndroog /><!--Severndroog Castle-->
+         </div>
+      <div class="grid sm:flex">
         <shirley/><!--Shirley Windmill-->
         <antioch /><!--St. Margaret of Antioch-->
-        </div>
-      <div class="grid sm:flex">
         <pauls /><!--St. Pauls Cathedral-->
+         </div>
+      <div class="grid sm:flex">
         <stephens /><!--Stephens house-->
         <sutton /><!--Sutton House-->
-        </div>
-      <div class="grid sm:flex">
         <thames /><!--Thames Barrier-->
+         </div>
+      <div class="grid sm:flex">
         <totteridge /><!--Totteridge fields-->
         <towerbridge /><!--Tower Bridge-->
-        </div>
-      <div class="grid sm:flex">
         <tower /><!--Tower Of London-->
+         </div>
+      <div class="grid sm:flex">
         <trinity /><!--Trinity Buoy Wharf-->
         <upminster /><!--Upminster Windmill-->
-        </div>
-      <div class="grid sm:flex">
         <valence /><!--Valence House Museum-->
+         </div>
+      <div class="grid sm:flex">
         <valentines /><!--Valentines Mansion-->
         <victoria /><!--Victoria Park-->
-        </div>
-      <div class="grid sm:flex">
         <viktor /><!--Viktor Wyne Museum-->
+         </div>
+      <div class="grid sm:flex">
         <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
-        </div>
-      <div class="grid sm:flex">
         <william /><!--William Morris Gallery-->
+         </div>
+      <div class="grid sm:flex">
         <wimbledoncommon /><!--Wimbledon Common-->
         <wimbledonmill /><!--Wimbledon Windmill-->
       </div>
@@ -233,6 +237,9 @@ import british from "@/components/Visit/british";
 import hampstead from "@/components/Visit/hampstead";
 import kenwood from "@/components/Visit/kenwood";
 import regentspark from "@/components/Visit/regentspark";
+import keats from "@/components/Visit/keats";
+import regentscanal from "@/components/Visit/regentscanal";
+
 
 import date from "@/components/Home/date";
 
@@ -330,6 +337,8 @@ export default {
     hampstead,
     kenwood,
     regentspark,
+    keats,
+    regentscanal,
     date,
   }
 };
