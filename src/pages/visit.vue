@@ -71,85 +71,86 @@
          </div>
       <div class="grid sm:flex">
         <keats /><!--Keats House -->
+        <kenpalace /><!--Kensington Palace-->
         <kenwood /><!--kenwood house-->
-        <kew /><!--Kew Gardens -->
-         </div>
+        </div>
       <div class="grid sm:flex">
+        <kew /><!--Kew Gardens -->
         <lee /><!--Lee Valley-->
         <canal /><!--London canal museum-->
-        <mithraeum /><!--London Mithraeum-->
-         </div>
+        </div>
       <div class="grid sm:flex">
+        <mithraeum /><!--London Mithraeum-->
         <zoo /><!--london zoo-->
         <marblehouse /><!--MARBLE HILL HOUSE -->
-        <markfield /><!--Markfield -->
-         </div>
+        </div>
       <div class="grid sm:flex">
+        <markfield /><!--Markfield -->
         <mayesbrook /><!--Mayesbrook Park-->
         <morden /><!--MORDEN HALL PARK-->
-        <mudchute /><!--mudchute-->
-         </div>
+        </div>
       <div class="grid sm:flex">
+        <mudchute /><!--mudchute-->
         <museumlondon /><!--museum of london-->
         <natural /><!-- Natural History Museum-->
-        <newham /><!--Newham City Farm-->
-          </div>
+        </div>
       <div class="grid sm:flex">
+        <newham /><!--Newham City Farm-->
         <queen /><!--Queen Elizabeth Olympic Park-->
         <pitzhanger /><!--Pitzhanger Manor House-->
-        <ragged /><!--Ragged School Museum-->
-          </div>
+        </div>
       <div class="grid sm:flex">
+        <ragged /><!--Ragged School Museum-->
         <rainham /><!--Rainham Hall-->
         <ranger /><!--Ranger’s House-->
-        <red /><!--Red house-->
-          </div>
+        </div>
       <div class="grid sm:flex">
+        <red /><!--Red house-->
         <regentscanal /><!--Regent’s Canal-->
         <regentspark /><!--Regent’s Park-->
-        <roundwood /><!--Roundwood Park-->
-          </div>
+        </div>
       <div class="grid sm:flex">
+        <roundwood /><!--Roundwood Park-->
         <airforce /><!--Royal Air Force Museum-->
         <greenwich /><!--Royal Museums Greenwich-->
-        <ruislip /><!--Ruislip Woods -->
-          </div>
+        </div>
       <div class="grid sm:flex">
+        <ruislip /><!--Ruislip Woods -->
         <science /><!--Science Museum-->
         <severndroog /><!--Severndroog Castle-->
-        <shirley/><!--Shirley Windmill-->
         </div>
       <div class="grid sm:flex">
+        <shirley/><!--Shirley Windmill-->
         <antioch /><!--St. Margaret of Antioch-->
         <pauls /><!--St. Pauls Cathedral-->
-        <stephens /><!--Stephens house-->
         </div>
       <div class="grid sm:flex">
+        <stephens /><!--Stephens house-->
         <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
-        <totteridge /><!--Totteridge fields-->
         </div>
       <div class="grid sm:flex">
+        <totteridge /><!--Totteridge fields-->
         <towerbridge /><!--Tower Bridge-->
         <tower /><!--Tower Of London-->
-        <trinity /><!--Trinity Buoy Wharf-->
         </div>
       <div class="grid sm:flex">
+        <trinity /><!--Trinity Buoy Wharf-->
         <upminster /><!--Upminster Windmill-->
         <valence /><!--Valence House Museum-->
-        <valentines /><!--Valentines Mansion-->
         </div>
       <div class="grid sm:flex">
+        <valentines /><!--Valentines Mansion-->
         <victoriaalbert /><!--Victoria & Albert Museum-->
         <victoria /><!--Victoria Park-->
-        <viktor /><!--Viktor Wyne Museum-->
         </div>
       <div class="grid sm:flex">
+        <viktor /><!--Viktor Wyne Museum-->
         <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
-        <william /><!--William Morris Gallery-->
         </div>
       <div class="grid sm:flex">
+        <william /><!--William Morris Gallery-->
         <wimbledoncommon /><!--Wimbledon Common-->
         <wimbledonmill /><!--Wimbledon Windmill-->
       </div>
@@ -247,6 +248,7 @@ import regentscanal from "@/components/Visit/regentscanal";
 import victoriaalbert from "@/components/Visit/victoriaalbert";
 import natural from "@/components/Visit/natural";
 import science from "@/components/Visit/science";
+import kenpalace from "@/components/Visit/kenpalace";
 
 
 import date from "@/components/Home/date";
@@ -350,6 +352,7 @@ export default {
     victoriaalbert,
     natural,
     science,
+    kenpalace,
     date,
   }
 };
