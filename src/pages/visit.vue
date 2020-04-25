@@ -91,59 +91,64 @@
          </div>
       <div class="grid sm:flex">
         <museumlondon /><!--museum of london-->
+        <natural /><!-- Natural History Museum-->
         <newham /><!--Newham City Farm-->
-        <queen /><!--Queen Elizabeth Olympic Park-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <queen /><!--Queen Elizabeth Olympic Park-->
         <pitzhanger /><!--Pitzhanger Manor House-->
         <ragged /><!--Ragged School Museum-->
-        <rainham /><!--Rainham Hall-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <rainham /><!--Rainham Hall-->
         <ranger /><!--Ranger’s House-->
         <red /><!--Red house-->
-        <regentscanal /><!--Regent’s Canal-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <regentscanal /><!--Regent’s Canal-->
         <regentspark /><!--Regent’s Park-->
         <roundwood /><!--Roundwood Park-->
-        <airforce /><!--Royal Air Force Museum-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <airforce /><!--Royal Air Force Museum-->
         <greenwich /><!--Royal Museums Greenwich-->
         <ruislip /><!--Ruislip Woods -->
-        <severndroog /><!--Severndroog Castle-->
-         </div>
+          </div>
       <div class="grid sm:flex">
+        <science /><!--Science Museum-->
+        <severndroog /><!--Severndroog Castle-->
         <shirley/><!--Shirley Windmill-->
+        </div>
+      <div class="grid sm:flex">
         <antioch /><!--St. Margaret of Antioch-->
         <pauls /><!--St. Pauls Cathedral-->
-         </div>
-      <div class="grid sm:flex">
         <stephens /><!--Stephens house-->
+        </div>
+      <div class="grid sm:flex">
         <sutton /><!--Sutton House-->
         <thames /><!--Thames Barrier-->
-         </div>
-      <div class="grid sm:flex">
         <totteridge /><!--Totteridge fields-->
+        </div>
+      <div class="grid sm:flex">
         <towerbridge /><!--Tower Bridge-->
         <tower /><!--Tower Of London-->
-         </div>
-      <div class="grid sm:flex">
         <trinity /><!--Trinity Buoy Wharf-->
+        </div>
+      <div class="grid sm:flex">
         <upminster /><!--Upminster Windmill-->
         <valence /><!--Valence House Museum-->
-         </div>
-      <div class="grid sm:flex">
         <valentines /><!--Valentines Mansion-->
+        </div>
+      <div class="grid sm:flex">
+        <victoriaalbert /><!--Victoria & Albert Museum-->
         <victoria /><!--Victoria Park-->
         <viktor /><!--Viktor Wyne Museum-->
-         </div>
+        </div>
       <div class="grid sm:flex">
         <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
         <william /><!--William Morris Gallery-->
-         </div>
+        </div>
       <div class="grid sm:flex">
         <wimbledoncommon /><!--Wimbledon Common-->
         <wimbledonmill /><!--Wimbledon Windmill-->
@@ -239,6 +244,9 @@ import kenwood from "@/components/Visit/kenwood";
 import regentspark from "@/components/Visit/regentspark";
 import keats from "@/components/Visit/keats";
 import regentscanal from "@/components/Visit/regentscanal";
+import victoriaalbert from "@/components/Visit/victoriaalbert";
+import natural from "@/components/Visit/natural";
+import science from "@/components/Visit/science";
 
 
 import date from "@/components/Home/date";
@@ -339,6 +347,9 @@ export default {
     regentspark,
     keats,
     regentscanal,
+    victoriaalbert,
+    natural,
+    science,
     date,
   }
 };
