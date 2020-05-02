@@ -9,9 +9,12 @@ module.exports = {
   plugins : [
     {
       use: 'gridsome-plugin-tailwindcss',
-      /* These are the default options. You don't need to set any options to get going.
+     /** 
+      * These are the default options. You don't need to set any options to get
+      * going. Seriously, you don't need to declare tailwind.config.js.
+
       options: {
-        tailwindConfig  : './some/file/js',
+        tailwindConfig  : './tailwind.config.js',
         purgeConfig     : {},
         presetEnvConfig : {},
         shouldPurge     : true,
@@ -25,6 +28,6 @@ module.exports = {
       options: {
         id: 'UA-84231316-2'
       }
-    }
+}
   ]
 };
