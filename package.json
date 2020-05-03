@@ -1,17 +1,18 @@
 {
-  "name": "londontail",
+  "name"   : "londontail",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
+    "build"  : "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
-    "gridsome": "^0.7.13",
-    "jshint": "^2.11.0"
+    "gridsome"                         : "^0.7.13",
+    "jshint"                           : "^2.11.0",
+    "gridsome-plugin-tailwindcss"      : "2.2.46"
   },
   "devDependencies": {
-    "gridsome-plugin-tailwindcss": "2.2.46"
+    
   }
 }
