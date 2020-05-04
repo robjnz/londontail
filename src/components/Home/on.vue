@@ -28,36 +28,37 @@
       </div>
 
       <div class="grid sm:flex">
+      <brockwell /><!--Brockwell Park-->
       <crystalV /><!--Crystal Palace Park-->
       <epping /><!--Epping Forest-->
-        <fairlop /><!--Fairlop Waters Park-->
-        </div>
+      </div>
 
       <div class="grid sm:flex">
+        <fairlop /><!--Fairlop Waters Park-->
         <hampstead /><!--Hampstead Heath-->
         <havering /><!--Havering Country Park-->
-        <lee /><!--Lee Valley-->
-         </div>
+        </div>
 
       <div class="grid sm:flex">
+        <lee /><!--Lee Valley-->
         <marblehouse /><!--MARBLE HILL HOUSE -->
         <mudchute /><!--mudchute-->
-        <queen /><!--Queen Elizabeth Olympic Park-->
-         </div>
+        </div>
 
       <div class="grid sm:flex">
+        <queen /><!--Queen Elizabeth Olympic Park-->
         <regentscanal /><!--Regent’s Canal-->
         <regentspark /><!--Regent’s Park-->
-        <roundwood /><!--Roundwood Park-->
         </div>
 
       <div class="grid sm:flex">
+        <roundwood /><!--Roundwood Park-->
         <ruislip /><!--Ruislip Woods -->
         <totteridge /><!--Totteridge fields-->
-        <wandsworthcommon /><!--Wandsworth Common-->
         </div>
 
       <div class="grid sm:flex">
+        <wandsworthcommon /><!--Wandsworth Common-->
         <wanstead /><!--Wansted Park-->
        <wimbledoncommon /><!--Wimbledon Common-->
        
@@ -162,6 +163,7 @@ import marblehouse from "@/components/Visit/marblehouse";
 import hampstead from "@/components/Visit/hampstead";
 import regentspark from "@/components/Visit/regentspark";
 import regentscanal from "@/components/Visit/regentscanal";
+import brockwell from "@/components/Visit/brockwell";
 
 
  
@@ -254,6 +256,7 @@ export default {
     hampstead,
     regentspark,
     regentscanal,
+    brockwell,
   }
   
 };
